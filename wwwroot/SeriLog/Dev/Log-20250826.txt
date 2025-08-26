@@ -774,3 +774,577 @@ FROM [dbo].[Settings] AS [s]"
 2025-08-26 16:13:30.356 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
 2025-08-26 16:13:30.404 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.Index (DrMoradi)" - Validation state: Valid
 2025-08-26 16:13:30.407 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.Index (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.9657ms.
+2025-08-26 16:44:20.369 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[Id], [s].[Aboute], [s].[BackgroundImage], [s].[Birthday], [s].[DeleteTime], [s].[Email], [s].[Instagram], [s].[IsDeleted], [s].[Linkedin], [s].[Location], [s].[Name], [s].[Phone], [s].[ProfileImage], [s].[Tweeter], [s].[jobs]
+FROM [dbo].[Settings] AS [s]"
+2025-08-26 16:44:23.203 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Now listening on: "http://localhost:5114"
+2025-08-26 16:44:23.242 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Application started. Press Ctrl+C to shut down.
+2025-08-26 16:44:23.243 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Hosting environment: "Development"
+2025-08-26 16:44:23.243 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Content root path: "H:\GitProject\DrMoradi\DrMoradi"
+2025-08-26 16:44:24.016 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/""" - null null
+2025-08-26 16:44:24.077 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:24.084 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-08-26 16:44:24.112 +03:30 [Information] (Session.) User Requset path="/" SessionId="76962551-b31c-9db4-e01d-122acf9d9fda" start
+2025-08-26 16:44:24.113 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.Index (DrMoradi)"'
+2025-08-26 16:44:24.128 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-08-26 16:44:24.181 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.Index (DrMoradi)" - Validation state: Valid
+2025-08-26 16:44:24.184 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.Index (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.0207ms.
+2025-08-26 16:44:29.108 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "Index".
+2025-08-26 16:44:29.194 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[Id], [s].[DeleteTime], [s].[DesktopDescript], [s].[DesktopFile], [s].[IsDeleted], [s].[Link], [s].[MobileDescript], [s].[MobileFile]
+FROM [dbo].[Sliders] AS [s]"
+2025-08-26 16:44:29.669 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-26 16:44:30.312 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("24"ms) [Parameters=["@__active_0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[CategoryName], [c].[DeleteTime], [c].[Image], [c].[IsActive], [c].[IsDeleted]
+FROM [dbo].[Categories] AS [c]
+WHERE [c].[IsActive] = @__active_0"
+2025-08-26 16:44:30.520 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DeleteTime], [p].[Descript], [p].[Image], [p].[IsDeleted], [p].[Summry], [p].[Title]
+FROM [dbo].[posts] AS [p]"
+2025-08-26 16:44:33.222 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-26 16:44:34.192 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "Index" executed in 10003.5838ms.
+2025-08-26 16:44:34.196 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.Index (DrMoradi)" in 10067.2875ms
+2025-08-26 16:44:34.197 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.Index (DrMoradi)"'
+2025-08-26 16:44:34.207 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/""" - 200 null "text/html; charset=utf-8" 10202.167ms
+2025-08-26 16:44:34.238 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-08-26 16:44:34.238 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-08-26 16:44:34.242 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 3.8107ms
+2025-08-26 16:44:34.252 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Slider/cta.jpg""" - null null
+2025-08-26 16:44:34.253 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:34.259 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/fonts/Vazir.woff2""" - null null
+2025-08-26 16:44:34.259 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/fonts/Vazir-Medium.woff2""" - null null
+2025-08-26 16:44:34.260 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:34.261 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/fonts/Vazir-Bold.woff2""" - null null
+2025-08-26 16:44:34.261 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:34.261 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:34.272 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/mainjs.js""" - null null
+2025-08-26 16:44:34.279 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:34.283 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) The file "/js/mainjs.js" was not modified
+2025-08-26 16:44:34.284 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/mainjs.js""" - 304 null "text/javascript" 12.1514ms
+2025-08-26 16:44:34.295 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 57.3664ms
+2025-08-26 16:44:34.302 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Slider/cta.jpg"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Slider\cta.jpg"'
+2025-08-26 16:44:34.302 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/myfile/dist/fonts/Vazir-Bold.woff2"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\fonts\Vazir-Bold.woff2"'
+2025-08-26 16:44:34.302 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/myfile/dist/fonts/Vazir.woff2"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\fonts\Vazir.woff2"'
+2025-08-26 16:44:34.303 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/fonts/Vazir-Bold.woff2""" - 499 41856 "font/woff2" 42.0445ms
+2025-08-26 16:44:34.303 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Slider/cta.jpg""" - 499 138167 "image/jpeg" 50.9672ms
+2025-08-26 16:44:34.303 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/fonts/Vazir.woff2""" - 499 38004 "font/woff2" 44.2754ms
+2025-08-26 16:44:34.305 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/myfile/dist/fonts/Vazir-Medium.woff2"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\fonts\Vazir-Medium.woff2"'
+2025-08-26 16:44:34.305 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/fonts/Vazir-Medium.woff2""" - 499 51256 "font/woff2" 45.7616ms
+2025-08-26 16:44:34.435 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/favicon.ico""" - null null
+2025-08-26 16:44:34.436 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:34.437 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/favicon.ico"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\favicon.ico"'
+2025-08-26 16:44:34.437 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/favicon.ico""" - 499 5430 "image/x-icon" 2.2771ms
+2025-08-26 16:44:34.960 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/fileupload/posts/رژیم لاغری اصولی.jpg""" - null null
+2025-08-26 16:44:34.961 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:34.962 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/fileupload/posts/رژیم لاغری اصولی.jpg"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\posts\رژیم لاغری اصولی.jpg"'
+2025-08-26 16:44:34.962 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/fileupload/posts/رژیم لاغری اصولی.jpg""" - 499 78124 "image/jpeg" 2.7282ms
+2025-08-26 16:44:36.512 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/SMSLogin""" - null null
+2025-08-26 16:44:36.532 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:36.536 +03:30 [Information] (Session.) User Requset path="/SMSLogin" SessionId="6465d4a6-afde-3c46-877a-e9163d8fd0a9" start
+2025-08-26 16:44:36.536 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.AccountController.SMSLogin (DrMoradi)"'
+2025-08-26 16:44:36.538 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"SMSLogin\", controller = \"Account\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SMSLogin()" on controller "DrMoradi.Controllers.AccountController" ("DrMoradi").
+2025-08-26 16:44:36.732 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.AccountController.SMSLogin (DrMoradi)" - Validation state: Valid
+2025-08-26 16:44:36.733 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.AccountController.SMSLogin (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4015ms.
+2025-08-26 16:44:36.858 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "SMSLogin".
+2025-08-26 16:44:37.069 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "SMSLogin" executed in 334.5709ms.
+2025-08-26 16:44:37.069 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.AccountController.SMSLogin (DrMoradi)" in 530.9892ms
+2025-08-26 16:44:37.069 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.AccountController.SMSLogin (DrMoradi)"'
+2025-08-26 16:44:37.070 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/SMSLogin""" - 200 null "text/html; charset=utf-8" 557.5084ms
+2025-08-26 16:44:37.089 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-08-26 16:44:37.091 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-08-26 16:44:37.091 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.6216ms
+2025-08-26 16:44:37.092 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/css/bootstrap-rtl.min.css""" - null null
+2025-08-26 16:44:37.098 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/css/adminlte.min.css""" - null null
+2025-08-26 16:44:37.100 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:37.100 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/css/custom-style.css""" - null null
+2025-08-26 16:44:37.100 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:37.101 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:37.102 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/css/persian-datepicker.css""" - null null
+2025-08-26 16:44:37.103 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/dist/css/adminlte.min.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\css\adminlte.min.css"'
+2025-08-26 16:44:37.103 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:37.103 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/dist/css/bootstrap-rtl.min.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\css\bootstrap-rtl.min.css"'
+2025-08-26 16:44:37.103 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/css/adminlte.min.css""" - 499 205835 "text/css" 5.2996ms
+2025-08-26 16:44:37.103 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/css/bootstrap-rtl.min.css""" - 499 8358 "text/css" 10.7702ms
+2025-08-26 16:44:37.104 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/css/site.css""" - null null
+2025-08-26 16:44:37.105 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:37.105 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/dist/css/persian-datepicker.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\css\persian-datepicker.css"'
+2025-08-26 16:44:37.105 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/Common/SweetAlert/sweetalert2.min.css""" - null null
+2025-08-26 16:44:37.106 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/css/persian-datepicker.css""" - 499 17977 "text/css" 3.5762ms
+2025-08-26 16:44:37.111 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:37.112 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/plugins/select2/select2.min.css""" - null null
+2025-08-26 16:44:37.112 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/fonts/Vazir.woff2""" - null null
+2025-08-26 16:44:37.115 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/fonts/Vazir-Medium.woff2""" - null null
+2025-08-26 16:44:37.115 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:37.116 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/fonts/Vazir-Bold.woff2""" - null null
+2025-08-26 16:44:37.116 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/Common/SweetAlert/sweetalert2.min.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\Common\SweetAlert\sweetalert2.min.css"'
+2025-08-26 16:44:37.116 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:37.116 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:37.116 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/dist/css/custom-style.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\css\custom-style.css"'
+2025-08-26 16:44:37.117 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/css/custom-style.css""" - 499 7084 "text/css" 16.7836ms
+2025-08-26 16:44:37.116 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/css/site.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\css\site.css"'
+2025-08-26 16:44:37.117 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/plugins/select2/select2.min.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\plugins\select2\select2.min.css"'
+2025-08-26 16:44:37.116 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/Common/SweetAlert/sweetalert2.min.css""" - 499 23847 "text/css" 11.1263ms
+2025-08-26 16:44:37.117 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/plugins/select2/select2.min.css""" - 499 14906 "text/css" 5.0602ms
+2025-08-26 16:44:37.117 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/css/site.css""" - 499 1618 "text/css" 13.8905ms
+2025-08-26 16:44:37.118 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:37.118 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/dist/fonts/Vazir-Bold.woff2"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\fonts\Vazir-Bold.woff2"'
+2025-08-26 16:44:37.118 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/fonts/Vazir-Bold.woff2""" - 499 41856 "font/woff2" 2.326ms
+2025-08-26 16:44:37.118 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/dist/fonts/Vazir-Medium.woff2"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\fonts\Vazir-Medium.woff2"'
+2025-08-26 16:44:37.119 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/fonts/Vazir-Medium.woff2""" - 200 51256 "font/woff2" 3.6707ms
+2025-08-26 16:44:37.127 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 37.2985ms
+2025-08-26 16:44:37.132 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/dist/fonts/Vazir.woff2"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\fonts\Vazir.woff2"'
+2025-08-26 16:44:37.133 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/fonts/Vazir.woff2""" - 200 38004 "font/woff2" 20.2457ms
+2025-08-26 16:44:39.940 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.POST) Request starting "HTTP/1.1" "POST" "http"://"localhost:5114""""/SendCode""" - "application/json" 29
+2025-08-26 16:44:39.941 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-08-26 16:44:40.070 +03:30 [Information] (Session.) User Requset path="/SendCode" SessionId="68b2c3b8-8f7a-7382-01cf-94f6cfd76ac4" start
+2025-08-26 16:44:40.070 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.AccountController.SendCode (DrMoradi)"'
+2025-08-26 16:44:40.080 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"SendCode\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendCode(Core.Dto.ViewModel.User.Login.SmsLoginViModel)" on controller "DrMoradi.Controllers.AccountController" ("DrMoradi").
+2025-08-26 16:44:40.146 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.AccountController.SendCode (DrMoradi)" - Validation state: Valid
+2025-08-26 16:44:40.812 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("14"ms) [Parameters=["@p0='?' (Size = 6), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (Size = 11)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [dbo].[UserOtps] ([Code], [CreateAt], [DeleteTime], [ExpireAt], [IsUsed], [PhoneNumber])
+OUTPUT INSERTED.[Id], INSERTED.[IsDeleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-08-26 16:44:40.841 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.AccountController.SendCode (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 694.3153ms.
+2025-08-26 16:44:40.845 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.) Executing "OkObjectResult", writing value of type '"<>f__AnonymousType11`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-08-26 16:44:40.854 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.AccountController.SendCode (DrMoradi)" in 773.5296ms
+2025-08-26 16:44:40.854 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.AccountController.SendCode (DrMoradi)"'
+2025-08-26 16:44:40.854 +03:30 [Information] (Microsoft.AspNetCore.Session.DistributedSession.) Session started; Key:"caab7e84-f4a6-6570-a1f1-9aa79bbf70c8", Id:"68b2c3b8-8f7a-7382-01cf-94f6cfd76ac4"
+2025-08-26 16:44:40.856 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.POST) Request finished "HTTP/1.1" "POST" "http"://"localhost:5114""""/SendCode""" - 200 null "application/json; charset=utf-8" 915.7956ms
+2025-08-26 16:44:51.114 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.POST) Request starting "HTTP/1.1" "POST" "http"://"localhost:5114""""/Smslogin""" - "application/json" 36
+2025-08-26 16:44:51.115 +03:30 [Information] (Session.) User Requset path="/Smslogin" SessionId="68b2c3b8-8f7a-7382-01cf-94f6cfd76ac4" start
+2025-08-26 16:44:51.115 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.AccountController.Smslogin (DrMoradi)"'
+2025-08-26 16:44:51.119 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Smslogin\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Smslogin(Core.Dto.ViewModel.User.Login.AcceptCodeViewModel)" on controller "DrMoradi.Controllers.AccountController" ("DrMoradi").
+2025-08-26 16:44:51.137 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.AccountController.Smslogin (DrMoradi)" - Validation state: Valid
+2025-08-26 16:44:53.455 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("8"ms) [Parameters=["@__PhoneNumber_0='?' (Size = 11), @__Code_1='?' (Size = 6), @__now_2='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Code], [u].[CreateAt], [u].[DeleteTime], [u].[ExpireAt], [u].[IsDeleted], [u].[IsUsed], [u].[PhoneNumber]
+FROM [dbo].[UserOtps] AS [u]
+WHERE [u].[PhoneNumber] = @__PhoneNumber_0 AND [u].[Code] = @__Code_1 AND @__now_2 <= [u].[ExpireAt] AND [u].[IsUsed] = CAST(0 AS bit)"
+2025-08-26 16:44:53.502 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("11"ms) [Parameters=["@p7='?' (DbType = Int32), @p0='?' (Size = 6), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (Size = 11)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [dbo].[UserOtps] SET [Code] = @p0, [CreateAt] = @p1, [DeleteTime] = @p2, [ExpireAt] = @p3, [IsDeleted] = @p4, [IsUsed] = @p5, [PhoneNumber] = @p6
+OUTPUT 1
+WHERE [Id] = @p7;"
+2025-08-26 16:44:53.523 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("7"ms) [Parameters=["@__FixEmail_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[ItUserId], [m].[ActiveCode], [m].[City], [m].[Email], [m].[FullName], [m].[IsActive], [m].[IsAdmin], [m].[Job], [m].[PassWord], [m].[RegisterDate], [m].[UserAvatar], [m].[UserName], [m].[gender]
+FROM [dbo].[MyUser] AS [m]
+WHERE [m].[UserName] = @__FixEmail_0"
+2025-08-26 16:44:53.560 +03:30 [Information] (Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler.) AuthenticationScheme: "Cookies" signed in.
+2025-08-26 16:44:53.572 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("9"ms) [Parameters=["@__PhoneNumber_0='?' (Size = 11), @__Code_1='?' (Size = 6), @__now_2='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Code], [u].[CreateAt], [u].[DeleteTime], [u].[ExpireAt], [u].[IsDeleted], [u].[IsUsed], [u].[PhoneNumber]
+FROM [dbo].[UserOtps] AS [u]
+WHERE [u].[PhoneNumber] = @__PhoneNumber_0 AND [u].[Code] = @__Code_1 AND @__now_2 <= [u].[ExpireAt] AND [u].[IsUsed] = CAST(0 AS bit)"
+2025-08-26 16:44:53.572 +03:30 [Warning] (Session.) User with "09004790243" login
+2025-08-26 16:44:53.582 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("9"ms) [Parameters=["@__FixEmail_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[ItUserId], [m].[ActiveCode], [m].[City], [m].[Email], [m].[FullName], [m].[IsActive], [m].[IsAdmin], [m].[Job], [m].[PassWord], [m].[RegisterDate], [m].[UserAvatar], [m].[UserName], [m].[gender]
+FROM [dbo].[MyUser] AS [m]
+WHERE [m].[UserName] = @__FixEmail_0"
+2025-08-26 16:44:53.583 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.AccountController.Smslogin (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 2445.2752ms.
+2025-08-26 16:44:53.584 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.) Executing JsonResult, writing value of type '"<>f__AnonymousType12`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-08-26 16:44:53.599 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.AccountController.Smslogin (DrMoradi)" in 2480.3379ms
+2025-08-26 16:44:53.600 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.AccountController.Smslogin (DrMoradi)"'
+2025-08-26 16:44:53.600 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.POST) Request finished "HTTP/1.1" "POST" "http"://"localhost:5114""""/Smslogin""" - 200 null "application/json; charset=utf-8" 2486.3557ms
+2025-08-26 16:44:55.661 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/""" - null null
+2025-08-26 16:44:55.690 +03:30 [Information] (Session.) User Requset path="/" SessionId="68b2c3b8-8f7a-7382-01cf-94f6cfd76ac4" start
+2025-08-26 16:44:55.690 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.Index (DrMoradi)"'
+2025-08-26 16:44:55.690 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-08-26 16:44:55.708 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.Index (DrMoradi)" - Validation state: Valid
+2025-08-26 16:44:55.708 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.Index (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.1186ms.
+2025-08-26 16:44:55.709 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "Index".
+2025-08-26 16:44:55.723 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[Id], [s].[DeleteTime], [s].[DesktopDescript], [s].[DesktopFile], [s].[IsDeleted], [s].[Link], [s].[MobileDescript], [s].[MobileFile]
+FROM [dbo].[Sliders] AS [s]"
+2025-08-26 16:44:55.734 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-26 16:44:55.752 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("14"ms) [Parameters=["@__active_0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[CategoryName], [c].[DeleteTime], [c].[Image], [c].[IsActive], [c].[IsDeleted]
+FROM [dbo].[Categories] AS [c]
+WHERE [c].[IsActive] = @__active_0"
+2025-08-26 16:44:55.764 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DeleteTime], [p].[Descript], [p].[Image], [p].[IsDeleted], [p].[Summry], [p].[Title]
+FROM [dbo].[posts] AS [p]"
+2025-08-26 16:44:57.406 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-26 16:44:57.410 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "Index" executed in 1701.9239ms.
+2025-08-26 16:44:57.410 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.Index (DrMoradi)" in 1720.0691ms
+2025-08-26 16:44:57.411 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.Index (DrMoradi)"'
+2025-08-26 16:44:57.411 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/""" - 200 null "text/html; charset=utf-8" 1749.7088ms
+2025-08-26 16:44:57.443 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-08-26 16:44:57.444 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-08-26 16:44:57.444 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.3963ms
+2025-08-26 16:44:57.469 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 26.0701ms
+2025-08-26 16:44:59.094 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel""" - null null
+2025-08-26 16:44:59.189 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("62"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[ActionName], [p].[Area], [p].[ControllerName], [p].[Descript], [p].[ParentId], [p].[Radif], [p].[Status]
+FROM [dbo].[PermissionList] AS [p]"
+2025-08-26 16:44:59.227 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[RP_Id], [r].[PermissionListId], [r].[RoleId]
+FROM [dbo].[RolePermission] AS [r]"
+2025-08-26 16:44:59.260 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[UR_Id], [u].[RoleId], [u].[UserId]
+FROM [dbo].[UserRole] AS [u]"
+2025-08-26 16:44:59.301 +03:30 [Information] (Session.) User Requset path="/UserPanel" SessionId="68b2c3b8-8f7a-7382-01cf-94f6cfd76ac4" start
+2025-08-26 16:44:59.301 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)"'
+2025-08-26 16:44:59.304 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"Index\", controller = \"UserPanel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "WebStore.Areas.UserPanel.Controllers.UserPanelController" ("DrMoradi").
+2025-08-26 16:44:59.327 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)" - Validation state: Valid
+2025-08-26 16:44:59.329 +03:30 [Information] (WebStore.Areas.UserPanel.Controllers.UserPanelController.) ورود کاربر 6 به UserPanel.Index
+2025-08-26 16:44:59.345 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("11"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[ItUserId], [m].[ActiveCode], [m].[City], [m].[Email], [m].[FullName], [m].[IsActive], [m].[IsAdmin], [m].[Job], [m].[PassWord], [m].[RegisterDate], [m].[UserAvatar], [m].[UserName], [m].[gender]
+FROM [dbo].[MyUser] AS [m]
+WHERE [m].[ItUserId] = @__userId_0"
+2025-08-26 16:44:59.353 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 25.0957ms.
+2025-08-26 16:44:59.353 +03:30 [Information] (Microsoft.AspNetCore.Mvc.RedirectToActionResult.) Executing RedirectResult, redirecting to "/UserPanel/UserDiet/MyDiet".
+2025-08-26 16:44:59.354 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)" in 49.1006ms
+2025-08-26 16:44:59.354 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)"'
+2025-08-26 16:44:59.355 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel""" - 302 0 null 261.3571ms
+2025-08-26 16:44:59.358 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserDiet/MyDiet""" - null null
+2025-08-26 16:44:59.381 +03:30 [Information] (Session.) User Requset path="/UserPanel/UserDiet/MyDiet" SessionId="68b2c3b8-8f7a-7382-01cf-94f6cfd76ac4" start
+2025-08-26 16:44:59.381 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)"'
+2025-08-26 16:44:59.384 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"MyDiet\", controller = \"UserDiet\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyDiet()" on controller "DrMoradi.Areas.UserPanel.Controllers.UserDietController" ("DrMoradi").
+2025-08-26 16:44:59.399 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)" - Validation state: Valid
+2025-08-26 16:44:59.496 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 96.7185ms.
+2025-08-26 16:44:59.863 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "MyDiet".
+2025-08-26 16:44:59.904 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-26 16:45:00.104 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-26 16:45:00.110 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "MyDiet" executed in 614.0282ms.
+2025-08-26 16:45:00.111 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)" in 726.1905ms
+2025-08-26 16:45:00.111 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)"'
+2025-08-26 16:45:00.111 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserDiet/MyDiet""" - 200 null "text/html; charset=utf-8" 753.2429ms
+2025-08-26 16:45:00.132 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-08-26 16:45:00.132 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-08-26 16:45:00.134 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.5148ms
+2025-08-26 16:45:00.135 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/common/sweetalert/sweetalert2.min.css""" - null null
+2025-08-26 16:45:00.139 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/css/userpanelstyle.css""" - null null
+2025-08-26 16:45:00.140 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/common/sweetalert/sweetalert2.min.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\Common\SweetAlert\sweetalert2.min.css"'
+2025-08-26 16:45:00.140 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/common/sweetalert/sweetalert2.min.css""" - 499 23847 "text/css" 5.217ms
+2025-08-26 16:45:00.141 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 8.9452ms
+2025-08-26 16:45:00.143 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/css/userpanelstyle.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\css\UserPanelStyle.css"'
+2025-08-26 16:45:00.143 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/css/userpanelstyle.css""" - 499 4415 "text/css" 4.5549ms
+2025-08-26 16:45:12.829 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserDiet/MyDiet""" - null null
+2025-08-26 16:45:12.855 +03:30 [Information] (Session.) User Requset path="/UserPanel/UserDiet/MyDiet" SessionId="68b2c3b8-8f7a-7382-01cf-94f6cfd76ac4" start
+2025-08-26 16:45:12.855 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)"'
+2025-08-26 16:45:12.855 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"MyDiet\", controller = \"UserDiet\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyDiet()" on controller "DrMoradi.Areas.UserPanel.Controllers.UserDietController" ("DrMoradi").
+2025-08-26 16:45:12.871 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)" - Validation state: Valid
+2025-08-26 16:45:12.883 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 11.0616ms.
+2025-08-26 16:45:12.883 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "MyDiet".
+2025-08-26 16:45:12.911 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-26 16:45:12.941 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-26 16:45:12.943 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "MyDiet" executed in 60.4527ms.
+2025-08-26 16:45:12.943 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)" in 88.2738ms
+2025-08-26 16:45:12.943 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)"'
+2025-08-26 16:45:12.944 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserDiet/MyDiet""" - 200 null "text/html; charset=utf-8" 115.0303ms
+2025-08-26 16:45:12.962 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-08-26 16:45:12.962 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-08-26 16:45:12.962 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.3373ms
+2025-08-26 16:45:12.966 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 4.1844ms
+2025-08-26 16:45:13.932 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserPanel/StartPayment""?UserDietId=74" - null null
+2025-08-26 16:45:13.950 +03:30 [Information] (Session.) User Requset path="/UserPanel/UserPanel/StartPayment" SessionId="68b2c3b8-8f7a-7382-01cf-94f6cfd76ac4" start
+2025-08-26 16:45:13.950 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.StartPayment (DrMoradi)"'
+2025-08-26 16:45:13.957 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"StartPayment\", controller = \"UserPanel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] StartPayment(Int32)" on controller "WebStore.Areas.UserPanel.Controllers.UserPanelController" ("DrMoradi").
+2025-08-26 16:45:13.979 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.StartPayment (DrMoradi)" - Validation state: Valid
+2025-08-26 16:45:13.981 +03:30 [Information] (WebStore.Areas.UserPanel.Controllers.UserPanelController.) شروع فرایند پرداخت برای UserDietId=74, UserId=6
+2025-08-26 16:45:14.102 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("25"ms) [Parameters=["@__UserDietId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Amount], [u].[CreateAt], [u].[DeleteTime], [u].[DietId], [u].[IsDeleted], [u].[ParentId], [u].[PaymentAuthority], [u].[PaymentDate], [u].[PaymentRefId], [u].[Status], [u].[UserId], [m].[ItUserId], [m].[ActiveCode], [m].[City], [m].[Email], [m].[FullName], [m].[IsActive], [m].[IsAdmin], [m].[Job], [m].[PassWord], [m].[RegisterDate], [m].[UserAvatar], [m].[UserName], [m].[gender], [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[UserDiet] AS [u]
+INNER JOIN [dbo].[MyUser] AS [m] ON [u].[UserId] = [m].[ItUserId]
+INNER JOIN [dbo].[Diets] AS [d] ON [u].[DietId] = [d].[Id]
+WHERE [u].[Id] = @__UserDietId_0"
+2025-08-26 16:45:14.157 +03:30 [Information] (System.Net.Http.HttpClient.Default.LogicalHandler.) Start processing HTTP request "POST" "https://sandbox.zarinpal.com/pg/v4/payment/request.json"
+2025-08-26 16:45:14.161 +03:30 [Information] (System.Net.Http.HttpClient.Default.ClientHandler.) Sending HTTP request "POST" "https://sandbox.zarinpal.com/pg/v4/payment/request.json"
+2025-08-26 16:45:14.540 +03:30 [Information] (System.Net.Http.HttpClient.Default.ClientHandler.) Received HTTP response headers after 376.7468ms - 200
+2025-08-26 16:45:14.541 +03:30 [Information] (System.Net.Http.HttpClient.Default.LogicalHandler.) End processing HTTP request after 385.715ms - 200
+2025-08-26 16:45:14.644 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("18"ms) [Parameters=["@__UserDietId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Amount], [u].[CreateAt], [u].[DeleteTime], [u].[DietId], [u].[IsDeleted], [u].[ParentId], [u].[PaymentAuthority], [u].[PaymentDate], [u].[PaymentRefId], [u].[Status], [u].[UserId], [m].[ItUserId], [m].[ActiveCode], [m].[City], [m].[Email], [m].[FullName], [m].[IsActive], [m].[IsAdmin], [m].[Job], [m].[PassWord], [m].[RegisterDate], [m].[UserAvatar], [m].[UserName], [m].[gender], [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[UserDiet] AS [u]
+INNER JOIN [dbo].[MyUser] AS [m] ON [u].[UserId] = [m].[ItUserId]
+INNER JOIN [dbo].[Diets] AS [d] ON [u].[DietId] = [d].[Id]
+WHERE [u].[Id] = @__UserDietId_0"
+2025-08-26 16:45:14.718 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("20"ms) [Parameters=["@p11='?' (DbType = Int32), @p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = Boolean), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [dbo].[UserDiet] SET [Amount] = @p0, [CreateAt] = @p1, [DeleteTime] = @p2, [DietId] = @p3, [IsDeleted] = @p4, [ParentId] = @p5, [PaymentAuthority] = @p6, [PaymentDate] = @p7, [PaymentRefId] = @p8, [Status] = @p9, [UserId] = @p10
+OUTPUT 1
+WHERE [Id] = @p11;"
+2025-08-26 16:45:14.722 +03:30 [Information] (WebStore.Areas.UserPanel.Controllers.UserPanelController.) درخواست اولیه پرداخت موفق. Authority="S0000000000000000000000000000007xj73", Amount=2500000.00, UserId=6
+2025-08-26 16:45:14.723 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.StartPayment (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 744.1264ms.
+2025-08-26 16:45:14.725 +03:30 [Information] (Microsoft.AspNetCore.Mvc.RedirectToActionResult.) Executing RedirectResult, redirecting to "/UserPanel/UserPanel/SendTOBank?Url=https%3A%2F%2Fsandbox.zarinpal.com%2Fpg%2FStartPay%2FS0000000000000000000000000000007xj73".
+2025-08-26 16:45:14.725 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "WebStore.Areas.UserPanel.Controllers.UserPanelController.StartPayment (DrMoradi)" in 767.8451ms
+2025-08-26 16:45:14.725 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.StartPayment (DrMoradi)"'
+2025-08-26 16:45:14.725 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserPanel/StartPayment""?UserDietId=74" - 302 0 null 793.2667ms
+2025-08-26 16:45:14.729 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserPanel/SendTOBank""?Url=https%3A%2F%2Fsandbox.zarinpal.com%2Fpg%2FStartPay%2FS0000000000000000000000000000007xj73" - null null
+2025-08-26 16:45:14.745 +03:30 [Information] (Session.) User Requset path="/UserPanel/UserPanel/SendTOBank" SessionId="68b2c3b8-8f7a-7382-01cf-94f6cfd76ac4" start
+2025-08-26 16:45:14.745 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.SendTOBank (DrMoradi)"'
+2025-08-26 16:45:14.747 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"SendTOBank\", controller = \"UserPanel\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SendTOBank(System.String)" on controller "WebStore.Areas.UserPanel.Controllers.UserPanelController" ("DrMoradi").
+2025-08-26 16:45:14.762 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.SendTOBank (DrMoradi)" - Validation state: Valid
+2025-08-26 16:45:14.762 +03:30 [Information] (WebStore.Areas.UserPanel.Controllers.UserPanelController.) انتقال کاربر 6 به درگاه بانکی. URL="https://sandbox.zarinpal.com/pg/StartPay/S0000000000000000000000000000007xj73"
+2025-08-26 16:45:14.763 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.SendTOBank (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.RedirectResult" in 0.8892ms.
+2025-08-26 16:45:14.763 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor.) Executing RedirectResult, redirecting to "https://sandbox.zarinpal.com/pg/StartPay/S0000000000000000000000000000007xj73".
+2025-08-26 16:45:14.764 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "WebStore.Areas.UserPanel.Controllers.UserPanelController.SendTOBank (DrMoradi)" in 16.1734ms
+2025-08-26 16:45:14.764 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.SendTOBank (DrMoradi)"'
+2025-08-26 16:45:14.764 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserPanel/SendTOBank""?Url=https%3A%2F%2Fsandbox.zarinpal.com%2Fpg%2FStartPay%2FS0000000000000000000000000000007xj73" - 302 0 null 35.1467ms
+2025-08-26 16:45:17.093 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserPanel/verify""?Authority=S0000000000000000000000000000007xj73&Status=OK" - null null
+2025-08-26 16:45:17.108 +03:30 [Information] (Session.) User Requset path="/UserPanel/UserPanel/verify" SessionId="68b2c3b8-8f7a-7382-01cf-94f6cfd76ac4" start
+2025-08-26 16:45:17.109 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.verify (DrMoradi)"'
+2025-08-26 16:45:17.112 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"verify\", controller = \"UserPanel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] verify(System.String, System.String)" on controller "WebStore.Areas.UserPanel.Controllers.UserPanelController" ("DrMoradi").
+2025-08-26 16:45:17.125 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.verify (DrMoradi)" - Validation state: Valid
+2025-08-26 16:45:17.127 +03:30 [Information] (WebStore.Areas.UserPanel.Controllers.UserPanelController.) بازگشت از درگاه بانکی. Authority="S0000000000000000000000000000007xj73", Status="OK", UserId=6
+2025-08-26 16:45:17.173 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("30"ms) [Parameters=["@__Authority_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Amount], [u].[CreateAt], [u].[DeleteTime], [u].[DietId], [u].[IsDeleted], [u].[ParentId], [u].[PaymentAuthority], [u].[PaymentDate], [u].[PaymentRefId], [u].[Status], [u].[UserId], [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video], [m].[ItUserId], [m].[ActiveCode], [m].[City], [m].[Email], [m].[FullName], [m].[IsActive], [m].[IsAdmin], [m].[Job], [m].[PassWord], [m].[RegisterDate], [m].[UserAvatar], [m].[UserName], [m].[gender]
+FROM [dbo].[UserDiet] AS [u]
+INNER JOIN [dbo].[Diets] AS [d] ON [u].[DietId] = [d].[Id]
+INNER JOIN [dbo].[MyUser] AS [m] ON [u].[UserId] = [m].[ItUserId]
+WHERE [u].[PaymentAuthority] = @__Authority_0"
+2025-08-26 16:45:17.182 +03:30 [Information] (System.Net.Http.HttpClient.Default.LogicalHandler.) Start processing HTTP request "POST" "https://sandbox.zarinpal.com/pg/v4/payment/verify.json"
+2025-08-26 16:45:17.182 +03:30 [Information] (System.Net.Http.HttpClient.Default.ClientHandler.) Sending HTTP request "POST" "https://sandbox.zarinpal.com/pg/v4/payment/verify.json"
+2025-08-26 16:45:17.441 +03:30 [Information] (System.Net.Http.HttpClient.Default.ClientHandler.) Received HTTP response headers after 259.0466ms - 200
+2025-08-26 16:45:17.442 +03:30 [Information] (System.Net.Http.HttpClient.Default.LogicalHandler.) End processing HTTP request after 259.2907ms - 200
+2025-08-26 16:45:17.478 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("29"ms) [Parameters=["@__Authority_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Amount], [u].[CreateAt], [u].[DeleteTime], [u].[DietId], [u].[IsDeleted], [u].[ParentId], [u].[PaymentAuthority], [u].[PaymentDate], [u].[PaymentRefId], [u].[Status], [u].[UserId], [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video], [m].[ItUserId], [m].[ActiveCode], [m].[City], [m].[Email], [m].[FullName], [m].[IsActive], [m].[IsAdmin], [m].[Job], [m].[PassWord], [m].[RegisterDate], [m].[UserAvatar], [m].[UserName], [m].[gender]
+FROM [dbo].[UserDiet] AS [u]
+INNER JOIN [dbo].[Diets] AS [d] ON [u].[DietId] = [d].[Id]
+INNER JOIN [dbo].[MyUser] AS [m] ON [u].[UserId] = [m].[ItUserId]
+WHERE [u].[PaymentAuthority] = @__Authority_0"
+2025-08-26 16:45:17.499 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("17"ms) [Parameters=["@p11='?' (DbType = Int32), @p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = Boolean), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [dbo].[UserDiet] SET [Amount] = @p0, [CreateAt] = @p1, [DeleteTime] = @p2, [DietId] = @p3, [IsDeleted] = @p4, [ParentId] = @p5, [PaymentAuthority] = @p6, [PaymentDate] = @p7, [PaymentRefId] = @p8, [Status] = @p9, [UserId] = @p10
+OUTPUT 1
+WHERE [Id] = @p11;"
+2025-08-26 16:45:17.499 +03:30 [Information] (WebStore.Areas.UserPanel.Controllers.UserPanelController.) پرداخت موفق. UserId=6, Amount=2500000.00, DietName="رژیم کاهش وزن", Authority="S0000000000000000000000000000007xj73"
+2025-08-26 16:45:17.500 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.verify (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 375.3331ms.
+2025-08-26 16:45:17.501 +03:30 [Information] (Microsoft.AspNetCore.Mvc.RedirectToActionResult.) Executing RedirectResult, redirecting to "/UserPanel#UserPanel".
+2025-08-26 16:45:17.502 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "WebStore.Areas.UserPanel.Controllers.UserPanelController.verify (DrMoradi)" in 389.9513ms
+2025-08-26 16:45:17.502 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.verify (DrMoradi)"'
+2025-08-26 16:45:17.503 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserPanel/verify""?Authority=S0000000000000000000000000000007xj73&Status=OK" - 302 0 null 409.9434ms
+2025-08-26 16:45:17.506 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel""" - null null
+2025-08-26 16:45:17.519 +03:30 [Information] (Session.) User Requset path="/UserPanel" SessionId="68b2c3b8-8f7a-7382-01cf-94f6cfd76ac4" start
+2025-08-26 16:45:17.520 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)"'
+2025-08-26 16:45:17.520 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"Index\", controller = \"UserPanel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "WebStore.Areas.UserPanel.Controllers.UserPanelController" ("DrMoradi").
+2025-08-26 16:45:17.529 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)" - Validation state: Valid
+2025-08-26 16:45:17.529 +03:30 [Information] (WebStore.Areas.UserPanel.Controllers.UserPanelController.) ورود کاربر 6 به UserPanel.Index
+2025-08-26 16:45:17.543 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("14"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[ItUserId], [m].[ActiveCode], [m].[City], [m].[Email], [m].[FullName], [m].[IsActive], [m].[IsAdmin], [m].[Job], [m].[PassWord], [m].[RegisterDate], [m].[UserAvatar], [m].[UserName], [m].[gender]
+FROM [dbo].[MyUser] AS [m]
+WHERE [m].[ItUserId] = @__userId_0"
+2025-08-26 16:45:17.544 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 14.7377ms.
+2025-08-26 16:45:17.544 +03:30 [Information] (Microsoft.AspNetCore.Mvc.RedirectToActionResult.) Executing RedirectResult, redirecting to "/UserPanel/UserDiet/MyDiet".
+2025-08-26 16:45:17.544 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)" in 24.2256ms
+2025-08-26 16:45:17.544 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)"'
+2025-08-26 16:45:17.544 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel""" - 302 0 null 38.6845ms
+2025-08-26 16:45:17.547 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserDiet/MyDiet""" - null null
+2025-08-26 16:45:17.560 +03:30 [Information] (Session.) User Requset path="/UserPanel/UserDiet/MyDiet" SessionId="68b2c3b8-8f7a-7382-01cf-94f6cfd76ac4" start
+2025-08-26 16:45:17.560 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)"'
+2025-08-26 16:45:17.560 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"MyDiet\", controller = \"UserDiet\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyDiet()" on controller "DrMoradi.Areas.UserPanel.Controllers.UserDietController" ("DrMoradi").
+2025-08-26 16:45:17.572 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)" - Validation state: Valid
+2025-08-26 16:45:17.580 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 7.9748ms.
+2025-08-26 16:45:17.580 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "MyDiet".
+2025-08-26 16:45:17.615 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-26 16:45:17.626 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-26 16:45:17.669 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "MyDiet" executed in 88.8291ms.
+2025-08-26 16:45:17.669 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)" in 108.791ms
+2025-08-26 16:45:17.669 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)"'
+2025-08-26 16:45:17.669 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserDiet/MyDiet""" - 200 null "text/html; charset=utf-8" 122.2965ms
+2025-08-26 16:45:17.746 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-08-26 16:45:17.746 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-08-26 16:45:17.746 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.2647ms
+2025-08-26 16:45:17.747 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/common/sweetalert/sweetalert2.min.css""" - null null
+2025-08-26 16:45:17.747 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/css/swiper.css""" - null null
+2025-08-26 16:45:17.747 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/css/custom-style.css""" - null null
+2025-08-26 16:45:17.750 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/css/maincss.css""" - null null
+2025-08-26 16:45:17.752 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/css/userpanelstyle.css""" - null null
+2025-08-26 16:45:17.752 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 6.3949ms
+2025-08-26 16:45:17.756 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/common/sweetalert/sweetalert2.min.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\Common\SweetAlert\sweetalert2.min.css"'
+2025-08-26 16:45:17.757 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/common/sweetalert/sweetalert2.min.css""" - 200 23847 "text/css" 9.7255ms
+2025-08-26 16:45:17.767 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/css/userpanelstyle.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\css\UserPanelStyle.css"'
+2025-08-26 16:45:17.767 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/css/userpanelstyle.css""" - 200 4415 "text/css" 15.1811ms
+2025-08-26 16:45:17.774 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/css/swiper.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\css\Swiper.css"'
+2025-08-26 16:45:17.774 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/css/swiper.css""" - 200 22445 "text/css" 27.1319ms
+2025-08-26 16:45:17.784 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/css/maincss.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\css\MainCss.css"'
+2025-08-26 16:45:17.784 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/css/maincss.css""" - 200 8336 "text/css" 34.1725ms
+2025-08-26 16:45:17.795 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/myfile/dist/css/custom-style.css"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\css\custom-style.css"'
+2025-08-26 16:45:17.795 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/css/custom-style.css""" - 200 7084 "text/css" 48.2758ms
+2025-08-26 16:45:17.795 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet7_58107a1b.png""" - null null
+2025-08-26 16:45:17.795 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet1_381bd0ca_0565_4d10_b512_63a80301ec9f..png""" - null null
+2025-08-26 16:45:17.795 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Slider/logo-m.png""" - null null
+2025-08-26 16:45:17.795 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet4_4f3607ce.png""" - null null
+2025-08-26 16:45:17.795 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet11_aa589ac0_1919_4f16_94a8_f9a1b13a3531..png""" - null null
+2025-08-26 16:45:17.796 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet4_c820b812_aa4c_4913_8c4a_3c89a43d6f30..png""" - null null
+2025-08-26 16:45:17.803 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Diet/diet1_381bd0ca_0565_4d10_b512_63a80301ec9f..png"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Diet\diet1_381bd0ca_0565_4d10_b512_63a80301ec9f..png"'
+2025-08-26 16:45:17.803 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet1_381bd0ca_0565_4d10_b512_63a80301ec9f..png""" - 200 52935 "image/png" 7.6731ms
+2025-08-26 16:45:17.803 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet9_98d2f523_391d_4695_8c92_a89d3593106a..png""" - null null
+2025-08-26 16:45:17.826 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Diet/diet4_c820b812_aa4c_4913_8c4a_3c89a43d6f30..png"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Diet\diet4_c820b812_aa4c_4913_8c4a_3c89a43d6f30..png"'
+2025-08-26 16:45:17.826 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet4_c820b812_aa4c_4913_8c4a_3c89a43d6f30..png""" - 200 33906 "image/png" 30.207ms
+2025-08-26 16:45:17.826 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet2_31fc64eb_5ff0_4b24_adb6_eaa8d4ee3cf1..png""" - null null
+2025-08-26 16:45:17.826 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Diet/diet4_4f3607ce.png"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Diet\diet4_4f3607ce.png"'
+2025-08-26 16:45:17.826 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet4_4f3607ce.png""" - 200 33906 "image/png" 31.0705ms
+2025-08-26 16:45:17.827 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet6_719ddbc3.png""" - null null
+2025-08-26 16:45:17.836 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Diet/diet9_98d2f523_391d_4695_8c92_a89d3593106a..png"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Diet\diet9_98d2f523_391d_4695_8c92_a89d3593106a..png"'
+2025-08-26 16:45:17.837 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet9_98d2f523_391d_4695_8c92_a89d3593106a..png""" - 200 36689 "image/png" 33.5027ms
+2025-08-26 16:45:17.837 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet5_ffb96ed1.png""" - null null
+2025-08-26 16:45:17.854 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Diet/diet5_ffb96ed1.png"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Diet\diet5_ffb96ed1.png"'
+2025-08-26 16:45:17.854 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet5_ffb96ed1.png""" - 200 45015 "image/png" 16.9994ms
+2025-08-26 16:45:17.854 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet10_92980b3b.png""" - null null
+2025-08-26 16:45:17.862 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Diet/diet2_31fc64eb_5ff0_4b24_adb6_eaa8d4ee3cf1..png"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Diet\diet2_31fc64eb_5ff0_4b24_adb6_eaa8d4ee3cf1..png"'
+2025-08-26 16:45:17.862 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet2_31fc64eb_5ff0_4b24_adb6_eaa8d4ee3cf1..png""" - 200 38501 "image/png" 35.7423ms
+2025-08-26 16:45:17.862 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet8_f22042da.png""" - null null
+2025-08-26 16:45:17.867 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Diet/diet11_aa589ac0_1919_4f16_94a8_f9a1b13a3531..png"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Diet\diet11_aa589ac0_1919_4f16_94a8_f9a1b13a3531..png"'
+2025-08-26 16:45:17.867 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet11_aa589ac0_1919_4f16_94a8_f9a1b13a3531..png""" - 200 120118 "image/png" 71.533ms
+2025-08-26 16:45:17.891 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Diet/diet10_92980b3b.png"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Diet\diet10_92980b3b.png"'
+2025-08-26 16:45:17.891 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet10_92980b3b.png""" - 200 46739 "image/png" 37.2222ms
+2025-08-26 16:45:17.955 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Diet/diet7_58107a1b.png"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Diet\diet7_58107a1b.png"'
+2025-08-26 16:45:17.957 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Slider/logo-m.png"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Slider\logo-m.png"'
+2025-08-26 16:45:17.957 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet7_58107a1b.png""" - 200 38322 "image/png" 161.6454ms
+2025-08-26 16:45:17.957 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Slider/logo-m.png""" - 200 103662 "image/png" 161.8521ms
+2025-08-26 16:45:17.959 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Diet/diet6_719ddbc3.png"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Diet\diet6_719ddbc3.png"'
+2025-08-26 16:45:17.960 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/FileUpload/Diet/diet8_f22042da.png"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\FileUpload\Diet\diet8_f22042da.png"'
+2025-08-26 16:45:17.960 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet6_719ddbc3.png""" - 200 45753 "image/png" 133.0911ms
+2025-08-26 16:45:17.960 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/FileUpload/Diet/diet8_f22042da.png""" - 200 119087 "image/png" 97.6267ms
+2025-08-26 16:45:17.982 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/fonts/Vazir-Medium.woff2""" - null null
+2025-08-26 16:45:17.984 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/fonts/Vazir.woff2""" - null null
+2025-08-26 16:45:17.984 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/fonts/Vazir-Bold.woff2""" - null null
+2025-08-26 16:45:17.986 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/myfile/dist/fonts/Vazir-Bold.woff2"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\fonts\Vazir-Bold.woff2"'
+2025-08-26 16:45:17.986 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/myfile/dist/fonts/Vazir.woff2"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\fonts\Vazir.woff2"'
+2025-08-26 16:45:17.986 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/fonts/Vazir.woff2""" - 499 38004 "font/woff2" 1.8044ms
+2025-08-26 16:45:17.986 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/myfile/dist/fonts/Vazir-Medium.woff2"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\fonts\Vazir-Medium.woff2"'
+2025-08-26 16:45:17.986 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/fonts/Vazir-Medium.woff2""" - 499 51256 "font/woff2" 4.3429ms
+2025-08-26 16:45:17.986 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/myfile/dist/fonts/Vazir-Bold.woff2""" - 499 41856 "font/woff2" 1.4737ms
