@@ -1,0 +1,137 @@
+2025-08-16 11:06:36.682 +03:30 [Information] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.) User profile is available. Using '"C:\Users\motaghi.a\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-16 11:06:36.837 +03:30 [Warning] (Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.) The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-08-16 11:06:36.884 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Now listening on: "https://localhost:7075"
+2025-08-16 11:06:36.884 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Now listening on: "http://localhost:5114"
+2025-08-16 11:06:36.952 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Application started. Press Ctrl+C to shut down.
+2025-08-16 11:06:36.953 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Hosting environment: "Development"
+2025-08-16 11:06:36.953 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Content root path: "H:\GitProject\DrMoradi\DrMoradi"
+2025-08-16 11:06:39.899 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/""" - null null
+2025-08-16 11:06:40.100 +03:30 [Information] (Session.) User Requset path="/" SessionId="86822caf-21a5-5734-34ac-d84f9da69035" start
+2025-08-16 11:06:40.102 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.Index (DrMoradi)"'
+2025-08-16 11:06:40.136 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-08-16 11:06:40.215 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.Index (DrMoradi)" - Validation state: Valid
+2025-08-16 11:06:40.220 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.Index (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.6208ms.
+2025-08-16 11:06:51.319 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - null null
+2025-08-16 11:06:51.339 +03:30 [Information] (Session.) User Requset path="/contact" SessionId="627047b9-747e-1acd-4b52-45cb6a358b9d" start
+2025-08-16 11:06:51.339 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:06:51.343 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Contact\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Contact()" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-08-16 11:06:51.422 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" - Validation state: Valid
+2025-08-16 11:06:53.270 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "Index".
+2025-08-16 11:06:53.350 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[Id], [s].[DeleteTime], [s].[DesktopDescript], [s].[DesktopFile], [s].[IsDeleted], [s].[MobileDescript], [s].[MobileFile]
+FROM [dbo].[Sliders] AS [s]"
+2025-08-16 11:06:53.969 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("50"ms) [Parameters=["@__active_0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[CategoryName], [c].[DeleteTime], [c].[Image], [c].[IsActive], [c].[IsDeleted]
+FROM [dbo].[Categories] AS [c]
+WHERE [c].[IsActive] = @__active_0"
+2025-08-16 11:06:54.187 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("33"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-16 11:06:54.609 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DeleteTime], [p].[Descript], [p].[Image], [p].[IsDeleted], [p].[Summry], [p].[Title]
+FROM [dbo].[posts] AS [p]"
+2025-08-16 11:06:58.562 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-16 11:06:59.602 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "Index" executed in 19375.1949ms.
+2025-08-16 11:06:59.606 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.Index (DrMoradi)" in 19468.9194ms
+2025-08-16 11:06:59.607 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.Index (DrMoradi)"'
+2025-08-16 11:06:59.620 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/""" - 200 null "text/html; charset=utf-8" 19733.8066ms
+2025-08-16 11:06:59.703 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 8281.7627ms.
+2025-08-16 11:06:59.708 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.) Executing ContentResult with HTTP Response ContentType of "text/html; charset=utf-8"
+2025-08-16 11:06:59.727 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" in 8383.8548ms
+2025-08-16 11:06:59.727 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:06:59.729 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - 200 null "text/html; charset=utf-8" 8409.9518ms
+2025-08-16 11:07:03.463 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-08-16 11:07:03.463 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/_vs/browserLink""" - null null
+2025-08-16 11:07:03.469 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 5.9907ms
+2025-08-16 11:07:03.506 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 43.257ms
+2025-08-16 11:08:18.626 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/.well-known/appspecific/com.chrome.devtools.json""" - null null
+2025-08-16 11:08:18.634 +03:30 [Information] (Session.) User Requset path="/.well-known/appspecific/com.chrome.devtools.json" SessionId="52b62ebe-6776-a920-8f6f-3113aa9dd19d" start
+2025-08-16 11:08:18.636 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/.well-known/appspecific/com.chrome.devtools.json""" - 302 0 null 9.6383ms
+2025-08-16 11:08:18.640 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/NotFound""" - null null
+2025-08-16 11:08:18.642 +03:30 [Information] (Session.) User Requset path="/NotFound" SessionId="cf3dce68-39fb-bc6d-8610-29a63ef79ee0" start
+2025-08-16 11:08:18.642 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7075""""/.well-known/appspecific/com.chrome.devtools.json", Response status code: 302
+2025-08-16 11:08:18.642 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.NotFound (DrMoradi)"'
+2025-08-16 11:08:18.651 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"NotFound\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult NotFound(System.String)" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-08-16 11:08:18.705 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.NotFound (DrMoradi)" - Validation state: Invalid
+2025-08-16 11:08:18.706 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-08-16 11:08:18.706 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.NotFound (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.9666ms.
+2025-08-16 11:08:18.918 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "NotFound".
+2025-08-16 11:08:18.946 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-08-16 11:08:18.950 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "NotFound" executed in 243.8656ms.
+2025-08-16 11:08:18.950 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.NotFound (DrMoradi)" in 299.1667ms
+2025-08-16 11:08:18.950 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.NotFound (DrMoradi)"'
+2025-08-16 11:08:18.950 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/NotFound""" - 200 null "text/html; charset=utf-8" 310.8415ms
+2025-08-16 11:08:28.857 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - null null
+2025-08-16 11:08:28.895 +03:30 [Information] (Session.) User Requset path="/contact" SessionId="3f194fa2-1e8a-ce50-1408-746db456b462" start
+2025-08-16 11:08:28.895 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:08:28.896 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Contact\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Contact()" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-08-16 11:08:28.913 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" - Validation state: Valid
+2025-08-16 11:08:35.523 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 6610.0436ms.
+2025-08-16 11:08:35.523 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.) Executing ContentResult with HTTP Response ContentType of "text/html; charset=utf-8"
+2025-08-16 11:08:35.528 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" in 6631.9928ms
+2025-08-16 11:08:35.528 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:08:35.532 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - 200 null "text/html; charset=utf-8" 6675.4002ms
+2025-08-16 11:09:16.456 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - null null
+2025-08-16 11:09:16.473 +03:30 [Information] (Session.) User Requset path="/contact" SessionId="77d3e7ee-6edc-6a99-d5b5-13c2b149aee9" start
+2025-08-16 11:09:16.473 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:09:16.481 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Contact\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Contact()" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-08-16 11:09:16.493 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" - Validation state: Valid
+2025-08-16 11:09:19.173 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - null null
+2025-08-16 11:09:19.197 +03:30 [Information] (Session.) User Requset path="/contact" SessionId="10b833c9-7cf0-5e6a-6ab1-dfffd247d8ee" start
+2025-08-16 11:09:19.197 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:09:19.197 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Contact\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Contact()" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-08-16 11:09:19.212 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" - Validation state: Valid
+2025-08-16 11:09:20.184 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - null null
+2025-08-16 11:09:20.202 +03:30 [Information] (Session.) User Requset path="/contact" SessionId="bebdd8f9-a5f0-59bf-d7f5-a0d8e4ee5c5c" start
+2025-08-16 11:09:20.202 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:09:20.202 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Contact\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Contact()" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-08-16 11:09:20.214 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" - Validation state: Valid
+2025-08-16 11:09:27.655 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 11161.7754ms.
+2025-08-16 11:09:27.655 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.) Executing ContentResult with HTTP Response ContentType of "text/html; charset=utf-8"
+2025-08-16 11:09:27.656 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" in 11174.252ms
+2025-08-16 11:09:27.656 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:09:27.656 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - 200 null "text/html; charset=utf-8" 11199.8645ms
+2025-08-16 11:09:27.667 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - null null
+2025-08-16 11:09:27.699 +03:30 [Information] (Session.) User Requset path="/contact" SessionId="e97d2b8b-c22d-f905-b959-ba9f1c34c71b" start
+2025-08-16 11:09:27.699 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:09:27.699 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Contact\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Contact()" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-08-16 11:09:27.709 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" - Validation state: Valid
+2025-08-16 11:09:28.868 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 9656.6518ms.
+2025-08-16 11:09:28.868 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.) Executing ContentResult with HTTP Response ContentType of "text/html; charset=utf-8"
+2025-08-16 11:09:28.869 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" in 9671.9349ms
+2025-08-16 11:09:28.869 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:09:28.869 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - 200 null "text/html; charset=utf-8" 9696.3641ms
+2025-08-16 11:09:32.526 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 12312.0767ms.
+2025-08-16 11:09:32.527 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.) Executing ContentResult with HTTP Response ContentType of "text/html; charset=utf-8"
+2025-08-16 11:09:32.527 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" in 12324.796ms
+2025-08-16 11:09:32.527 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:09:32.528 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - 200 null "text/html; charset=utf-8" 12343.4043ms
+2025-08-16 11:09:33.900 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 6190.1517ms.
+2025-08-16 11:09:33.900 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.) Executing ContentResult with HTTP Response ContentType of "text/html; charset=utf-8"
+2025-08-16 11:09:33.908 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" in 6209.2658ms
+2025-08-16 11:09:33.908 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:09:33.909 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - 200 null "text/html; charset=utf-8" 6242.0037ms
+2025-08-16 11:09:34.925 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-08-16 11:09:34.925 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/_vs/browserLink""" - null null
+2025-08-16 11:09:34.927 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 1.3919ms
+2025-08-16 11:09:34.932 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 7.0341ms
+2025-08-16 11:09:35.768 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/favicon.ico""" - null null
+2025-08-16 11:09:35.830 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/favicon.ico"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\favicon.ico"'
+2025-08-16 11:09:35.830 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/favicon.ico""" - 200 5430 "image/x-icon" 61.5888ms
+2025-08-16 11:09:39.417 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - null null
+2025-08-16 11:09:39.444 +03:30 [Information] (Session.) User Requset path="/contact" SessionId="de75895d-eee2-5eaf-6bed-8060dac253bd" start
+2025-08-16 11:09:39.444 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:09:39.444 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Contact\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Contact()" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-08-16 11:09:39.459 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" - Validation state: Valid
+2025-08-16 11:09:45.817 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.Contact (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 6358.0674ms.
+2025-08-16 11:09:45.818 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.) Executing ContentResult with HTTP Response ContentType of "text/html; charset=utf-8"
+2025-08-16 11:09:45.822 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.Contact (DrMoradi)" in 6377.8257ms
+2025-08-16 11:09:45.822 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.Contact (DrMoradi)"'
+2025-08-16 11:09:45.823 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/2" "GET" "https"://"localhost:7075""""/contact""" - 200 null "text/html; charset=utf-8" 6405.0799ms
+2025-08-16 11:09:59.053 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("236"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[Id], [s].[Aboute], [s].[BackgroundImage], [s].[Birthday], [s].[DeleteTime], [s].[Email], [s].[Instagram], [s].[IsDeleted], [s].[Linkedin], [s].[Location], [s].[Name], [s].[Phone], [s].[ProfileImage], [s].[Tweeter], [s].[jobs]
+FROM [dbo].[Settings] AS [s]"

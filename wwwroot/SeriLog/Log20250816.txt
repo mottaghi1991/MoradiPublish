@@ -1,0 +1,3 @@
+2025-08-16 11:06:35.128 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("88"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[Id], [s].[Aboute], [s].[BackgroundImage], [s].[Birthday], [s].[DeleteTime], [s].[Email], [s].[Instagram], [s].[IsDeleted], [s].[Linkedin], [s].[Location], [s].[Name], [s].[Phone], [s].[ProfileImage], [s].[Tweeter], [s].[jobs]
+FROM [dbo].[Settings] AS [s]"

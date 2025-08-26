@@ -1,0 +1,344 @@
+﻿
+/* فونت و تنظیمات کلی بدنه */
+body {
+    font-family: Vazir !important;
+    line-height: 1.6;
+    background-color: white;
+}
+
+/* ================ */
+/* 1) حالت اولیه */
+/* ================ */
+#mainNavbar {
+    background-color: #545454 !important; /* کاملاً شفاف */
+    transition: background-color .4s, box-shadow .4s;
+}
+
+    #mainNavbar .navbar-brand,
+    #mainNavbar .nav-link {
+        color: white; /* مشکی ۷۵٪، ملایم‌تر از مشکی خالص */
+        transition: color .4s;
+        line-height: 3;
+        font-size:0.8rem;
+    }
+
+        #mainNavbar .nav-link:hover,
+        #mainNavbar .nav-link:focus {
+            color: rgba(0, 0, 0, 0.9);
+        }
+
+    /* ================ */
+    /* 2) حالت اسکرول */
+    /* ================ */
+    #mainNavbar.scrolled {
+        background-color: rgba(255, 255, 255, 0.95) !important; /* سفید ۹۵٪ */
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+        #mainNavbar.scrolled .navbar-brand,
+        #mainNavbar.scrolled .nav-link {
+            color: rgba(0, 0, 0, 0.85) !important; /* مشکی ۸۵٪ برای خوانایی بهتر */
+        }
+
+/* لینک فعال */
+.nav-link.active {
+    position: relative;
+}
+
+    .nav-link.active::after {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        right: 0;
+        left: 0;
+        height: 3px;
+        border-radius: 2px;
+    }
+/* ------------------------------------------------------------------ */
+/* بخش هرو (بغل عکس و متن) */
+/* ارتفاع ثابت و پوشش کامل تصویر با object-fit */
+
+#sliderSection .carousel-item {
+    overflow: hidden;
+}
+
+
+    #sliderSection .carousel-item img {
+        /* height: 500px; */ /* می‌توانید این مقدار را کم/زیاد کنید */
+
+        object-fit: cover;
+    }
+
+/* شخصی‌سازی رنگ دکمه‌های کنترل */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* معکوس کردن رنگ آیکون‌ها تا سفید (برای پس‌زمینه‌ی تیره‌تر عکس‌ها) */
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: black !important;
+}
+/* تنظیم محتوای متن (Caption) */
+/* پس‌زمینه نیمه‌شفاف برای خوانایی بهتر روی تصویر */
+.carousel-caption {
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+
+/* معرفی دکتر */
+#aboutDoctor {
+    background-color: #f9f9f9; /* پس‌زمینه‌ای ملایم */
+}
+
+    #aboutDoctor h2 {
+        font-weight: 700;
+        color: #333;
+    }
+
+    #aboutDoctor .lead {
+        color: #555;
+        line-height: 1.6;
+    }
+
+    #aboutDoctor .doctor-img {
+        max-width: 400px; /* حداکثر عرض تصویر */
+        width: 100%;
+        border-radius: .5rem; /* گوشه‌های گرد */
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+
+
+
+/* کارت‌های رژیم‌ها */
+.swiper-container {
+    width: 100%;
+    /* عرض اسلایدر */
+    height: 100px;
+    /* ارتفاع اسلایدر */
+    margin: auto;
+    overflow: hidden;
+    /* مخفی کردن قسمت‌های اضافی */
+    position: relative;
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+
+.swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center  !important;
+    /* یا ارتفاع مشخص */
+}
+    .swiper-slide .card {
+        height: 100% !important;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .swiper-slide .card-body {
+        flex-grow: 1;
+    }
+/* محدود کردن ارتفاع متن */
+.card-text {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.swiper-pagination {
+    bottom: -10px !important; /* هر عددی که خواستی بده: 10px، -5px و ... */
+}
+
+.card-title-fixed {
+    min-height: 48px; /* حداقل ارتفاع (بسته به سایز فونتت تنظیم کن) */
+    max-height: 48px; /* حداکثر ارتفاع یکسان برای همه */
+    overflow: hidden; /* متن اضافی رو مخفی کن */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* حداکثر ۲ خط نمایش داده بشه */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.plan-price {
+    font-size: .95rem;
+    color: #8f95a3;
+}
+
+    .plan-price span {
+        font-weight: bold;
+        color: #212121;
+    }
+
+.plan-btn {
+    display: block; /* مثل دکمه کل عرض را بگیرد */
+    background-color: blue;
+    color: #fff !important;
+    border: none;
+    border-radius: 40px;
+    padding: .6rem 0;
+    width: 100%;
+    font-size: .85rem;
+    cursor: pointer;
+    transition: background-color .2s;
+    text-align: center;
+    text-decoration: none !important; /* خط زیر را حذف کن */
+    outline: none;
+}
+
+    .plan-btn:hover {
+        background-color: #3f4b68;
+    }
+
+
+
+
+
+
+
+/* فوتر */
+.footer-simple {
+    background: transparent !important;
+
+}
+
+.footer-inner {
+    background: #3a3a3a !important;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.footer-title {
+    color: #FFD54F;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    color: #808080 !important;
+    font-size: 14px;
+    margin: 3px;
+    background: transparent;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+    .footer-links a:hover {
+        background: #fff;
+        color: #000 !important;
+    }
+
+.footer-enamad {
+    max-width: 80px;
+    display: block;
+}
+
+.footer-logo {
+    max-width: 100px;
+}
+
+.footer-social a {
+    font-size: 18px;
+    color: #fff;
+    margin-right: 8px;
+}
+
+    .footer-social a:hover {
+        color: #FFD54F;
+    }
+
+hr.border-light {
+    border-color: #6570a7;
+    opacity: .4;
+}
+/* آیکون‌ها با Bootstrap Icons */
+.bi {
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+
+.bmi-bg {
+    background: url(/FileUpload/Slider/cta.jpg) center center/cover no-repeat;
+    min-height: 180px;
+}
+
+.bmi-overlay {
+    z-index: 1;
+}
+
+.bmi-bg .card-body {
+    z-index: 2;
+}
+
+.custom-list {
+    color: #7f8c8d;
+    font-size: 15px;
+    text-align: right;
+    line-height: 2.1;
+    list-style: none; /* حذف نقطه پیش‌فرض */
+    padding: 0;
+    margin: 0 0 1rem 0;
+}
+
+    .custom-list li {
+        margin-bottom: 1rem; /* فاصله بین هر آیتم */
+        position: relative;
+        padding-right: 1.5em; /* جا برای آیکن */
+    }
+
+        .custom-list li::before {
+            content: "•"; /* یا ✔ یا هر آیکن ساده */
+            color: #00b894; /* رنگ نقطه یا علامت */
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 1.1em;
+            line-height: 2;
+        }
+
+.doctor-name {
+    font-size: 2rem; /* بزرگ و خوانا */
+    font-weight: 700; /* ضخیم */
+    color: #34495e; /* رنگ تیره آرامش‌بخش */
+    margin-bottom: 0.5rem; /* فاصله با عنوان دوم */
+    text-align: right; /* راست‌چین برای فارسی */
+}
+
+.doctor-title {
+    font-size: 1.1rem; /* اصلی ولی کوچیک‌تر از اسم */
+    color: #7f8c8d; /* خاکستری مدرن و ملایم */
+    font-weight: 500; /* ضخیم‌تر از معمول */
+    margin-top: 0; /* بهم نچسبه */
+    margin-bottom: 1.3rem; /* فاصله تا المان بعدی */
+    text-align: right; /* راست‌چین */
+    line-height: 1.8; /* فاصله خطوط، راحت برای چشم */
+}
+@media (min-width: 992px) {
+    .navbar .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    #sliderSection .carousel-item {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    #sliderSection .carousel-item img {
+         height: 200px;  
+
+        object-fit: cover;
+    }
+}
