@@ -391,37 +391,44 @@ hr.border-light {
 
 /* موبایل */
 @media (max-width: 576px) {
-    .comment-item {
-        padding: 0.5rem 0.75rem;
-        font-size: 0.9rem;
+    /* کم کردن تورفتگی در موبایل */
+    .comment-thread [class*="ps-"] {
+        padding-right: 0.5rem !important; /* RTL */
+        padding-left: 0.5rem !important; /* برای LTR */
+    }
+    /* تاریخ کوچک‌تر */
+    .comment-thread small.text-muted {
+        font-size: 0.75rem;
+    }
+    /* فاصله کمتر بین آیتم‌ها در موبایل */
+    .comment-thread .gap-2 {
+        gap: 0.25rem !important;
+    }
+    /* دکمه‌ها قابل لمس */
+    .comment-thread .btn-link {
+        padding: 0.25rem 0 !important;
+    }
+    /* خط عمودی نازک‌تر */
+    .comment-thread .border-start {
+        border-width: 1px !important;
     }
 
-        .comment-item .comment-meta {
-            flex-direction: column;
-            gap: 2px;
-            font-size: 0.8rem;
+
+    @media (min-width: 992px) {
+        .navbar .dropdown:hover .dropdown-menu {
+            display: block;
+            margin-top: 0;
         }
-}
-
-
-@media (min-width: 992px) {
-    .navbar .dropdown:hover .dropdown-menu {
-        display: block;
-        margin-top: 0;
     }
 
+    @media (max-width: 768px) {
+        #sliderSection .carousel-item {
+            height: 200px;
+            overflow: hidden;
+        }
 
-}
-
-@media (max-width: 768px) {
-    #sliderSection .carousel-item {
-        height: 200px;
-        overflow: hidden;
+            #sliderSection .carousel-item img {
+                height: 200px;
+                object-fit: cover;
+            }
     }
-
-    #sliderSection .carousel-item img {
-         height: 200px;  
-
-        object-fit: cover;
-    }
-}
