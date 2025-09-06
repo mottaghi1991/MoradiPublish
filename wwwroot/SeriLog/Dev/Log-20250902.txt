@@ -15855,3 +15855,335 @@ FROM [dbo].[Diets] AS [d]"
 2025-09-02 10:55:10.721 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.NotFound (DrMoradi)" in 52.6198ms
 2025-09-02 10:55:10.722 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.NotFound (DrMoradi)"'
 2025-09-02 10:55:10.722 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/NotFound""" - 200 null "text/html; charset=utf-8" 54.8599ms
+2025-09-02 11:19:06.610 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[Id], [s].[Aboute], [s].[BackgroundImage], [s].[Birthday], [s].[DeleteTime], [s].[Email], [s].[Instagram], [s].[IsDeleted], [s].[Linkedin], [s].[Location], [s].[Name], [s].[Phone], [s].[ProfileImage], [s].[Tweeter], [s].[jobs]
+FROM [dbo].[Settings] AS [s]"
+2025-09-02 11:19:08.782 +03:30 [Information] (DrMoradi.) Keys folder exists: "H:\GitProject\DrMoradi\DrMoradi\App_Data\Keys"
+2025-09-02 11:19:08.787 +03:30 [Information] (DrMoradi.) Key file: "key-c42a2e2f-1f48-4835-bf8b-efe35aa99b04.xml", ID: "c42a2e2f-1f48-4835-bf8b-efe35aa99b04", Created: "(no date)"
+2025-09-02 11:19:08.787 +03:30 [Information] (DrMoradi.) Write permission OK - test file created successfully.
+2025-09-02 11:19:09.112 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Now listening on: "http://localhost:5114"
+2025-09-02 11:19:09.147 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Application started. Press Ctrl+C to shut down.
+2025-09-02 11:19:09.147 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Hosting environment: "Development"
+2025-09-02 11:19:09.147 +03:30 [Information] (Microsoft.Hosting.Lifetime.) Content root path: "H:\GitProject\DrMoradi\DrMoradi"
+2025-09-02 11:19:09.795 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/""" - null null
+2025-09-02 11:19:09.931 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-02 11:19:09.981 +03:30 [Information] (Session.) User Requset path="/" SessionId="c2e30928-9d33-05d9-7941-1f3e050062ec" start
+2025-09-02 11:19:09.983 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.Index (DrMoradi)"'
+2025-09-02 11:19:10.003 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-09-02 11:19:10.063 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.Index (DrMoradi)" - Validation state: Valid
+2025-09-02 11:19:10.066 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.Index (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.0447ms.
+2025-09-02 11:19:15.136 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "Index".
+2025-09-02 11:19:15.218 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[Id], [s].[DeleteTime], [s].[DesktopDescript], [s].[DesktopFile], [s].[IsDeleted], [s].[Link], [s].[MobileDescript], [s].[MobileFile]
+FROM [dbo].[Sliders] AS [s]"
+2025-09-02 11:19:15.809 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("49"ms) [Parameters=["@__active_0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]
+WHERE [d].[Status] = @__active_0"
+2025-09-02 11:19:16.276 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("10"ms) [Parameters=["@__active_0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[CategoryName], [c].[DeleteTime], [c].[Image], [c].[IsActive], [c].[IsDeleted]
+FROM [dbo].[Categories] AS [c]
+WHERE [c].[IsActive] = @__active_0"
+2025-09-02 11:19:16.488 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DeleteTime], [p].[Descript], [p].[Image], [p].[IsDeleted], [p].[Summry], [p].[Title]
+FROM [dbo].[posts] AS [p]"
+2025-09-02 11:19:19.857 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("11"ms) [Parameters=["@__IsActive_0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DeleteTime], [p].[Descript], [p].[Image], [p].[IsActive], [p].[IsDeleted], [p].[Title]
+FROM [dbo].[PopUps] AS [p]
+WHERE [p].[IsActive] = @__IsActive_0"
+2025-09-02 11:19:19.878 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-09-02 11:19:20.715 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "Index" executed in 10641.4846ms.
+2025-09-02 11:19:20.723 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.Index (DrMoradi)" in 10719.1788ms
+2025-09-02 11:19:20.724 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.Index (DrMoradi)"'
+2025-09-02 11:19:20.728 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/css/maincss.css""" - null null
+2025-09-02 11:19:20.738 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) The file "/css/maincss.css" was not modified
+2025-09-02 11:19:20.740 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/css/maincss.css""" - 304 null "text/css" 11.3826ms
+2025-09-02 11:19:20.740 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/""" - 200 null "text/html; charset=utf-8" 10957.4941ms
+2025-09-02 11:19:20.910 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-09-02 11:19:20.917 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 6.5701ms
+2025-09-02 11:19:20.923 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-09-02 11:19:20.954 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 31.1108ms
+2025-09-02 11:19:34.689 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel""" - null null
+2025-09-02 11:19:34.723 +03:30 [Information] (Session.) User Requset path="/UserPanel" SessionId="780e9adf-728d-ebed-82b8-ce2c58f7a292" start
+2025-09-02 11:19:34.894 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("40"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[ItUserId], [m].[ActiveCode], [m].[City], [m].[Email], [m].[FullName], [m].[IsActive], [m].[IsAdmin], [m].[Job], [m].[PassWord], [m].[RegisterDate], [m].[UserAvatar], [m].[UserName], [m].[gender]
+FROM [dbo].[MyUser] AS [m]
+WHERE [m].[ItUserId] = @__userId_0"
+2025-09-02 11:19:34.930 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)"'
+2025-09-02 11:19:34.934 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"Index\", controller = \"UserPanel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "WebStore.Areas.UserPanel.Controllers.UserPanelController" ("DrMoradi").
+2025-09-02 11:19:34.979 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)" - Validation state: Valid
+2025-09-02 11:19:34.986 +03:30 [Information] (WebStore.Areas.UserPanel.Controllers.UserPanelController.) ورود کاربر 3 به UserPanel.Index
+2025-09-02 11:19:34.986 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 7.1101ms.
+2025-09-02 11:19:34.987 +03:30 [Information] (Microsoft.AspNetCore.Mvc.RedirectToActionResult.) Executing RedirectResult, redirecting to "/UserPanel/UserDiet/MyDiet".
+2025-09-02 11:19:34.987 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)" in 53.355ms
+2025-09-02 11:19:34.987 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Index (DrMoradi)"'
+2025-09-02 11:19:34.991 +03:30 [Information] (Microsoft.AspNetCore.Session.DistributedSession.) Session started; Key:"44efcc32-aad1-7f5d-6a6e-ea069a02f9b6", Id:"780e9adf-728d-ebed-82b8-ce2c58f7a292"
+2025-09-02 11:19:34.994 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel""" - 302 0 null 305.2929ms
+2025-09-02 11:19:34.998 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserDiet/MyDiet""" - null null
+2025-09-02 11:19:35.059 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[ActionName], [p].[Area], [p].[ControllerName], [p].[Descript], [p].[ParentId], [p].[Radif], [p].[Status]
+FROM [dbo].[PermissionList] AS [p]"
+2025-09-02 11:19:35.103 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[RP_Id], [r].[PermissionListId], [r].[RoleId]
+FROM [dbo].[RolePermission] AS [r]"
+2025-09-02 11:19:35.158 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[UR_Id], [u].[RoleId], [u].[UserId]
+FROM [dbo].[UserRole] AS [u]"
+2025-09-02 11:19:35.738 +03:30 [Information] (Session.) User Requset path="/UserPanel/UserDiet/MyDiet" SessionId="780e9adf-728d-ebed-82b8-ce2c58f7a292" start
+2025-09-02 11:19:35.739 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)"'
+2025-09-02 11:19:35.742 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"MyDiet\", controller = \"UserDiet\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyDiet()" on controller "DrMoradi.Areas.UserPanel.Controllers.UserDietController" ("DrMoradi").
+2025-09-02 11:19:35.760 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)" - Validation state: Valid
+2025-09-02 11:19:35.841 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 80.1786ms.
+2025-09-02 11:19:36.421 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "MyDiet".
+2025-09-02 11:19:36.453 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("10"ms) [Parameters=["@__active_0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]
+WHERE [d].[Status] = @__active_0"
+2025-09-02 11:19:36.769 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-09-02 11:19:36.776 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "MyDiet" executed in 934.0323ms.
+2025-09-02 11:19:36.777 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)" in 1034.7935ms
+2025-09-02 11:19:36.777 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Areas.UserPanel.Controllers.UserDietController.MyDiet (DrMoradi)"'
+2025-09-02 11:19:36.778 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/UserDiet/MyDiet""" - 200 null "text/html; charset=utf-8" 1780.0526ms
+2025-09-02 11:19:36.802 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-09-02 11:19:36.802 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.7548ms
+2025-09-02 11:19:36.810 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-09-02 11:19:36.820 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 10.5618ms
+2025-09-02 11:19:39.514 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/userPanel/UserPanel/Comment""" - null null
+2025-09-02 11:19:39.531 +03:30 [Information] (Session.) User Requset path="/userPanel/UserPanel/Comment" SessionId="780e9adf-728d-ebed-82b8-ce2c58f7a292" start
+2025-09-02 11:19:39.531 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)"'
+2025-09-02 11:19:39.534 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"Comment\", controller = \"UserPanel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Comment()" on controller "WebStore.Areas.UserPanel.Controllers.UserPanelController" ("DrMoradi").
+2025-09-02 11:19:39.549 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)" - Validation state: Valid
+2025-09-02 11:19:39.652 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("15"ms) [Parameters=["@__UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[EntityId], [c].[Text], [m].[FullName] AS [Name], [c].[CreateDate], [c].[IsApproved], [c].[EntityType]
+FROM [dbo].[Comments] AS [c]
+LEFT JOIN [dbo].[MyUser] AS [m] ON [c].[UserId] = [m].[ItUserId]
+WHERE [c].[UserId] = @__UserId_0
+ORDER BY [c].[Id] DESC"
+2025-09-02 11:19:39.654 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 104.788ms.
+2025-09-02 11:19:39.833 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "Comment".
+2025-09-02 11:19:39.855 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-09-02 11:19:39.859 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "Comment" executed in 204.8246ms.
+2025-09-02 11:19:39.859 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)" in 324.9131ms
+2025-09-02 11:19:39.860 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)"'
+2025-09-02 11:19:39.860 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/userPanel/UserPanel/Comment""" - 200 null "text/html; charset=utf-8" 346.3385ms
+2025-09-02 11:19:39.869 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-09-02 11:19:39.870 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-09-02 11:19:39.870 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.518ms
+2025-09-02 11:19:39.889 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 19.3711ms
+2025-09-02 11:24:14.183 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/DietDetail""?DietId=1" - null null
+2025-09-02 11:24:14.207 +03:30 [Information] (Session.) User Requset path="/UserPanel/DietDetail" SessionId="780e9adf-728d-ebed-82b8-ce2c58f7a292" start
+2025-09-02 11:24:14.214 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/UserPanel/DietDetail""?DietId=1" - 302 0 null 31.6766ms
+2025-09-02 11:24:14.221 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5114""""/UserPanel/DietDetail", Response status code: 302
+2025-09-02 11:24:14.221 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/NotFound""" - null null
+2025-09-02 11:24:14.239 +03:30 [Information] (Session.) User Requset path="/NotFound" SessionId="780e9adf-728d-ebed-82b8-ce2c58f7a292" start
+2025-09-02 11:24:14.239 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.NotFound (DrMoradi)"'
+2025-09-02 11:24:14.248 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"NotFound\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult NotFound(System.String)" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-09-02 11:24:14.279 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.NotFound (DrMoradi)" - Validation state: Invalid
+2025-09-02 11:24:14.280 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=3 with Path=null 
+2025-09-02 11:24:14.280 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.NotFound (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.821ms.
+2025-09-02 11:24:14.354 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "NotFound".
+2025-09-02 11:24:14.398 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("40"ms) [Parameters=["@__IsActive_0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DeleteTime], [p].[Descript], [p].[Image], [p].[IsActive], [p].[IsDeleted], [p].[Title]
+FROM [dbo].[PopUps] AS [p]
+WHERE [p].[IsActive] = @__IsActive_0"
+2025-09-02 11:24:14.413 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-09-02 11:24:14.426 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "NotFound" executed in 145.9952ms.
+2025-09-02 11:24:14.426 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.NotFound (DrMoradi)" in 178.5452ms
+2025-09-02 11:24:14.427 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.NotFound (DrMoradi)"'
+2025-09-02 11:24:14.427 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/NotFound""" - 200 null "text/html; charset=utf-8" 206.0045ms
+2025-09-02 11:24:14.466 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/js/adminlte.js""" - null null
+2025-09-02 11:24:14.467 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/js/JQuery.js""" - null null
+2025-09-02 11:24:14.467 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/js/pages/dashboard.js""" - null null
+2025-09-02 11:24:14.486 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/plugins/select2/select2.full.min.js""" - null null
+2025-09-02 11:24:14.491 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-09-02 11:24:14.494 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/plugins/bootstrap/js/bootstrap.bundle.min.js""" - null null
+2025-09-02 11:24:14.498 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-09-02 11:24:14.498 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.5675ms
+2025-09-02 11:24:14.500 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/jquery.validate.unobtrusive.min.js""" - null null
+2025-09-02 11:24:14.518 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 27.6869ms
+2025-09-02 11:24:14.579 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/dist/js/pages/dashboard.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\js\pages\dashboard.js"'
+2025-09-02 11:24:14.580 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/js/pages/dashboard.js""" - 200 5977 "text/javascript" 112.7124ms
+2025-09-02 11:24:14.580 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/jquery.validate.min.js""" - null null
+2025-09-02 11:24:14.599 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/dist/js/JQuery.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\js\JQuery.js"'
+2025-09-02 11:24:14.600 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/js/JQuery.js""" - 200 107751 "text/javascript" 133.2355ms
+2025-09-02 11:24:14.600 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/select2.full.min.js""" - null null
+2025-09-02 11:24:14.661 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/js/jquery.validate.unobtrusive.min.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\js\jquery.validate.unobtrusive.min.js"'
+2025-09-02 11:24:14.662 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/jquery.validate.unobtrusive.min.js""" - 200 6290 "text/javascript" 161.9665ms
+2025-09-02 11:24:14.663 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/bootstrap-datepicker.min.js""" - null null
+2025-09-02 11:24:14.678 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/js/jquery.validate.min.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\js\jquery.validate.min.js"'
+2025-09-02 11:24:14.679 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/jquery.validate.min.js""" - 200 21877 "text/javascript" 98.8627ms
+2025-09-02 11:24:14.679 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/js/persian-date.js""" - null null
+2025-09-02 11:24:14.687 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/dist/js/adminlte.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\js\adminlte.js"'
+2025-09-02 11:24:14.687 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/js/adminlte.js""" - 200 20542 "text/javascript" 221.3488ms
+2025-09-02 11:24:14.690 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/js/persian-datepicker.js""" - null null
+2025-09-02 11:24:14.691 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/plugins/bootstrap/js/bootstrap.bundle.min.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\plugins\bootstrap\js\bootstrap.bundle.min.js"'
+2025-09-02 11:24:14.691 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/plugins/bootstrap/js/bootstrap.bundle.min.js""" - 200 70814 "text/javascript" 197.2131ms
+2025-09-02 11:24:14.691 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/plugins/select2/select2.full.min.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\plugins\select2\select2.full.min.js"'
+2025-09-02 11:24:14.691 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/js/select2.full.min.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\js\select2.full.min.js"'
+2025-09-02 11:24:14.691 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/plugins/select2/select2.full.min.js""" - 200 71184 "text/javascript" 205.37ms
+2025-09-02 11:24:14.691 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/select2.full.min.js""" - 200 71184 "text/javascript" 91.219ms
+2025-09-02 11:24:14.692 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/site.js""" - null null
+2025-09-02 11:24:14.692 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/mainjs.js""" - null null
+2025-09-02 11:24:14.693 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/Common/SweetAlert/sweetalert2.min.js""" - null null
+2025-09-02 11:24:14.703 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/js/mainjs.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\js\MainJs.js"'
+2025-09-02 11:24:14.703 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/mainjs.js""" - 200 2188 "text/javascript" 10.9642ms
+2025-09-02 11:24:14.720 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/js/bootstrap-datepicker.min.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\js\bootstrap-datepicker.min.js"'
+2025-09-02 11:24:14.720 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/bootstrap-datepicker.min.js""" - 200 43927 "text/javascript" 56.8496ms
+2025-09-02 11:24:14.721 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/Common/SweetAlert/sweetalert2.min.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\Common\SweetAlert\sweetalert2.min.js"'
+2025-09-02 11:24:14.721 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/Common/SweetAlert/sweetalert2.min.js""" - 200 45708 "text/javascript" 28.5872ms
+2025-09-02 11:24:14.730 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/dist/js/persian-datepicker.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\js\persian-datepicker.js"'
+2025-09-02 11:24:14.730 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/js/persian-datepicker.js""" - 200 61422 "text/javascript" 40.3476ms
+2025-09-02 11:24:14.733 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/js/site.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\js\site.js"'
+2025-09-02 11:24:14.734 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/js/site.js""" - 200 1342 "text/javascript" 41.1353ms
+2025-09-02 11:24:14.736 +03:30 [Information] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.) Sending file. Request path: '"/MyFile/dist/js/persian-date.js"'. Physical path: '"H:\GitProject\DrMoradi\DrMoradi\wwwroot\MyFile\dist\js\persian-date.js"'
+2025-09-02 11:24:14.736 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/MyFile/dist/js/persian-date.js""" - 200 44179 "text/javascript" 56.9791ms
+2025-09-02 11:24:16.424 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-09-02 11:24:16.425 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.3586ms
+2025-09-02 11:24:19.554 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/userPanel/UserPanel/Comment""" - null null
+2025-09-02 11:24:19.579 +03:30 [Information] (Session.) User Requset path="/userPanel/UserPanel/Comment" SessionId="780e9adf-728d-ebed-82b8-ce2c58f7a292" start
+2025-09-02 11:24:19.579 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)"'
+2025-09-02 11:24:19.579 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"Comment\", controller = \"UserPanel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Comment()" on controller "WebStore.Areas.UserPanel.Controllers.UserPanelController" ("DrMoradi").
+2025-09-02 11:24:19.596 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)" - Validation state: Valid
+2025-09-02 11:24:19.621 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("22"ms) [Parameters=["@__UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[EntityId], [c].[Text], [m].[FullName] AS [Name], [c].[CreateDate], [c].[IsApproved], [c].[EntityType]
+FROM [dbo].[Comments] AS [c]
+LEFT JOIN [dbo].[MyUser] AS [m] ON [c].[UserId] = [m].[ItUserId]
+WHERE [c].[UserId] = @__UserId_0
+ORDER BY [c].[Id] DESC"
+2025-09-02 11:24:19.621 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 24.9773ms.
+2025-09-02 11:24:19.621 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "Comment".
+2025-09-02 11:24:19.643 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-09-02 11:24:19.645 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "Comment" executed in 23.6079ms.
+2025-09-02 11:24:19.645 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)" in 66.1821ms
+2025-09-02 11:24:19.645 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)"'
+2025-09-02 11:24:19.646 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/userPanel/UserPanel/Comment""" - 200 null "text/html; charset=utf-8" 91.4334ms
+2025-09-02 11:24:19.657 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-09-02 11:24:19.657 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-09-02 11:24:19.658 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.3043ms
+2025-09-02 11:24:19.661 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 3.3367ms
+2025-09-02 11:24:20.296 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/userPanel/UserPanel/Comment""" - null null
+2025-09-02 11:24:20.310 +03:30 [Information] (Session.) User Requset path="/userPanel/UserPanel/Comment" SessionId="780e9adf-728d-ebed-82b8-ce2c58f7a292" start
+2025-09-02 11:24:20.310 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)"'
+2025-09-02 11:24:20.310 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"Comment\", controller = \"UserPanel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Comment()" on controller "WebStore.Areas.UserPanel.Controllers.UserPanelController" ("DrMoradi").
+2025-09-02 11:24:20.323 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)" - Validation state: Valid
+2025-09-02 11:24:20.338 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("15"ms) [Parameters=["@__UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[EntityId], [c].[Text], [m].[FullName] AS [Name], [c].[CreateDate], [c].[IsApproved], [c].[EntityType]
+FROM [dbo].[Comments] AS [c]
+LEFT JOIN [dbo].[MyUser] AS [m] ON [c].[UserId] = [m].[ItUserId]
+WHERE [c].[UserId] = @__UserId_0
+ORDER BY [c].[Id] DESC"
+2025-09-02 11:24:20.339 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 16.112ms.
+2025-09-02 11:24:20.339 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "Comment".
+2025-09-02 11:24:20.363 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-09-02 11:24:20.366 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "Comment" executed in 27.1191ms.
+2025-09-02 11:24:20.366 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)" in 55.9787ms
+2025-09-02 11:24:20.366 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)"'
+2025-09-02 11:24:20.367 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/userPanel/UserPanel/Comment""" - 200 null "text/html; charset=utf-8" 70.4602ms
+2025-09-02 11:24:20.379 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-09-02 11:24:20.379 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-09-02 11:24:20.379 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.3707ms
+2025-09-02 11:24:20.383 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 3.7745ms
+2025-09-02 11:24:20.763 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/userPanel/UserPanel/Comment""" - null null
+2025-09-02 11:24:20.780 +03:30 [Information] (Session.) User Requset path="/userPanel/UserPanel/Comment" SessionId="780e9adf-728d-ebed-82b8-ce2c58f7a292" start
+2025-09-02 11:24:20.780 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)"'
+2025-09-02 11:24:20.780 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"Comment\", controller = \"UserPanel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Comment()" on controller "WebStore.Areas.UserPanel.Controllers.UserPanelController" ("DrMoradi").
+2025-09-02 11:24:20.794 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)" - Validation state: Valid
+2025-09-02 11:24:20.804 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("9"ms) [Parameters=["@__UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[EntityId], [c].[Text], [m].[FullName] AS [Name], [c].[CreateDate], [c].[IsApproved], [c].[EntityType]
+FROM [dbo].[Comments] AS [c]
+LEFT JOIN [dbo].[MyUser] AS [m] ON [c].[UserId] = [m].[ItUserId]
+WHERE [c].[UserId] = @__UserId_0
+ORDER BY [c].[Id] DESC"
+2025-09-02 11:24:20.805 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 10.2697ms.
+2025-09-02 11:24:20.805 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "Comment".
+2025-09-02 11:24:20.815 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-09-02 11:24:20.819 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "Comment" executed in 14.5781ms.
+2025-09-02 11:24:20.820 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)" in 39.2467ms
+2025-09-02 11:24:20.820 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)"'
+2025-09-02 11:24:20.820 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/userPanel/UserPanel/Comment""" - 200 null "text/html; charset=utf-8" 57.0373ms
+2025-09-02 11:24:20.834 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-09-02 11:24:20.834 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-09-02 11:24:20.835 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.3371ms
+2025-09-02 11:24:20.838 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 4.1986ms
+2025-09-02 11:25:20.951 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/userPanel/UserPanel/Comment""" - null null
+2025-09-02 11:25:20.967 +03:30 [Information] (Session.) User Requset path="/userPanel/UserPanel/Comment" SessionId="780e9adf-728d-ebed-82b8-ce2c58f7a292" start
+2025-09-02 11:25:20.967 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)"'
+2025-09-02 11:25:20.968 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{area = \"UserPanel\", action = \"Comment\", controller = \"UserPanel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Comment()" on controller "WebStore.Areas.UserPanel.Controllers.UserPanelController" ("DrMoradi").
+2025-09-02 11:25:20.982 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)" - Validation state: Valid
+2025-09-02 11:25:20.996 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("13"ms) [Parameters=["@__UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[EntityId], [c].[Text], [m].[FullName] AS [Name], [c].[CreateDate], [c].[IsApproved], [c].[EntityType]
+FROM [dbo].[Comments] AS [c]
+LEFT JOIN [dbo].[MyUser] AS [m] ON [c].[UserId] = [m].[ItUserId]
+WHERE [c].[UserId] = @__UserId_0
+ORDER BY [c].[Id] DESC"
+2025-09-02 11:25:20.997 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 14.4925ms.
+2025-09-02 11:25:20.997 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "Comment".
+2025-09-02 11:25:21.013 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-09-02 11:25:21.149 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "Comment" executed in 152.1437ms.
+2025-09-02 11:25:21.149 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)" in 181.4948ms
+2025-09-02 11:25:21.149 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"WebStore.Areas.UserPanel.Controllers.UserPanelController.Comment (DrMoradi)"'
+2025-09-02 11:25:21.150 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/userPanel/UserPanel/Comment""" - 200 null "text/html; charset=utf-8" 199.1609ms
+2025-09-02 11:25:21.171 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-09-02 11:25:21.171 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-09-02 11:25:21.171 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.4204ms
+2025-09-02 11:25:21.176 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 5.4008ms
+2025-09-02 11:25:23.626 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/Home/DietDetail""?DietId=1" - null null
+2025-09-02 11:25:23.640 +03:30 [Information] (Session.) User Requset path="/Home/DietDetail" SessionId="780e9adf-728d-ebed-82b8-ce2c58f7a292" start
+2025-09-02 11:25:23.640 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executing endpoint '"DrMoradi.Controllers.HomeController.DietDetail (DrMoradi)"'
+2025-09-02 11:25:23.644 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Route matched with "{action = \"DietDetail\", controller = \"Home\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DietDetail(Int32)" on controller "DrMoradi.Controllers.HomeController" ("DrMoradi").
+2025-09-02 11:25:23.666 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executing action method "DrMoradi.Controllers.HomeController.DietDetail (DrMoradi)" - Validation state: Valid
+2025-09-02 11:25:23.693 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("9"ms) [Parameters=["@__DietId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]
+WHERE [d].[Id] = @__DietId_0"
+2025-09-02 11:25:23.739 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("11"ms) [Parameters=["@__DietId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[CreateDate], [c].[DeleteTime], [c].[EntityId], [c].[EntityType], [c].[IsApproved], [c].[IsDeleted], [c].[Mobile], [c].[Name], [c].[ParentId], [c].[Text], [c].[UserId], [m].[ItUserId], [m].[ActiveCode], [m].[City], [m].[Email], [m].[FullName], [m].[IsActive], [m].[IsAdmin], [m].[Job], [m].[PassWord], [m].[RegisterDate], [m].[UserAvatar], [m].[UserName], [m].[gender]
+FROM [dbo].[Comments] AS [c]
+LEFT JOIN [dbo].[MyUser] AS [m] ON [c].[UserId] = [m].[ItUserId]
+WHERE [c].[EntityId] = @__DietId_0 AND [c].[IsApproved] = CAST(1 AS bit)"
+2025-09-02 11:25:23.769 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action method "DrMoradi.Controllers.HomeController.DietDetail (DrMoradi)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 102.4352ms.
+2025-09-02 11:25:23.929 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executing ViewResult, running view "DietDetail".
+2025-09-02 11:25:23.947 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("12"ms) [Parameters=["@__active_0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]
+WHERE [d].[Status] = @__active_0"
+2025-09-02 11:25:24.004 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("18"ms) [Parameters=["@__entitytId_0='?' (DbType = Int32), @__type_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[EntityId], [c].[Text], CASE
+    WHEN [c].[Name] IS NULL OR [c].[Name] LIKE N'' THEN [m].[FullName]
+    ELSE [c].[Name]
+END AS [Name], [c].[CreateDate], [c].[IsApproved], [c].[EntityType], [c].[ParentId]
+FROM [dbo].[Comments] AS [c]
+LEFT JOIN [dbo].[MyUser] AS [m] ON [c].[UserId] = [m].[ItUserId]
+WHERE [c].[EntityId] = @__entitytId_0 AND [c].[EntityType] = @__type_1 AND [c].[IsApproved] = CAST(1 AS bit)
+ORDER BY [c].[CreateDate]"
+2025-09-02 11:25:24.215 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("9"ms) [Parameters=["@__IsActive_0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DeleteTime], [p].[Descript], [p].[Image], [p].[IsActive], [p].[IsDeleted], [p].[Title]
+FROM [dbo].[PopUps] AS [p]
+WHERE [p].[IsActive] = @__IsActive_0"
+2025-09-02 11:25:24.224 +03:30 [Information] (Microsoft.EntityFrameworkCore.Database.Command.) Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Id], [d].[DeleteTime], [d].[Descript], [d].[Image], [d].[IsDeleted], [d].[Name], [d].[Price], [d].[SpecialDescript], [d].[Status], [d].[Video]
+FROM [dbo].[Diets] AS [d]"
+2025-09-02 11:25:24.229 +03:30 [Information] (Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.) Executed ViewResult - view "DietDetail" executed in 460.6627ms.
+2025-09-02 11:25:24.230 +03:30 [Information] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.) Executed action "DrMoradi.Controllers.HomeController.DietDetail (DrMoradi)" in 585.7673ms
+2025-09-02 11:25:24.230 +03:30 [Information] (Microsoft.AspNetCore.Routing.EndpointMiddleware.) Executed endpoint '"DrMoradi.Controllers.HomeController.DietDetail (DrMoradi)"'
+2025-09-02 11:25:24.230 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/Home/DietDetail""?DietId=1" - 200 null "text/html; charset=utf-8" 604.2789ms
+2025-09-02 11:25:24.262 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-09-02 11:25:24.262 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_framework/aspnetcore-browser-refresh.js""" - 200 16501 "application/javascript; charset=utf-8" 0.4851ms
+2025-09-02 11:25:24.266 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request starting "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - null null
+2025-09-02 11:25:24.269 +03:30 [Information] (Microsoft.AspNetCore.Hosting.Diagnostics.GET) Request finished "HTTP/1.1" "GET" "http"://"localhost:5114""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 3.7674ms
