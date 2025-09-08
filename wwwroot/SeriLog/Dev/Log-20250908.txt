@@ -1,0 +1,2 @@
+2025-09-08 07:23:20.077 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-08 07:23:39.162 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
