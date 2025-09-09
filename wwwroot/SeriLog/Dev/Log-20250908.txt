@@ -1,2 +1,634 @@
 2025-09-08 07:23:20.077 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
 2025-09-08 07:23:39.162 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:10:29.824 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-08 08:10:36.656 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:10:42.710 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:10:42.787 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:11:01.098 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:15:24.647 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:15:40.974 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:15:45.672 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:15:45.758 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:19:59.839 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:20:08.125 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:20:11.942 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:20:23.928 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:20:32.418 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:22:03.179 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:22:03.248 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:22:03.773 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:22:05.367 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:22:40.255 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:25:16.092 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:26:21.765 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:31:54.842 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:31:55.694 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:31:57.797 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:32:06.575 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 08:33:02.547 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:33:22.745 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:33:22.948 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:33:23.000 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:33:23.051 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:34:00.505 +03:30 [Error] (Error.) (Exceptions)User=0 with Ip="::1" Request="/shop/ProductDetail" with TraceId="0HNFEI7B6CVVQ:0000000E" get Exception
+Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.CompilationFailedException: One or more compilation failures occurred:
+H:\GitProject\DrMoradi\DrMoradi\Views\Shop\ProductDetail.cshtml(117,17): Error RZ1006: The section block is missing a closing "}" character.  Make sure you have a matching "}" character for all the "{" characters within this block, and that none of the "}" characters are being interpreted as markup.
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.OnCacheMiss(String normalizedPath)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 42
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-09-08 08:34:00.786 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:34:00.891 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:34:00.967 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:34:01.036 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:34:01.088 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:35:07.178 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-08 08:35:16.107 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:35:22.429 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:35:24.630 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:37:59.062 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:38:00.385 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:38:06.175 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:38:06.375 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:38:06.426 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:38:06.507 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:39:36.773 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:39:36.902 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:39:36.952 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:39:37.009 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:39:37.041 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:39:47.201 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:39:47.285 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:39:47.340 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:39:47.378 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:39:47.417 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:40:14.897 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:40:14.977 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:40:15.027 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:40:15.073 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:40:15.109 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:43:53.925 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:43:54.024 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:43:54.116 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:43:54.169 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:43:54.228 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:44:13.757 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:45:32.405 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:45:53.367 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:46:41.218 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:46:52.059 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:47:51.052 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:47:51.256 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:47:51.329 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:47:51.388 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:49:25.021 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:49:25.138 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:49:25.177 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:49:25.279 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:49:25.342 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:49:53.804 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:49:53.903 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:49:53.944 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:49:54.009 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:49:54.052 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:51:47.650 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:51:47.802 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:51:47.845 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:51:47.916 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:51:48.271 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:51:54.548 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:52:04.081 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:52:04.271 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:52:04.307 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:52:04.354 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:54:51.595 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:54:51.678 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:54:51.780 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:54:51.832 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:54:51.877 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:56:49.105 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:56:49.254 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:56:49.311 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:56:49.369 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:56:49.413 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:57:28.790 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:57:28.850 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:57:28.908 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:57:28.967 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 08:57:29.007 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 09:21:30.901 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-08 11:46:15.841 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-08 11:46:38.128 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-08 11:46:50.127 +03:30 [Error] (DrMoradi.) (Data Error) User Run GetAll With sp and Get Error  ObjectName= "ShowUserDietPanelVm"  and parameter and UserId = 13
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetAllDietsByUserId' expects parameter '@TotalCount', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Data.MasterServices.MasterServices`1.GetAllAsync(String spName, DynamicParameters parameters) in H:\GitProject\DrMoradi\Data\MasterServices\MasterServices.cs:line 53
+ClientConnectionId:f8535f18-00f3-4bfa-8467-a43673d4915b
+Error Number:201,State:4,Class:16
+2025-09-08 11:46:55.534 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 13 ("علی") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-09-08 11:46:56.007 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-08 11:47:02.059 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 11:47:13.224 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 11:47:13.302 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 11:47:25.053 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 11:47:25.126 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 11:48:21.137 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 11:50:14.432 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 11:50:26.149 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-08 11:50:34.510 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 11:51:25.076 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 11:51:27.084 +03:30 [Error] (DrMoradi.) (Data Error) User Run GetAll With sp and Get Error  ObjectName= "ShowUserDietPanelVm"  and parameter and UserId = 10
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetAllDietsByUserId' expects parameter '@TotalCount', which was not supplied.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Data.MasterServices.MasterServices`1.GetAllAsync(String spName, DynamicParameters parameters) in H:\GitProject\DrMoradi\Data\MasterServices\MasterServices.cs:line 53
+ClientConnectionId:534bf08e-ff07-4a0a-a13a-fc8179baf9bc
+Error Number:201,State:4,Class:16
+2025-09-08 11:58:23.209 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 11:58:33.164 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 11:58:33.216 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 11:58:36.143 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 11:58:36.195 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 11:58:40.193 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 11:58:40.249 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-09-08 12:00:39.904 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-08 12:01:08.286 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:02:17.263 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:04:33.997 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:04:36.891 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:33:49.791 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:33:54.790 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:33:54.907 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:33:54.966 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:33:55.000 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:34:02.349 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:38:50.329 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-08 12:38:59.249 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:39:15.944 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:39:20.546 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:39:22.944 +03:30 [Error] (Error.) (Exceptions)User=10 with Ip="::1" Request="/UserPanel/UserShop/Add" with TraceId="0HNFEMT9CUTKE:0000000C" get Exception
+System.InvalidOperationException: Unable to resolve service for type 'Core.Service.Interface.Shop.ICart' while attempting to activate 'DrMoradi.Areas.UserPanel.Controllers.UserShopController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method737(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 68
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-09-08 12:39:25.301 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:39:25.448 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:39:25.540 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:39:25.584 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:42:37.383 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-08 12:42:44.596 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 10 ("مرادی") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-09-08 12:42:45.510 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:42:46.925 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:42:48.067 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:42:52.524 +03:30 [Error] (Error.) (Exceptions)User=10 with Ip="::1" Request="/UserPanel/UserShop/Add" with TraceId="0HNFEMVD73HV8:00000002" get Exception
+System.InvalidOperationException: Unable to resolve service for type 'Core.Service.Interface.Shop.ICart' while attempting to activate 'DrMoradi.Areas.UserPanel.Controllers.UserShopController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method721(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 68
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-09-08 12:42:54.956 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:42:55.108 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:42:55.193 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:42:55.271 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:42:58.291 +03:30 [Error] (Error.) (Exceptions)User=10 with Ip="::1" Request="/UserPanel/UserShop/Add" with TraceId="0HNFEMVD73HV8:00000009" get Exception
+System.InvalidOperationException: Unable to resolve service for type 'Core.Service.Interface.Shop.ICart' while attempting to activate 'DrMoradi.Areas.UserPanel.Controllers.UserShopController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method721(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 68
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-09-08 12:43:37.871 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:43:37.974 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:43:38.040 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:43:38.312 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:43:38.357 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:43:42.495 +03:30 [Error] (Error.) (Exceptions)User=10 with Ip="::1" Request="/UserPanel/UserShop/Add" with TraceId="0HNFEMVD73HV9:0000000B" get Exception
+System.InvalidOperationException: Unable to resolve service for type 'Core.Service.Interface.Shop.ICart' while attempting to activate 'DrMoradi.Areas.UserPanel.Controllers.UserShopController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method770(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext)
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-09-08 12:46:13.917 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:13.998 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:14.050 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:14.113 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:14.164 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:16.562 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:16.636 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:16.730 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:16.783 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:16.836 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:20.219 +03:30 [Error] (Error.) (Exceptions)User=10 with Ip="::1" Request="/UserPanel/UserShop/Add" with TraceId="0HNFEMVD73HVA:00000016" get Exception
+System.InvalidOperationException: Unable to resolve service for type 'Core.Service.Interface.Shop.ICart' while attempting to activate 'DrMoradi.Areas.UserPanel.Controllers.UserShopController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method770(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext)
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-09-08 12:46:57.501 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:57.589 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:57.667 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:57.767 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:57.800 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:58.425 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:58.488 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:58.548 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:58.598 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:58.647 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:59.740 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:59.845 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:59.914 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:46:59.982 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:47:00.294 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:47:00.928 +03:30 [Error] (Error.) (Exceptions)User=10 with Ip="::1" Request="/UserPanel/UserShop/Add" with TraceId="0HNFEMVD73HV6:00000036" get Exception
+System.InvalidOperationException: Unable to resolve service for type 'Core.Service.Interface.Shop.ICart' while attempting to activate 'DrMoradi.Areas.UserPanel.Controllers.UserShopController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method846(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext)
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-09-08 12:47:06.901 +03:30 [Error] (Error.) (Exceptions)User=10 with Ip="::1" Request="/UserPanel/UserShop/Add" with TraceId="0HNFEMVD73HV6:00000038" get Exception
+System.InvalidOperationException: Unable to resolve service for type 'Core.Service.Interface.Shop.ICart' while attempting to activate 'DrMoradi.Areas.UserPanel.Controllers.UserShopController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method846(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext)
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-09-08 12:47:23.031 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:47:23.091 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:47:23.200 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:47:23.238 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:47:23.292 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:47:25.875 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:47:25.953 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:47:25.994 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:47:26.041 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:47:26.082 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:47:29.530 +03:30 [Error] (Error.) (Exceptions)User=10 with Ip="::1" Request="/UserPanel/UserShop/Add" with TraceId="0HNFEMVD73HV8:0000002A" get Exception
+System.InvalidOperationException: Unable to resolve service for type 'Core.Service.Interface.Shop.ICart' while attempting to activate 'DrMoradi.Areas.UserPanel.Controllers.UserShopController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method846(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext)
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-09-08 12:48:59.517 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:48:59.621 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:48:59.687 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:48:59.734 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:48:59.775 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:49:04.714 +03:30 [Error] (Error.) (Exceptions)User=10 with Ip="::1" Request="/UserPanel/UserShop/Add" with TraceId="0HNFEMVD73HVA:00000033" get Exception
+System.InvalidOperationException: Unable to resolve service for type 'Core.Service.Interface.Shop.ICart' while attempting to activate 'DrMoradi.Areas.UserPanel.Controllers.UserShopController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method846(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext)
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-09-08 12:52:02.511 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-08 12:52:10.105 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:52:14.173 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 10 ("مرادی") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-09-08 12:52:14.787 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:52:16.579 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:52:20.379 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:52:20.557 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:52:20.598 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:52:20.641 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:53:09.206 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:53:09.288 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:53:09.347 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:53:09.404 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:53:09.443 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:53:43.036 +03:30 [Error] (Microsoft.EntityFrameworkCore.Database.Command.) Failed executing DbCommand ("38"ms) [Parameters=["@__UserId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c0].[ProductId], [c0].[Quantity], [c0].[UnitPrice] AS [Price], [p].[ProductName]
+FROM [dbo].[Cart] AS [c]
+INNER JOIN [dbo].[CartItem] AS [c0] ON [c].[Id] = [c0].[CartId]
+INNER JOIN [dbo].[Products] AS [p] ON [c0].[ProductId] = [p].[Id]
+WHERE [c].[UserId] = @__UserId_0"
+2025-09-08 12:53:43.060 +03:30 [Error] (Microsoft.EntityFrameworkCore.Query.) An exception occurred while iterating over the results of a query for context type '"Data.MyContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Cart'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:4097dc8e-f105-42d9-a31f-4018522e7345
+Error Number:208,State:1,Class:16"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Cart'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:4097dc8e-f105-42d9-a31f-4018522e7345
+Error Number:208,State:1,Class:16
+2025-09-08 12:56:59.956 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:57:00.054 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:57:00.102 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:57:00.191 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:57:00.256 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:57:14.244 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:57:14.281 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:57:14.350 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:57:14.415 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:57:14.476 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:00.476 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:00.561 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:00.641 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:00.738 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:00.817 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:03.586 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:03.663 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:03.751 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:03.840 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:03.901 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:24.345 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:24.443 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:24.499 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:24.560 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:24.611 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:32.392 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-08 12:58:37.262 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 10 ("مرادی") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-09-08 12:58:39.412 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:43.492 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:46.089 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:46.233 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:46.278 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:58:46.350 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:59:46.043 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:59:46.139 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:59:46.187 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:59:46.245 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 12:59:46.300 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 13:52:37.501 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-08 13:52:45.557 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 13:53:15.607 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 10 ("مرادی") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-09-08 13:53:16.103 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 13:53:18.853 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 13:53:31.210 +03:30 [Error] (Microsoft.EntityFrameworkCore.Database.Command.) Failed executing DbCommand ("16"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c1].[Id], [c1].[DeleteTime], [c1].[IsDeleted], [c1].[UserId], [c0].[Id], [c0].[CartId], [c0].[DeleteTime], [c0].[IsDeleted], [c0].[ProductId], [c0].[Quantity], [c0].[UnitPrice]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DeleteTime], [c].[IsDeleted], [c].[UserId]
+    FROM [dbo].[Cart] AS [c]
+    WHERE [c].[UserId] = @__userId_0
+) AS [c1]
+LEFT JOIN [dbo].[CartItem] AS [c0] ON [c1].[Id] = [c0].[CartId]
+ORDER BY [c1].[Id]"
+2025-09-08 13:53:31.240 +03:30 [Error] (Microsoft.EntityFrameworkCore.Query.) An exception occurred while iterating over the results of a query for context type '"Data.MyContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Cart'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:e783fc74-df8f-45e7-bb13-525df07928ed
+Error Number:208,State:1,Class:16"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Cart'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:e783fc74-df8f-45e7-bb13-525df07928ed
+Error Number:208,State:1,Class:16
+2025-09-08 13:55:51.003 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-08 13:55:57.113 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 13:56:00.972 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 10 ("مرادی") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-09-08 13:56:01.556 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 13:56:02.480 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 13:56:06.136 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 13:56:20.938 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-09-08 13:56:28.786 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-09-08 13:57:59.528 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 13:57:59.683 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 13:57:59.719 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 13:57:59.753 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 14:01:48.200 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 14:01:48.249 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 14:01:48.327 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 14:01:48.401 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 14:01:48.447 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 14:02:15.849 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-09-08 14:02:55.937 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=10 with Path=null 
+2025-09-08 14:02:59.298 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
