@@ -1,4 +1,5 @@
-﻿// وضعیت لاگین
+﻿
+// وضعیت لاگین
 const isloggin = document.body.dataset.isloggin; // "true" یا "false"
 
 // نرمال‌سازی داده‌های سرور
@@ -8,7 +9,7 @@ function normalizeServerData(serverItems) {
         id: item.productId ?? item.id,
         name: item.name ?? item.productName,
         price: Number(item.price ?? 0),
-        qty: Number(item.qty ?? item.quantity ?? item.count ?? item.amount ?? 1),
+        Quantity: Number(item.Quantity ?? item.quantity ?? item.count ?? item.amount ?? 1),
         maxStock: Number(item.maxStock ?? item.stock ?? 0),
         image: item.image ?? item.imageUrl ?? ''
     }));
@@ -17,7 +18,7 @@ function normalizeServerData(serverItems) {
 // آپدیت شمارشگر
 function updateCartCount(cart) {
     if (!Array.isArray(cart)) cart = [];
-    const totalCount = cart.reduce((sum, p) => sum + (Number(p.qty) || 1), 0);
+    const totalCount = cart.reduce((sum, p) => sum + (Number(p.Quantity) || 1), 0);
 
     function tryUpdate(attempt = 1) {
         const el = document.querySelector('#cart-count') ||
@@ -64,27 +65,26 @@ function updateCartView(cart) {
         const li = document.createElement('li');
         li.className = "list-group-item d-flex justify-content-between align-items-center";
 
-        const nameQtySpan = document.createElement('span');
-        nameQtySpan.textContent = `${item.name} × ${item.qty}`;
+        const nameQuantitySpan = document.createElement('span');
+        nameQuantitySpan.textContent = `${item.name} × ${item.Quantity}`;
 
         const rightDiv = document.createElement('div');
         rightDiv.className = "d-flex align-items-center";
 
         const priceBadge = document.createElement('span');
         priceBadge.className = "badge bg-primary rounded-pill me-2";
-        priceBadge.textContent = `${(item.price * item.qty).toLocaleString()} تومان`;
+        priceBadge.textContent = `${(item.price * item.Quantity).toLocaleString()} تومان`;
 
         const removeBtn = document.createElement('button');
         removeBtn.className = "btn btn-sm btn-danger";
         removeBtn.textContent = "حذف";
         removeBtn.addEventListener('click', () => removeFromCart(item.id));
-        console.log("🆗 دکمه حذف ساخته شد برای:", item.name);
 
         rightDiv.append(priceBadge, removeBtn);
-        li.append(nameQtySpan, rightDiv);
+        li.append(nameQuantitySpan, rightDiv);
         listGroup.appendChild(li);
 
-        total += item.price * item.qty;
+        total += item.price * item.Quantity;
     });
 
     totalPriceEl.textContent = `${total.toLocaleString()} تومان`;
@@ -116,18 +116,36 @@ function loadServerCart() {
 
 // حذف از سبد
 function removeFromCart(productId) {
-    let cart = JSON.parse(localStorage.getItem('cartItems') || '[]');
-    cart = cart.filter(item => item.id !== productId);
-    localStorage.setItem('cartItems', JSON.stringify(cart));
-    updateCartView(cart);
-    updateCartCount(cart);
-    console.log("❌ آیتم حذف شد:", productId);
+    if (isloggin === "true") {
+        console.log(productId);
+        fetch(`/UserPanel/UserShop/Remove?productId=${productId}`, {
+            method: 'POST',
+            credentials: 'include'
+        })
+            .then(res => {
+                if (!res.ok) throw new Error(`⛔ خطا در حذف از سرور: ${res.status}`);
+                console.log(`🗑️ محصول ${productId} از سبد سرور حذف شد`);
+                loadServerCart();
+            })
+            .catch(err => {
+                console.error("🚨 خطا در حذف آیتم (سرور):", err);
+            });
+    } else {
+        let cart = JSON.parse(localStorage.getItem('cartItems') || '[]');
+        cart = cart.filter(item => item.id !== productId);
+        localStorage.setItem('cartItems', JSON.stringify(cart));
+        updateCartView(cart);
+        updateCartCount(cart);
+        console.log("❌ آیتم حذف شد (مهمان):", productId);
+    }
 }
 
 // شروع کار + افزودن به سبد خرید
 document.addEventListener('DOMContentLoaded', () => {
+
+
+
     if (isloggin === "true") {
-        console.log(updateCartView.toString());
         loadServerCart();
     } else {
         const cart = JSON.parse(localStorage.getItem('cartItems') || '[]');
@@ -137,21 +155,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 🎯 رویداد دکمه افزودن به سبد خرید
     const addBtn = document.querySelector('button[data-product-id]');
-    const qtyInput = document.getElementById('quantity');
+    const QuantityInput = document.getElementById('quantity');
 
-    if (addBtn && qtyInput) {
+    if (addBtn && QuantityInput) {
         addBtn.addEventListener('click', () => {
             const productId = addBtn.dataset.productId;
-            const qty = Number(qtyInput.value || 1);
+            const Quantity = Number(QuantityInput.value || 1);
             const name = document.querySelector('h4')?.textContent.trim();
             const price = Number((document.querySelector('.price')?.textContent || '0').replace(/\D/g, ''));
 
             if (isloggin === "true") {
-                fetch('/UserPanel/UserShop/AddToCart', {
+                fetch('/UserPanel/UserShop/Add', {
                     method: 'POST',
                     credentials: 'include',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ productId, qty })
+                    body: JSON.stringify({ productId, Quantity })
                 })
                     .then(res => {
                         if (!res.ok) throw new Error(`⛔ خطا: ${res.status}`);
@@ -163,14 +181,54 @@ document.addEventListener('DOMContentLoaded', () => {
                 let cart = JSON.parse(localStorage.getItem('cartItems') || '[]');
                 const existing = cart.find(item => item.id == productId);
                 if (existing) {
-                    existing.qty += qty;
+                    existing.Quantity += Quantity;
                 } else {
-                    cart.push({ id: productId, name, price, qty, maxStock: 0, image: '' });
+                    cart.push({ id: productId, name, price, Quantity, maxStock: 0, image: '' });
                 }
                 localStorage.setItem('cartItems', JSON.stringify(cart));
                 updateCartView(cart);
                 updateCartCount(cart);
             }
         });
+    }
+});
+document.addEventListener("DOMContentLoaded", function () {
+    const decreaseBtn = document.getElementById("decrease");
+    const increaseBtn = document.getElementById("increase");
+    const quantityInput = document.getElementById("quantity");
+
+    const maxStock = parseInt(quantityInput.max, 10) || 0;
+    const minStock = parseInt(quantityInput.min, 10) || 1;
+
+    console.log("maxStock =", maxStock);
+
+    if (decreaseBtn && increaseBtn && quantityInput) {
+        decreaseBtn.addEventListener("click", function () {
+            let currentValue = parseInt(quantityInput.value, 10) || minStock;
+            if (currentValue > minStock) {
+                quantityInput.value = currentValue - 1;
+            }
+        });
+
+        increaseBtn.addEventListener("click", function () {
+            console.log("increase click");
+            let currentValue = parseInt(quantityInput.value, 10) || minStock;
+            if (currentValue < maxStock) {
+                quantityInput.value = currentValue + 1;
+            }
+        });
+
+        // کنترل وقتی کاربر دستی تایپ کنه
+        quantityInput.addEventListener("input", function () {
+            let currentValue = parseInt(quantityInput.value, 10) || minStock;
+            if (currentValue < minStock) {
+                quantityInput.value = minStock;
+            }
+            if (currentValue > maxStock) {
+                quantityInput.value = maxStock;
+            }
+        });
+    } else {
+        console.error("One or more elements are not found!");
     }
 });

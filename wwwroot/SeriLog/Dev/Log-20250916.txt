@@ -1,0 +1,118 @@
+2025-09-16 07:54:51.585 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-16 07:55:09.902 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-16 07:57:00.367 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-16 07:57:03.009 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-16 07:58:10.644 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-16 07:58:10.759 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-16 07:58:44.952 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 07:59:08.494 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 07:59:17.045 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 07:59:18.863 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 07:59:24.642 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 07:59:26.612 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 07:59:33.201 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 08:10:42.831 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 08:10:53.672 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 08:13:02.820 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 08:13:12.767 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 08:13:39.187 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-09-16 08:14:13.195 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-09-16 08:15:04.046 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:01:20.950 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-16 09:01:28.409 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:01:36.902 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:01:46.828 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:01:57.993 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:02:28.921 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:03:04.409 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:03:07.527 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:03:16.966 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:03:24.348 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:06:41.464 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:07:08.695 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-16 09:07:29.622 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:07:33.249 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:07:40.547 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:12:40.893 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:13:02.366 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:13:06.485 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:13:14.836 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:13:45.112 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:13:53.078 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:14:33.800 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:14:37.841 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:19:04.138 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-16 09:19:12.702 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:19:40.440 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:24:59.445 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:25:02.320 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:25:04.179 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:26:46.915 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:26:58.212 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:27:05.870 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:30:04.090 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:30:05.956 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:30:07.915 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-09-16 09:30:13.435 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-09-16 09:30:21.659 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-09-16 09:33:29.487 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-09-16 09:33:59.917 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:35:40.852 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:35:47.356 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:35:49.198 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:35:51.310 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:37:21.266 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:37:36.321 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:37:40.406 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:38:01.229 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:38:31.446 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:38:35.117 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:38:41.368 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:39:19.912 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:39:26.814 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:39:28.337 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:42:58.465 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:46:15.182 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-16 09:46:22.809 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:46:54.521 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:46:58.556 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:47:21.980 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:48:09.973 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:49:14.532 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:50:06.001 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-16 09:50:21.577 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:50:39.895 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:50:41.785 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:51:38.736 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:51:40.505 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:52:09.525 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:52:33.312 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:52:35.795 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:52:48.364 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:52:51.138 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:53:04.408 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:53:06.297 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:53:19.858 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:54:10.473 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-09-16 09:54:18.133 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:54:23.251 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:54:25.184 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:55:39.027 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:55:44.605 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:55:53.166 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-09-16 09:56:42.402 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:56:46.141 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:57:03.277 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:57:05.095 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:57:09.105 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-09-16 09:57:13.626 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:57:15.652 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-09-16 09:59:18.192 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 09:59:28.529 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 10:00:05.429 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 10:02:22.903 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 10:04:47.904 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 10:04:51.964 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 10:05:03.634 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 
+2025-09-16 10:05:32.090 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-09-16 10:05:39.211 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=13 with Path=null 

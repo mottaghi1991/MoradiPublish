@@ -30,7 +30,7 @@ $(document).ready(function () {
     $('.table').addClass("table-striped");
     $('.table').addClass("table-responsive");
     $('.table').addClass("text-center");
-    $('.myselect').select2();
+    //$('.myselect').select2();
 });
 //const textarea = document.getElementById('FlexText');
 
