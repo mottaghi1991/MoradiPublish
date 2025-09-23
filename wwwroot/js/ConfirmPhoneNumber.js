@@ -85,8 +85,22 @@ function handleCodeSubmit(event) {
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                Swal.fire({ title: "موفق!", text: data.message, icon: "success", confirmButtonText: "باشه" })
-                    .then(() => window.location.href = data.redirectUrl);
+           
+                Swal.fire({
+                    title: "موفق!",
+                    text: data.message,
+                    icon: "success",
+                    confirmButtonText: "باشه"
+                }).then(() => {
+                //    mergeGuestCartToServer()
+                //    .then(() => {
+                        window.location.href = data.redirectUrl;
+                //    })
+                //    .catch(err => {
+                //        console.error('خطا در ادغام سبد:', err);
+                //        window.location.href = data.redirectUrl; // حتی با خطا هم ریدایرکت
+                //    });
+                });
             } else {
                 Swal.fire({ title: "خطا!", text: data.message, icon: "error", confirmButtonText: "باشه" });
             }

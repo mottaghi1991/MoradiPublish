@@ -17,6 +17,7 @@ function normalizeServerData(serverItems) {
 
 // آپدیت شمارشگر
 function updateCartCount(cart) {
+  
     if (!Array.isArray(cart)) cart = [];
     const totalCount = cart.reduce((sum, p) => sum + (Number(p.Quantity) || 1), 0);
 
@@ -38,6 +39,7 @@ function updateCartCount(cart) {
 
 // رندر سبد خرید
 function updateCartView(cart) {
+
     console.log("📢 updateCartView فراخوانی شد", cart);
 
     const emptyCartEl = document.querySelector('#emptyCart');
@@ -92,30 +94,42 @@ function updateCartView(cart) {
 
 // لود سبد از سرور
 function loadServerCart() {
+   
     console.log("📥 دریافت سبد از سرور...");
-
-    fetch('/UserPanel/UserShop/GetCart', { credentials: 'include' })
-        .then(res => {
-            if (!res.ok) throw new Error(`⛔ پاسخ نامعتبر: ${res.status}`);
-            return res.json();
-        })
-        .then(serverData => {
-            const cartArray = normalizeServerData(serverData);
-            localStorage.setItem('cartItems', JSON.stringify(cartArray));
-            updateCartView(cartArray);
-            updateCartCount(cartArray);
-            console.log("✅ سبد سرور به‌روزرسانی شد:", cartArray);
-        })
-        .catch(err => {
-            console.error("🚨 خطا در loadServerCart:", err);
-            const localCart = JSON.parse(localStorage.getItem('cartItems') || '[]');
-            updateCartView(localCart);
-            updateCartCount(localCart);
-        });
+    if (!isloggin) {
+        alert("loadserver" + isloggin);
+        console.log("😴 کاربر مهمان است - سبد از localStorage لود می‌شود.");
+        const localCart = JSON.parse(localStorage.getItem('cartItems') || '[]');
+        updateCartView(localCart);
+        updateCartCount(localCart);
+        return;
+    }
+    if (isloggin) {
+        alert("loadserver"+isloggin);
+        fetch('/UserPanel/UserShop/GetCart', { credentials: 'include' })
+            .then(res => {
+                if (!res.ok) throw new Error(`⛔ پاسخ نامعتبر: ${res.status}`);
+                return res.json();
+            })
+            .then(serverData => {
+                const cartArray = normalizeServerData(serverData);
+                //localStorage.setItem('cartItems', JSON.stringify(cartArray));
+                updateCartView(cartArray);
+                updateCartCount(cartArray);
+                console.log("✅ سبد سرور به‌روزرسانی شد:", cartArray);
+            })
+            .catch(err => {
+                console.error("🚨 خطا در loadServerCart:", err);
+                const localCart = JSON.parse(localStorage.getItem('cartItems') || '[]');
+                updateCartView(localCart);
+                updateCartCount(localCart);
+            });
+    }
 }
 
 // حذف از سبد
 function removeFromCart(productId) {
+    
     if (isloggin === "true") {
         console.log(productId);
         fetch(`/UserPanel/UserShop/Remove?productId=${productId}`, {
@@ -143,12 +157,18 @@ function removeFromCart(productId) {
 // شروع کار + افزودن به سبد خرید
 document.addEventListener('DOMContentLoaded', () => {
 
+ 
 
 
     if (isloggin === "true") {
+        alert("dom aval login")
         loadServerCart();
     } else {
+        alert(" dom aval guest befor load" + localStorage.getItem('cartItems'))
         const cart = JSON.parse(localStorage.getItem('cartItems') || '[]');
+        alert("dom aval guest"+cart)
+   
+      
         updateCartView(cart);
         updateCartCount(cart);
     }
@@ -159,31 +179,63 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (addBtn && QuantityInput) {
         addBtn.addEventListener('click', () => {
+
             const productId = addBtn.dataset.productId;
             const Quantity = Number(QuantityInput.value || 1);
             const name = document.querySelector('h4')?.textContent.trim();
             const price = Number((document.querySelector('.price')?.textContent || '0').replace(/\D/g, ''));
-
+            //کاربر لاگین
             if (isloggin === "true") {
+                const stockValue = Number(document.getElementById('quantity')?.max || 0);
+                // گرفتن سبد فعلی از localStorage (که آخرین بار loadServerCart ذخیره کرده)
+                const cart = JSON.parse(localStorage.getItem('cartItems') || '[]');
+                const existing = cart.find(item => item.id == productId);
+                const alreadyInCart = existing ? Number(existing.Quantity) : 0;
+
+                const newTotal = alreadyInCart + Quantity;
+                if (stockValue > 0 && newTotal > stockValue) {
+                    alert(`شما الان ${alreadyInCart} تا دارید، موجودی کل ${stockValue} است`);
+                    return; // جلوگیری از ارسال درخواست
+                }
                 fetch('/UserPanel/UserShop/Add', {
                     method: 'POST',
                     credentials: 'include',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ productId, Quantity })
+                    body: JSON.stringify({ productId: Number(productId), Quantity: Number(Quantity) })
                 })
                     .then(res => {
                         if (!res.ok) throw new Error(`⛔ خطا: ${res.status}`);
                         return res.json();
                     })
-                    .then(() => loadServerCart())
+                    .then(data => {
+                        console.log("✅ پاسخ سرور بعد از افزودن:", data);
+                        return loadServerCart(); // اینجا از سرور maxStock رو هم بگیر
+                    })
                     .catch(err => console.error("🚨 ارور در افزودن به سرور:", err));
-            } else {
+            }
+            //کاربر مهمان
+            else {
+                const stockValue = Number(document.getElementById('quantity')?.max || 0);
                 let cart = JSON.parse(localStorage.getItem('cartItems') || '[]');
                 const existing = cart.find(item => item.id == productId);
+                const alreadyInCart = existing ? Number(existing.Quantity) : 0;
+                const newTotal = alreadyInCart + Quantity;
+                // جلوگیری قبل از تغییر
+                if (stockValue > 0 && newTotal > stockValue) {
+                    alert(`شما الان ${alreadyInCart} تا دارید، موجودی کل ${stockValue} است`);
+                    return;
+                }
                 if (existing) {
-                    existing.Quantity += Quantity;
+                    if (existing.Quantity + Quantity <= stockValue) {
+                        existing.Quantity += Quantity;
+                    } else {
+                        existing.Quantity = stockValue; // حداکثر موجودی
+                    }
                 } else {
-                    cart.push({ id: productId, name, price, Quantity, maxStock: 0, image: '' });
+                    cart.push({
+                        id: productId, name, price, Quantity: Math.min(Quantity, stockValue),
+                        maxStock: stockValue, image: ''
+                    });
                 }
                 localStorage.setItem('cartItems', JSON.stringify(cart));
                 updateCartView(cart);
@@ -193,6 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 document.addEventListener("DOMContentLoaded", function () {
+
     const decreaseBtn = document.getElementById("decrease");
     const increaseBtn = document.getElementById("increase");
     const quantityInput = document.getElementById("quantity");
@@ -200,7 +253,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const maxStock = parseInt(quantityInput.max, 10) || 0;
     const minStock = parseInt(quantityInput.min, 10) || 1;
 
-    console.log("maxStock =", maxStock);
 
     if (decreaseBtn && increaseBtn && quantityInput) {
         decreaseBtn.addEventListener("click", function () {
@@ -232,3 +284,35 @@ document.addEventListener("DOMContentLoaded", function () {
         console.error("One or more elements are not found!");
     }
 });
+
+
+
+
+function mergeGuestCartToServer() {
+   
+    const guestCart = JSON.parse(localStorage.getItem('cartItems') || '[]');
+    console.log(guestCart);
+    if (!guestCart.length) {
+        return Promise.resolve(); // چیزی برای انتقال نیست
+    }
+    const payload = guestCart.map(item => ({
+        productId: item.productId ?? item.id,
+        quantity: item.Quantity ?? item.quantity ?? 1,
+        price: item.price
+    }));
+
+    return fetch('/UserPanel/UserShop/MergeCart', {
+        method: 'POST',
+        credentials: 'include',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+    })
+        .then(res => res.json())
+        .then(data => {
+            if (!data.success) throw new Error(data.message || "خطا در انتقال سبد");
+            alert("پاک کردن لوکال")
+            localStorage.removeItem('cartItems');
+            alert(localStorage.getItem('cartItems'));
+            console.log("سبد مهمان منتقل شد");
+        });
+}
