@@ -92,14 +92,14 @@ function handleCodeSubmit(event) {
                     icon: "success",
                     confirmButtonText: "باشه"
                 }).then(() => {
-                //    mergeGuestCartToServer()
-                //    .then(() => {
+                    mergeGuestCartToServer()
+                    .then(() => {
                         window.location.href = data.redirectUrl;
-                //    })
-                //    .catch(err => {
-                //        console.error('خطا در ادغام سبد:', err);
-                //        window.location.href = data.redirectUrl; // حتی با خطا هم ریدایرکت
-                //    });
+                    })
+                    .catch(err => {
+                        console.error('خطا در ادغام سبد:', err);
+                        window.location.href = data.redirectUrl; // حتی با خطا هم ریدایرکت
+                    });
                 });
             } else {
                 Swal.fire({ title: "خطا!", text: data.message, icon: "error", confirmButtonText: "باشه" });
