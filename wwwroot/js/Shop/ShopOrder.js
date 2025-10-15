@@ -71,9 +71,37 @@ function updateCartView(cart) {
         const li = document.createElement('li');
         li.className = "list-group-item d-flex justify-content-between align-items-center";
 
-        const nameQuantitySpan = document.createElement('span');
-        nameQuantitySpan.textContent = `${item.name} × ${item.Quantity}`;
+        // 📦 نام کالا + دکمه‌های تغییر تعداد
+        const leftDiv = document.createElement('div');
+        leftDiv.className = "d-flex align-items-center";
 
+        const nameSpan = document.createElement('span');
+        nameSpan.textContent = item.name;
+        nameSpan.classList.add("me-3");
+
+        // 🔢 کنترل افزایش/کاهش تعداد
+        const quantityControl = document.createElement('div');
+        quantityControl.className = "d-flex align-items-center border rounded px-2 py-1";
+
+        const minusBtn = document.createElement('button');
+        minusBtn.className = "btn btn-sm btn-light px-2";
+        minusBtn.textContent = "–";
+        minusBtn.onclick = () => changeCartQuantity(item.id, item.Quantity - 1);
+
+        const quantitySpan = document.createElement('span');
+        quantitySpan.className = "mx-2 fw-bold";
+        quantitySpan.textContent = item.Quantity;
+
+        const plusBtn = document.createElement('button');
+        plusBtn.className = "btn btn-sm btn-light px-2";
+        plusBtn.textContent = "+";
+        plusBtn.onclick = () => changeCartQuantity(item.id, item.Quantity + 1);
+
+        quantityControl.append(minusBtn, quantitySpan, plusBtn);
+
+        leftDiv.append(nameSpan, quantityControl);
+
+        // 💰 قیمت و حذف
         const rightDiv = document.createElement('div');
         rightDiv.className = "d-flex align-items-center";
 
@@ -84,18 +112,20 @@ function updateCartView(cart) {
         const removeBtn = document.createElement('button');
         removeBtn.className = "btn btn-sm btn-danger";
         removeBtn.textContent = "حذف";
-        removeBtn.addEventListener('click', () => removeFromCart(item.id));
+        removeBtn.onclick = () => removeFromCart(item.id);
 
         rightDiv.append(priceBadge, removeBtn);
-        li.append(nameQuantitySpan, rightDiv);
+
+        li.append(leftDiv, rightDiv);
         listGroup.appendChild(li);
 
         total += item.price * item.Quantity;
     });
 
     totalPriceEl.textContent = `${total.toLocaleString()} تومان`;
-    updateCartCount(cart)
+    updateCartCount(cart);
 }
+
 
 // --- عملیات سرور ---
 function loadServerCart() {
@@ -159,10 +189,24 @@ function addToCart(productId, name, price, Quantity, stockValue) {
 
         // موجودی نهایی از آیتم یا پارامتر ورودی
         const finalMaxStock = existing?.maxStock || stockValue || parseInt(document.getElementById('quantity')?.max, 10) || 0;
-
+        if (!finalMaxStock || finalMaxStock <= 0) {
+            alert('این محصول در حال حاضر موجود نیست.');
+            return;
+        }
         let newTotal = alreadyInCart + Quantity;
-        if (finalMaxStock > 0 && newTotal > finalMaxStock) {
-            alert(`شما الان ${alreadyInCart} تا دارید، موجودی کل ${finalMaxStock} است`);
+        if (newTotal > finalMaxStock) {
+
+            Swal.fire({
+                icon: 'error',
+                title: 'ثبت ناموفق',
+                text:'درخواست شما بیشتر از موجودی کالا می باشد .',
+                //text: `شما الان ${alreadyInCart} تا دارید، موجودی کل ${finalMaxStock} است`,
+                confirmButtonText: 'باشه',
+                timer: 3000,
+                timerProgressBar: true
+            });
+
+       
             Quantity = Math.max(finalMaxStock - alreadyInCart, 0);
             if (Quantity <= 0) return; // چیزی برای افزودن نیست
         }
@@ -177,7 +221,19 @@ function addToCart(productId, name, price, Quantity, stockValue) {
                 if (!res.ok) throw new Error(`⛔ خطا: ${res.status}`);
                 return res.json();
             })
-            .then(() => loadServerCart())
+            .then(() => {
+                loadServerCart();
+                Swal.fire({
+                    icon: 'success',
+                    title: 'ثبت موفق',
+                    text: 'محصول با موفقیت به سبد خرید افزوده شد.',
+                    confirmButtonText: 'باشه',
+                    confirmButtonColor: '#28a745', // سبز
+                    timer: 2000,
+                    timerProgressBar: true
+                });
+
+            })
             .catch(err => console.error("🚨 ارور در افزودن به سرور:", err));
     } else {
         let cart = readGuestCart();
@@ -186,8 +242,15 @@ function addToCart(productId, name, price, Quantity, stockValue) {
         const newTotal = alreadyInCart + Quantity;
 
         if (stockValue > 0 && newTotal > stockValue) {
-            alert(`شما الان ${alreadyInCart} تا دارید، موجودی کل ${stockValue} است`);
-            return;
+            Swal.fire({
+                icon: 'error',
+                title: 'ثبت ناموفق',
+                text: 'درخواست شما بیشتر از موجودی کالا می باشد .',
+                //text: `شما الان ${alreadyInCart} تا دارید، موجودی کل ${finalMaxStock} است`,
+                confirmButtonText: 'باشه',
+                timer: 3000,
+                timerProgressBar: true
+            });            return;
         }
 
         if (existing) {
@@ -270,3 +333,69 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+
+function changeCartQuantity(productId, newQty) {
+    console.log("🌀 changeCartQuantity:", { productId, newQty });
+
+    // اگر مقدار صفر یا منفی است یعنی حذف کالا
+    if (newQty <= 0) {
+        removeFromCart(productId);
+        return;
+    }
+
+    if (IS_LOGGED_IN) {
+        // 🔐 کاربر لاگین‌شده → ارسال به سرور
+        fetch('/UserPanel/UserShop/UpdateQuantity', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            credentials: 'include',
+            body: JSON.stringify({ productId, quantity: newQty })
+        })
+            .then(res => {
+                if (!res.ok) throw new Error(`⛔ پاسخ نامعتبر: ${res.status}`);
+                return res.json();
+            })
+            .then(result => {
+                if (result.success) {
+                    console.log(`✅ تعداد ${newQty} از محصول ${productId} در سرور ثبت شد`);
+                    loadServerCart();
+                } else {
+                    Swal.fire('خطا', result.message || 'امکان تغییر تعداد وجود ندارد', 'error');
+                }
+            })
+            .catch(err => {
+                console.error("🚨 خطا در تغییر تعداد سمت سرور:", err);
+                Swal.fire('خطا', 'ارتباط با سرور برقرار نشد', 'error');
+            });
+    }
+    else {
+        // 🧺 کاربر مهمان → کنترل با stockValue
+        const cart = readGuestCart();
+        const item = cart.find(x => x.id == productId);
+        if (!item) return;
+
+        const stockValue = Number(item.maxStock || item.stockValue || 0);
+        if (stockValue > 0 && newQty > stockValue) {
+            Swal.fire({
+                icon: 'error',
+                title: 'ثبت ناموفق',
+                text: 'درخواست شما بیشتر از موجودی کالا می‌باشد.',
+                confirmButtonText: 'باشه',
+                timer: 3000,
+                timerProgressBar: true
+            });
+            // اصلاح مقدار به حداکثر مجاز
+            item.Quantity = stockValue;
+        } else {
+            item.Quantity = newQty;
+        }
+
+        saveGuestCart(cart);
+        updateCartView(cart);
+        updateCartCount(cart);
+
+        console.log(`📦 تغییر تعداد در سبد مهمان: ${item.name} → ${item.Quantity}`);
+    }
+}
+

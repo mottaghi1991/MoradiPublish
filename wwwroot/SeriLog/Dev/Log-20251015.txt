@@ -1,0 +1,812 @@
+2025-10-15 08:02:44.567 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 08:03:14.971 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-10-15 08:03:42.412 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-10-15 08:03:42.644 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-10-15 08:03:57.897 +03:30 [Warning] (DrMoradi.Areas.UserPanel.Controllers.ShopController.) پرداخت لغو شد یا ناموفق بود. UserId=9, Authority="S0000000000000000000000000000003v3m3"
+2025-10-15 08:04:07.881 +03:30 [Warning] (DrMoradi.Areas.UserPanel.Controllers.ShopController.) پرداخت لغو شد یا ناموفق بود. UserId=9, Authority="S000000000000000000000000000000rnxmz"
+2025-10-15 08:26:14.085 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 08:26:30.999 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 08:26:30.999 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 08:29:25.469 +03:30 [Error] (Error.) (Exceptions)User=9 with Ip="127.0.0.1" Request="/Admin/DietOrder" with TraceId="0HNGBKSL79AIV:00000001" get Exception
+Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.CompilationFailedException: One or more compilation failures occurred:
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\DietOrder\Index.cshtml(61,49): error CS1061: 'DateTime' does not contain a definition for 'ToPersianLong' and no accessible extension method 'ToPersianLong' accepting a first argument of type 'DateTime' could be found (are you missing a using directive or an assembly reference?)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.OnCacheMiss(String normalizedPath)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 68
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-10-15 08:29:36.185 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 08:30:02.893 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 08:30:02.893 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 08:30:48.788 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 08:30:48.788 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 08:31:16.988 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 08:31:16.988 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 08:34:44.619 +03:30 [Error] (Error.) (Exceptions)User=9 with Ip="127.0.0.1" Request="/Admin/DietOrder" with TraceId="0HNGBKUHJ67UK:00000001" get Exception
+Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.CompilationFailedException: One or more compilation failures occurred:
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\DietOrder\Index.cshtml(63,49): error CS1061: 'DateTime' does not contain a definition for 'ToPersianDayOfWeek' and no accessible extension method 'ToPersianDayOfWeek' accepting a first argument of type 'DateTime' could be found (are you missing a using directive or an assembly reference?)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.OnCacheMiss(String normalizedPath)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 68
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-10-15 08:34:52.876 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 08:34:52.892 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 08:34:54.130 +03:30 [Error] (Error.) (Exceptions)User=9 with Ip="127.0.0.1" Request="/Admin/DietOrder" with TraceId="0HNGBKUHJ67UK:00000007" get Exception
+Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.CompilationFailedException: One or more compilation failures occurred:
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\DietOrder\Index.cshtml(63,49): error CS1061: 'DateTime' does not contain a definition for 'ToPersianDayOfWeek' and no accessible extension method 'ToPersianDayOfWeek' accepting a first argument of type 'DateTime' could be found (are you missing a using directive or an assembly reference?)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.OnCacheMiss(String normalizedPath)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext)
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-10-15 08:35:08.274 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 08:35:23.563 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 08:35:23.736 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:37:56.953 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 11:38:26.732 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-10-15 11:38:26.834 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-10-15 11:38:30.100 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-10-15 11:38:43.033 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-10-15 11:38:43.062 +03:30 [Error] (Microsoft.EntityFrameworkCore.Database.Command.) Failed executing DbCommand ("18"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000), @p11='?' (DbType = Int32), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p15='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [dbo].[Order] ([AloPeykOrderId], [AloPeykOrderToken], [AloPeykStatus], [AloPeykTrackingUrl], [Amount], [DeleteTime], [DeliveryMethod], [OrderDate], [PaymentAuthority], [PaymentDate], [PaymentRefId], [SendPrice], [ShippingAddressId], [Status], [TotalAmount], [UserId])
+OUTPUT INSERTED.[Id], INSERTED.[IsDeleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);"
+2025-10-15 11:38:43.096 +03:30 [Error] (Microsoft.EntityFrameworkCore.Update.) An exception occurred in the database while saving changes for context type '"Data.MyContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AloPeykOrderId'.
+Invalid column name 'AloPeykOrderToken'.
+Invalid column name 'AloPeykStatus'.
+Invalid column name 'AloPeykTrackingUrl'.
+Invalid column name 'DeliveryMethod'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:aa8b33ca-17d5-43cc-a706-7615231a227d
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AloPeykOrderId'.
+Invalid column name 'AloPeykOrderToken'.
+Invalid column name 'AloPeykStatus'.
+Invalid column name 'AloPeykTrackingUrl'.
+Invalid column name 'DeliveryMethod'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:aa8b33ca-17d5-43cc-a706-7615231a227d
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-15 11:38:43.136 +03:30 [Error] (DrMoradi.) (Data Error) User Run Insert and Get Error  ObjectName= "Order" and userId = 9 and return null
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AloPeykOrderId'.
+Invalid column name 'AloPeykOrderToken'.
+Invalid column name 'AloPeykStatus'.
+Invalid column name 'AloPeykTrackingUrl'.
+Invalid column name 'DeliveryMethod'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:aa8b33ca-17d5-43cc-a706-7615231a227d
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Data.MasterServices.MasterServices`1.InsertAsync(T Obj) in H:\GitProject\DrMoradi\Data\MasterServices\MasterServices.cs:line 117
+2025-10-15 11:38:48.752 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-10-15 11:38:48.766 +03:30 [Error] (Microsoft.EntityFrameworkCore.Database.Command.) Failed executing DbCommand ("14"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000), @p11='?' (DbType = Int32), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p15='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [dbo].[Order] ([AloPeykOrderId], [AloPeykOrderToken], [AloPeykStatus], [AloPeykTrackingUrl], [Amount], [DeleteTime], [DeliveryMethod], [OrderDate], [PaymentAuthority], [PaymentDate], [PaymentRefId], [SendPrice], [ShippingAddressId], [Status], [TotalAmount], [UserId])
+OUTPUT INSERTED.[Id], INSERTED.[IsDeleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);"
+2025-10-15 11:38:48.769 +03:30 [Error] (Microsoft.EntityFrameworkCore.Update.) An exception occurred in the database while saving changes for context type '"Data.MyContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AloPeykOrderId'.
+Invalid column name 'AloPeykOrderToken'.
+Invalid column name 'AloPeykStatus'.
+Invalid column name 'AloPeykTrackingUrl'.
+Invalid column name 'DeliveryMethod'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:aa8b33ca-17d5-43cc-a706-7615231a227d
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AloPeykOrderId'.
+Invalid column name 'AloPeykOrderToken'.
+Invalid column name 'AloPeykStatus'.
+Invalid column name 'AloPeykTrackingUrl'.
+Invalid column name 'DeliveryMethod'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:aa8b33ca-17d5-43cc-a706-7615231a227d
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-15 11:38:48.793 +03:30 [Error] (DrMoradi.) (Data Error) User Run Insert and Get Error  ObjectName= "Order" and userId = 9 and return null
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AloPeykOrderId'.
+Invalid column name 'AloPeykOrderToken'.
+Invalid column name 'AloPeykStatus'.
+Invalid column name 'AloPeykTrackingUrl'.
+Invalid column name 'DeliveryMethod'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:aa8b33ca-17d5-43cc-a706-7615231a227d
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Data.MasterServices.MasterServices`1.InsertAsync(T Obj) in H:\GitProject\DrMoradi\Data\MasterServices\MasterServices.cs:line 117
+2025-10-15 11:40:10.942 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 11:40:24.131 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-10-15 11:42:17.414 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 11:42:30.443 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-10-15 11:43:07.200 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-10-15 11:43:17.961 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-10-15 11:44:56.700 +03:30 [Error] (Core.Service.Services.Delivery.AloPeylServices.) خطا در Deserialize پاسخ CreateOrder
+System.Text.Json.JsonException: The JSON value could not be converted to System.String. Path: $.object.status | LineNumber: 0 | BytePositionInLine: 151.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'Number' as a string.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedString(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.GetString()
+   at System.Text.Json.Serialization.Converters.StringConverter.Read(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Core.Service.Services.Delivery.AloPeylServices.CreateOrderAsync(AloPeykOrderRequest request) in H:\GitProject\DrMoradi\Core\Service\Services\Delivery\AloPeylServices.cs:line 116
+2025-10-15 11:46:28.571 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 11:46:55.041 +03:30 [Error] (Core.Service.Services.Delivery.AloPeylServices.) خطا در Deserialize پاسخ CreateOrder
+System.Text.Json.JsonException: The JSON value could not be converted to System.String. Path: $.object.status | LineNumber: 0 | BytePositionInLine: 151.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'Number' as a string.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedString(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.GetString()
+   at System.Text.Json.Serialization.Converters.StringConverter.Read(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Core.Service.Services.Delivery.AloPeylServices.CreateOrderAsync(AloPeykOrderRequest request) in H:\GitProject\DrMoradi\Core\Service\Services\Delivery\AloPeylServices.cs:line 116
+2025-10-15 11:50:37.047 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:50:37.238 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:50:41.285 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:50:41.316 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:51:30.900 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:51:30.900 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:51:32.986 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:51:32.986 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:51:51.978 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 11:52:00.047 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:52:00.047 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:52:17.365 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:52:17.365 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:54:27.736 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:54:27.745 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:54:28.928 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:54:28.960 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 11:59:44.956 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 12:00:36.506 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:00:36.506 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:00:39.380 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:01:09.282 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:01:09.282 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:03:09.102 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 12:03:28.683 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:03:28.683 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:03:32.189 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:03:32.189 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:05:03.875 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 12:05:24.189 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:05:24.189 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:05:27.718 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:05:27.718 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:10:10.290 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 12:10:27.581 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:10:27.581 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:12:28.123 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:12:28.123 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:12:38.343 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:12:38.343 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:19:51.811 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:19:51.819 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:21:03.792 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 12:21:03.802 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:22:56.330 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 13:23:33.324 +03:30 [Error] (Microsoft.EntityFrameworkCore.Query.) An exception occurred while iterating over the results of a query for context type '"Data.MyContext"'."
+""System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.Int64'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int64()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt64(Int32 i)
+   at lambda_method420(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.Int64'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int64()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt64(Int32 i)
+   at lambda_method420(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-10-15 13:23:33.469 +03:30 [Error] (Error.) (Exceptions)User=9 with Ip="127.0.0.1" Request="/Admin/Shop" with TraceId="0HNGBQ2EO55I8:00000001" get Exception
+System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.Int64'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int64()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt64(Int32 i)
+   at lambda_method420(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Core.Service.Services.Shop.OrderServices.GetAllOrder() in H:\GitProject\DrMoradi\Core\Service\Services\Shop\OrderServices.cs:line 119
+   at DrMoradi.Areas.Admin.Controllers.ShopController.Index() in H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Controllers\ShopController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 68
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-10-15 13:23:47.503 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:23:47.700 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:23:55.422 +03:30 [Error] (Microsoft.EntityFrameworkCore.Query.) An exception occurred while iterating over the results of a query for context type '"Data.MyContext"'."
+""System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.Int64'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int64()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt64(Int32 i)
+   at lambda_method420(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.Int64'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int64()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt64(Int32 i)
+   at lambda_method420(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-10-15 13:23:55.553 +03:30 [Error] (Error.) (Exceptions)User=9 with Ip="127.0.0.1" Request="/Admin/Shop" with TraceId="0HNGBQ2EO55IN:00000002" get Exception
+System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.Int64'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int64()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt64(Int32 i)
+   at lambda_method420(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Core.Service.Services.Shop.OrderServices.GetAllOrder() in H:\GitProject\DrMoradi\Core\Service\Services\Shop\OrderServices.cs:line 119
+   at DrMoradi.Areas.Admin.Controllers.ShopController.Index() in H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Controllers\ShopController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 68
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-10-15 13:23:59.015 +03:30 [Error] (Microsoft.EntityFrameworkCore.Query.) An exception occurred while iterating over the results of a query for context type '"Data.MyContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadAsyncCallbackCaptureException(TaskCompletionSource`1 source)
+ClientConnectionId:86b4beb6-e8ea-4e4e-8e27-c54fc2821b80
+Error Number:-1,State:0,Class:20"
+Microsoft.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadAsyncCallbackCaptureException(TaskCompletionSource`1 source)
+ClientConnectionId:86b4beb6-e8ea-4e4e-8e27-c54fc2821b80
+Error Number:-1,State:0,Class:20
+2025-10-15 13:23:59.037 +03:30 [Error] (DrMoradi.) (Data Error) User Run GetAllEf ObjectName= "Post"  UserId = 9
+Microsoft.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadAsyncCallbackCaptureException(TaskCompletionSource`1 source)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Data.MasterServices.MasterServices`1.GetAllEfAsync() in H:\GitProject\DrMoradi\Data\MasterServices\MasterServices.cs:line 230
+ClientConnectionId:86b4beb6-e8ea-4e4e-8e27-c54fc2821b80
+Error Number:-1,State:0,Class:20
+2025-10-15 13:24:00.456 +03:30 [Error] (Error.) (Exceptions)User=9 with Ip="127.0.0.1" Request="/" with TraceId="0HNGBQ2EO55I7:00000001" get Exception
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Take[TSource](IEnumerable`1 source, Int32 count)
+   at Core.Service.Services.Dr.PostServices.GetTopPost(Int32 number) in H:\GitProject\DrMoradi\Core\Service\Services\Dr\PostServices.cs:line 37
+   at DrMoradi.Views.Shared.component.Slider.PostComponent.InvokeAsync() in H:\GitProject\DrMoradi\DrMoradi\component\Post\PostComponent.cs:line 19
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, Object component, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at WebStore.Pages.Home.Views_Home_Index.ExecuteAsync() in H:\GitProject\DrMoradi\DrMoradi\Views\Home\Index.cshtml:line 119
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|28_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 42
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-10-15 13:24:38.403 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 13:24:53.912 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:24:55.382 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:28:08.571 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:28:08.872 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:28:09.119 +03:30 [Error] (Microsoft.EntityFrameworkCore.Query.) An exception occurred while iterating over the results of a query for context type '"Data.MyContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:90fab072-d074-47d4-982a-f22fdb80156e
+Error Number:-2,State:0,Class:11"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:90fab072-d074-47d4-982a-f22fdb80156e
+Error Number:-2,State:0,Class:11
+2025-10-15 13:28:09.136 +03:30 [Error] (DrMoradi.) (Data Error) User Run GetAllEf ObjectName= "Post"  UserId = 9
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Data.MasterServices.MasterServices`1.GetAllEfAsync() in H:\GitProject\DrMoradi\Data\MasterServices\MasterServices.cs:line 230
+ClientConnectionId:90fab072-d074-47d4-982a-f22fdb80156e
+Error Number:-2,State:0,Class:11
+2025-10-15 13:28:09.306 +03:30 [Error] (Error.) (Exceptions)User=9 with Ip="127.0.0.1" Request="/" with TraceId="0HNGBQ3D3KDOD:00000001" get Exception
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Take[TSource](IEnumerable`1 source, Int32 count)
+   at Core.Service.Services.Dr.PostServices.GetTopPost(Int32 number) in H:\GitProject\DrMoradi\Core\Service\Services\Dr\PostServices.cs:line 37
+   at DrMoradi.Views.Shared.component.Slider.PostComponent.InvokeAsync() in H:\GitProject\DrMoradi\DrMoradi\component\Post\PostComponent.cs:line 19
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, Object component, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at WebStore.Pages.Home.Views_Home_Index.ExecuteAsync() in H:\GitProject\DrMoradi\DrMoradi\Views\Home\Index.cshtml:line 119
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|28_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 42
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-10-15 13:30:58.277 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:30:58.277 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:31:04.980 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:31:05.002 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:31:31.542 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:31:31.542 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:32:05.242 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 13:32:20.818 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 13:32:20.818 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:08:09.725 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 14:08:38.415 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:08:38.415 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:08:51.582 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:08:51.582 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:09:21.451 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:09:21.458 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:09:53.993 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:09:54.001 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:09:54.938 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:09:54.938 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:12:52.344 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/Admin/Shop", Method="GET", IP="127.0.0.1"
+2025-10-15 14:15:55.760 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:15:55.765 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:15:57.806 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:15:57.824 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:17:18.126 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:17:18.132 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:17:46.119 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:17:46.119 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:23:36.024 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 14:23:55.393 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:23:55.392 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:23:59.218 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:23:59.218 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:24:01.932 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:24:01.932 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:24:45.370 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:24:45.370 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:24:47.505 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:24:47.520 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:30:07.322 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:30:07.322 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:30:25.512 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:30:25.519 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:32:24.576 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:32:24.589 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:35:24.314 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:35:24.322 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:35:36.480 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:35:36.507 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:39:51.921 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 14:40:12.806 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:40:12.806 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:40:16.971 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:40:16.971 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:40:20.415 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:40:20.415 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:40:22.375 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:40:22.375 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:40:24.292 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:40:24.308 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:40:35.103 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:40:35.103 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:44:33.039 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 14:45:07.523 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:07.523 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:11.178 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:11.178 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:14.363 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:14.385 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:36.259 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:36.259 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:40.478 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:40.498 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:43.010 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:43.010 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:56.014 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:56.021 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:56.974 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:45:56.994 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:52:07.929 +03:30 [Error] (Error.) (Exceptions)User=9 with Ip="127.0.0.1" Request="/Admin/Product/EditBatch" with TraceId="0HNGBRG22CF91:00000001" get Exception
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ProductBatch -> BatchAddVM
+Domain.Shop.ProductBatch -> Core.Dto.Shop.Batch.BatchAddVM
+   at lambda_method1018(Closure, Object, BatchAddVM, ResolutionContext)
+   at DrMoradi.Areas.Admin.Controllers.ProductController.EditBatch(Int32 BatchId)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext)
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-10-15 14:52:21.240 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 14:52:34.821 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:52:34.821 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:52:37.636 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:52:37.636 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:52:39.879 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:52:39.879 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:52:41.863 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:52:41.891 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:53:41.975 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:53:41.983 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:55:02.119 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 14:55:11.860 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:55:11.860 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:55:15.122 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:55:15.122 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:55:17.543 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:55:17.569 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:55:19.412 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:55:19.443 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:56:34.596 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 14:56:46.645 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:56:46.645 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:56:49.813 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:56:49.813 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:56:51.929 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:56:51.958 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:56:53.008 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:56:53.031 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:57:16.834 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:57:16.834 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:57:20.372 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:57:20.372 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:57:23.648 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:57:23.648 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:57:26.882 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 14:57:26.907 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 15:00:53.164 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-15 15:01:09.659 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 15:01:09.659 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 15:01:12.801 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 15:01:12.820 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 15:01:14.813 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 15:01:14.844 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 15:01:16.833 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 15:01:16.857 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 15:01:37.298 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 15:01:37.298 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 15:01:49.426 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-15 15:01:49.426 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
