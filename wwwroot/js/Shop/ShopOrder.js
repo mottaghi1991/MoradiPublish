@@ -190,8 +190,15 @@ function addToCart(productId, name, price, Quantity, stockValue) {
         // موجودی نهایی از آیتم یا پارامتر ورودی
         const finalMaxStock = existing?.maxStock || stockValue || parseInt(document.getElementById('quantity')?.max, 10) || 0;
         if (!finalMaxStock || finalMaxStock <= 0) {
-            alert('این محصول در حال حاضر موجود نیست.');
-            return;
+            Swal.fire({
+                icon: 'error',
+                title: 'ثبت ناموفق',
+                text: 'این محصول در حال حاضر موجود نیست .',
+                //text: `شما الان ${alreadyInCart} تا دارید، موجودی کل ${finalMaxStock} است`,
+                confirmButtonText: 'باشه',
+                timer: 3000,
+                timerProgressBar: true
+            });            return;
         }
         let newTotal = alreadyInCart + Quantity;
         if (newTotal > finalMaxStock) {
@@ -259,6 +266,15 @@ function addToCart(productId, name, price, Quantity, stockValue) {
             cart.push({ id: productId, name, price, Quantity: Math.min(Quantity, stockValue), maxStock: stockValue, image: '' });
         }
         saveGuestCart(cart);
+        Swal.fire({
+            icon: 'success',
+            title: 'ثبت موفق',
+            text: 'محصول با موفقیت به سبد خرید افزوده شد.',
+            confirmButtonText: 'باشه',
+            confirmButtonColor: '#28a745', // سبز
+            timer: 2000,
+            timerProgressBar: true
+        });
         updateCartView(cart);
         updateCartCount(cart);
     }
