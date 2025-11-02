@@ -248,7 +248,20 @@ function addToCart(productId, name, price, Quantity, stockValue) {
         const alreadyInCart = existing ? Number(existing.Quantity) : 0;
         const newTotal = alreadyInCart + Quantity;
 
-        if (stockValue > 0 && newTotal > stockValue) {
+
+        if (stockValue === 0) {
+            Swal.fire({
+                icon: 'error',
+                title: 'ناموفق',
+                text: 'این کالا در حال حاضر ناموجود است.',
+                confirmButtonText: 'باشه',
+                timer: 3000,
+                timerProgressBar: true
+            });
+            return;
+        }
+
+        if ( newTotal > stockValue) {
             Swal.fire({
                 icon: 'error',
                 title: 'ثبت ناموفق',

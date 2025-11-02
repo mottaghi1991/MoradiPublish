@@ -1,0 +1,160 @@
+2025-10-28 13:28:30.201 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:30.239 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-28 13:28:35.227 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:45.995 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:46.000 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:46.003 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:46.004 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:46.005 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:46.006 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:46.053 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:46.084 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:46.090 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:46.103 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:46.103 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:46.137 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:50.373 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:50.549 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:28:52.378 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:28:52.378 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:28:56.153 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:28:56.153 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:28:58.792 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:28:58.800 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:29:03.371 +03:30 [Error] (DrMoradi.) (Data Error) User Run GetAll With sp and Get Error  ObjectName= "RolePermission"  and parameter and UserId = 9
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetMenuOfRole'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Data.MasterServices.MasterServices`1.GetAllAsync(String spName, DynamicParameters parameters) in H:\GitProject\DrMoradi\Data\MasterServices\MasterServices.cs:line 53
+ClientConnectionId:5a7d3167-c4db-4e83-99f2-9db5ca5abf26
+Error Number:2812,State:62,Class:16
+2025-10-28 13:29:04.061 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:29:04.061 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:30:21.295 +03:30 [Error] (DrMoradi.) (Data Error) User Run GetAll With sp and Get Error  ObjectName= "RolePermission"  and parameter and UserId = 9
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetMenuOfRole'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Data.MasterServices.MasterServices`1.GetAllAsync(String spName, DynamicParameters parameters) in H:\GitProject\DrMoradi\Data\MasterServices\MasterServices.cs:line 53
+ClientConnectionId:5a7d3167-c4db-4e83-99f2-9db5ca5abf26
+Error Number:2812,State:62,Class:16
+2025-10-28 13:30:27.756 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:30:28.426 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:30:42.398 +03:30 [Error] (DrMoradi.) (Data Error) User Run GetAll With sp and Get Error  ObjectName= "RolePermission"  and parameter and UserId = 9
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetMenuOfRole'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Data.MasterServices.MasterServices`1.GetAllAsync(String spName, DynamicParameters parameters) in H:\GitProject\DrMoradi\Data\MasterServices\MasterServices.cs:line 53
+ClientConnectionId:123686d1-5dbe-46a4-a4f3-2fc486285751
+Error Number:2812,State:62,Class:16
+2025-10-28 13:30:42.449 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:30:42.449 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:54:26.346 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:54:26.388 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-10-28 13:54:30.930 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:54:31.028 +03:30 [Warning] (Microsoft.AspNetCore.Session.SessionMiddleware.) Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {69105a4a-d867-4104-885d-27c0604bb2d9} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2025-10-28 13:54:31.314 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 9 ("moradi@gmail.com") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-10-28 13:54:34.072 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 9 ("moradi@gmail.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-10-28 13:54:37.983 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 9 ("moradi@gmail.com") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-10-28 13:54:38.127 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 9 ("moradi@gmail.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-10-28 13:54:42.302 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 9 ("moradi@gmail.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserPanel", Action="Index", Path="/UserPanel"
+2025-10-28 13:54:42.437 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 9 ("moradi@gmail.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-10-28 13:54:46.626 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 9 ("moradi@gmail.com") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/admin"
+2025-10-28 13:54:46.804 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 9 ("moradi@gmail.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-10-28 13:56:01.881 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 9 ("moradi@gmail.com") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-10-28 13:56:02.004 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 9 ("moradi@gmail.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-10-28 13:59:18.779 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 9 ("moradi@gmail.com") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/admin"
+2025-10-28 13:59:18.915 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 9 ("moradi@gmail.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-10-28 13:59:36.569 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 13:59:36.569 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-10-28 14:00:18.082 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 14 ("علی متقی") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/admin"
