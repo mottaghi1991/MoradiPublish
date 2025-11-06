@@ -1,0 +1,343 @@
+2025-11-06 09:42:54.235 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-11-06 09:43:55.091 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-06 09:44:05.440 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-06 09:44:05.536 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-06 09:44:09.522 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-06 09:45:34.429 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-06 09:45:34.474 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-06 10:02:49.846 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:02:50.051 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:02:54.630 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:02:54.826 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:02:55.082 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:02:57.330 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:02:57.549 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:03:35.625 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:03:35.828 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:04:37.009 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-06 10:04:37.427 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Database.Transaction.) Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-06 10:07:42.087 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:07:42.299 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:07:50.623 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:07:50.876 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:07:51.087 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:07:52.883 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:07:53.075 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:07:56.811 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:07:57.054 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:08:03.477 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:08:03.685 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:08:03.904 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:08:06.421 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:08:06.622 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:08:11.456 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:08:11.682 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:08:20.283 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:08:20.538 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:08:20.788 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:08:59.971 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:09:00.195 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:09:48.308 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:09:48.508 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:09:52.063 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:09:52.270 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:09:59.362 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:09:59.629 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:10:04.473 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:10:04.667 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:10:12.965 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:10:13.147 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:10:14.736 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:10:14.934 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:15:38.439 +03:30 [Error] (Error.) (Exceptions)User=3 with Ip="127.0.0.1" Request="/Shop/ProductDetail" with TraceId="0HNGSVDS26IGV:00000003" get Exception
+Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.CompilationFailedException: One or more compilation failures occurred:
+D:\Moradi\Moradi\DrMoradi\Views\Shop\ProductDetail.cshtml(151,70): error CS1061: 'ShowProductDetailVm' does not contain a definition for 'diet' and no accessible extension method 'diet' accepting a first argument of type 'ShowProductDetailVm' could be found (are you missing a using directive or an assembly reference?)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.OnCacheMiss(String normalizedPath)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext)
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-11-06 10:17:30.463 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-06 10:25:16.730 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-06 10:25:24.683 +03:30 [Error] (Error.) (Exceptions)User=3 with Ip="127.0.0.1" Request="/Shop/ProductDetail" with TraceId="0HNGT04EMPCVD:0000007B" get Exception
+System.NotImplementedException: The method or operation is not implemented.
+   at Core.Services.Store.ProductServies.GetProductBybcategory(Int32 CategoryId) in D:\Moradi\Moradi\Core\Service\Services\Shop\ProductServies.cs:line 82
+   at DrMoradi.Views.Shared.component.Diet.ProductComponent.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, Object component, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at WebStore.Pages.Shop.Views_Shop_ProductDetail.ExecuteAsync() in D:\Moradi\Moradi\DrMoradi\Views\Shop\ProductDetail.cshtml:line 139
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext)
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-11-06 10:26:05.824 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-06 10:26:14.801 +03:30 [Error] (Error.) (Exceptions)User=3 with Ip="127.0.0.1" Request="/Shop/ProductDetail" with TraceId="0HNGT063O1S19:0000000D" get Exception
+System.NotImplementedException: The method or operation is not implemented.
+   at Core.Services.Store.ProductServies.GetProductBybcategory(Int32 CategoryId) in D:\Moradi\Moradi\Core\Service\Services\Shop\ProductServies.cs:line 82
+   at DrMoradi.Views.Shared.component.Diet.ProductComponent.InvokeAsync() in D:\Moradi\Moradi\DrMoradi\component\Product\ProductComponent.cs:line 18
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, Object component, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at WebStore.Pages.Shop.Views_Shop_ProductDetail.ExecuteAsync() in D:\Moradi\Moradi\DrMoradi\Views\Shop\ProductDetail.cshtml:line 139
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in D:\Moradi\Moradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in D:\Moradi\Moradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 42
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in D:\Moradi\Moradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-11-06 10:27:08.269 +03:30 [Error] (Error.) (Exceptions)User=3 with Ip="127.0.0.1" Request="/Shop/ProductDetail" with TraceId="0HNGT063O1S19:00000019" get Exception
+System.NotImplementedException: The method or operation is not implemented.
+   at Core.Services.Store.ProductServies.GetProductBybcategory(Int32 CategoryId) in D:\Moradi\Moradi\Core\Service\Services\Shop\ProductServies.cs:line 82
+   at DrMoradi.Views.Shared.component.Diet.ProductComponent.InvokeAsync() in D:\Moradi\Moradi\DrMoradi\component\Product\ProductComponent.cs:line 18
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, Object component, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at WebStore.Pages.Shop.Views_Shop_ProductDetail.ExecuteAsync() in D:\Moradi\Moradi\DrMoradi\Views\Shop\ProductDetail.cshtml:line 139
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in D:\Moradi\Moradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in D:\Moradi\Moradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 42
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in D:\Moradi\Moradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-11-06 10:30:40.499 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-06 10:31:47.133 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:31:47.477 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:44:06.407 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:44:09.635 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:44:44.007 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:44:44.920 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:44:45.443 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:44:48.787 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:44:52.408 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:45:05.117 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:45:05.422 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:45:08.347 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:45:09.227 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:45:22.292 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:45:23.078 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:45:23.110 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:47:39.052 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-06 10:47:49.508 +03:30 [Error] (Error.) (Exceptions)User=3 with Ip="127.0.0.1" Request="/Shop/ProductDetail" with TraceId="0HNGT0FVBIK9Q:00000011" get Exception
+Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.CompilationFailedException: One or more compilation failures occurred:
+D:\Moradi\Moradi\DrMoradi\Views\Shop\ProductDetail.cshtml(140,30): error CS1061: 'ShowProductDetailVm' does not contain a definition for 'diet' and no accessible extension method 'diet' accepting a first argument of type 'ShowProductDetailVm' could be found (are you missing a using directive or an assembly reference?)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.OnCacheMiss(String normalizedPath)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in D:\Moradi\Moradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in D:\Moradi\Moradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 42
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in D:\Moradi\Moradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-11-06 10:49:00.189 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-06 10:49:05.565 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-06 10:51:23.112 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:51:24.091 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:51:35.796 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:51:36.596 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:51:45.102 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:51:46.871 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:56:16.083 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:56:18.038 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 10:59:02.506 +03:30 [Error] (Error.) (Exceptions)User=0 with Ip="127.0.0.1" Request="/Home/SubmitComment" with TraceId="0HNGT0INMG2D4:0000000B" get Exception
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+DrMoradi.Controllers.HomeController.SubmitComment (DrMoradi)
+DrMoradi.Controllers.HomeController.SubmitComment (DrMoradi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-11-06 10:59:24.411 +03:30 [Error] (Error.) (Exceptions)User=0 with Ip="127.0.0.1" Request="/Home/SubmitComment" with TraceId="0HNGT0INMG2D4:0000000F" get Exception
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+DrMoradi.Controllers.HomeController.SubmitComment (DrMoradi)
+DrMoradi.Controllers.HomeController.SubmitComment (DrMoradi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-11-06 10:59:32.186 +03:30 [Error] (Error.) (Exceptions)User=0 with Ip="127.0.0.1" Request="/Home/SubmitComment" with TraceId="0HNGT0INMG2D4:00000041" get Exception
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+DrMoradi.Controllers.HomeController.SubmitComment (DrMoradi)
+DrMoradi.Controllers.HomeController.SubmitComment (DrMoradi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-11-06 11:02:11.825 +03:30 [Error] (Error.) (Exceptions)User=0 with Ip="127.0.0.1" Request="/Home/SubmitComment" with TraceId="0HNGT0INMG2D4:0000004F" get Exception
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+DrMoradi.Controllers.HomeController.SubmitComment (DrMoradi)
+DrMoradi.Controllers.HomeController.SubmitComment (DrMoradi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-11-06 11:05:11.651 +03:30 [Error] (Error.) (Exceptions)User=0 with Ip="127.0.0.1" Request="/Home/SubmitComment" with TraceId="0HNGT0INMG2D6:00000011" get Exception
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+DrMoradi.Controllers.HomeController.SubmitComment (DrMoradi)
+DrMoradi.Controllers.HomeController.SubmitComment (DrMoradi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-11-06 11:07:43.480 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-06 11:07:50.720 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-06 11:08:18.828 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 11:08:19.134 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 11:08:22.080 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 11:08:22.302 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 11:08:33.115 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
+2025-11-06 11:08:35.017 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=8 with Path=null 
