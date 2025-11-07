@@ -55271,51 +55271,6 @@
       ]
     },
     {
-      "Route": "SeriLog/Dev/Log-20251106.8dseu7jo8f.txt",
-      "AssetFile": "SeriLog/Dev/Log-20251106.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "48933"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HBFetYPaT2oDwuYvElu+0FQbFT51/fBecSAE2WgHE2M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 07:38:35 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8dseu7jo8f"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HBFetYPaT2oDwuYvElu+0FQbFT51/fBecSAE2WgHE2M="
-        },
-        {
-          "Name": "label",
-          "Value": "SeriLog/Dev/Log-20251106.txt"
-        }
-      ]
-    },
-    {
       "Route": "SeriLog/Dev/Log-20251106.txt",
       "AssetFile": "SeriLog/Dev/Log-20251106.txt",
       "Selectors": [],
@@ -55330,7 +55285,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "48933"
+          "Value": "81444"
         },
         {
           "Name": "Content-Type",
@@ -55338,17 +55293,144 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HBFetYPaT2oDwuYvElu+0FQbFT51/fBecSAE2WgHE2M=\""
+          "Value": "\"xxCKNn77tnCfU4VR2PCJOnfTxwJBzs/8LX9PMKPjKjA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 07:38:35 GMT"
+          "Value": "Thu, 06 Nov 2025 10:30:40 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HBFetYPaT2oDwuYvElu+0FQbFT51/fBecSAE2WgHE2M="
+          "Value": "sha256-xxCKNn77tnCfU4VR2PCJOnfTxwJBzs/8LX9PMKPjKjA="
+        }
+      ]
+    },
+    {
+      "Route": "SeriLog/Dev/Log-20251106.x25mgf4xqc.txt",
+      "AssetFile": "SeriLog/Dev/Log-20251106.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xxCKNn77tnCfU4VR2PCJOnfTxwJBzs/8LX9PMKPjKjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 10:30:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x25mgf4xqc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xxCKNn77tnCfU4VR2PCJOnfTxwJBzs/8LX9PMKPjKjA="
+        },
+        {
+          "Name": "label",
+          "Value": "SeriLog/Dev/Log-20251106.txt"
+        }
+      ]
+    },
+    {
+      "Route": "SeriLog/Dev/Log-20251107.txt",
+      "AssetFile": "SeriLog/Dev/Log-20251107.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21033"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xxBzsW+Yf28v2ccUzBJMBYwSA7GjJmYtguBKC2Ir/zw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Nov 2025 08:37:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xxBzsW+Yf28v2ccUzBJMBYwSA7GjJmYtguBKC2Ir/zw="
+        }
+      ]
+    },
+    {
+      "Route": "SeriLog/Dev/Log-20251107.zl3ufxttcs.txt",
+      "AssetFile": "SeriLog/Dev/Log-20251107.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21033"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xxBzsW+Yf28v2ccUzBJMBYwSA7GjJmYtguBKC2Ir/zw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Nov 2025 08:37:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zl3ufxttcs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xxBzsW+Yf28v2ccUzBJMBYwSA7GjJmYtguBKC2Ir/zw="
+        },
+        {
+          "Name": "label",
+          "Value": "SeriLog/Dev/Log-20251107.txt"
         }
       ]
     },
