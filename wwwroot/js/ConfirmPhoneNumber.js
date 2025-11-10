@@ -76,8 +76,11 @@ function handleCodeSubmit(event) {
 
     const codeInput = document.getElementById('Code');
     const codeValue = codeInput.value.trim();
-    const returnUrl = document.getElementById('ReturnUrl')?.value
-        || new URLSearchParams(window.location.search).get('ReturnUrl');
+    const urlParam = new URLSearchParams(window.location.search).get('ReturnUrl');
+    const returnUrl =
+        urlParam && !urlParam.toLowerCase().startsWith("/admin")
+            ? urlParam
+            : "/UserPanel/UserDiet/MyDiet";
     fetch('/Smslogin', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
