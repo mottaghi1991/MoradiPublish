@@ -1,0 +1,5 @@
+2025-11-27 14:54:34.655 +03:30 [Warning] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.) No XML encryptor configured. Key {801c9bb9-f605-49ce-b738-6dc27fc0b906} may be persisted to storage in unencrypted form.
+2025-11-27 14:55:38.803 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-11-27 14:57:29.309 +03:30 [Warning] (Session.) SendCode too soon for "09004790243". Wait 59 more seconds
+2025-11-27 15:07:01.459 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-11-27 15:11:11.407 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
