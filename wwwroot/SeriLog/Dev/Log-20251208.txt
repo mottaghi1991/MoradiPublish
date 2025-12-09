@@ -1,0 +1,271 @@
+2025-12-08 11:09:48.015 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-08 11:10:26.261 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/Admin", Method="GET", IP="127.0.0.1"
+2025-12-08 11:10:35.110 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/Admin", Method="GET", IP="127.0.0.1"
+2025-12-08 11:10:38.546 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/admin", Method="GET", IP="127.0.0.1"
+2025-12-08 11:10:51.655 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/admin", Method="GET", IP="127.0.0.1"
+2025-12-08 11:11:03.200 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/Admin", Method="GET", IP="127.0.0.1"
+2025-12-08 11:12:32.600 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/Admin", Method="GET", IP="127.0.0.1"
+2025-12-08 11:14:34.138 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/admin", Method="GET", IP="127.0.0.1"
+2025-12-08 11:15:00.127 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/Admin", Method="GET", IP="127.0.0.1"
+2025-12-08 11:16:11.685 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/Admin", Method="GET", IP="127.0.0.1"
+2025-12-08 11:16:29.423 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-08 11:17:08.661 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/Admin", Method="GET", IP="127.0.0.1"
+2025-12-08 11:21:36.022 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-08 11:22:13.426 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:22:13.426 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:22:26.353 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:22:26.353 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:28:25.022 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-08 11:28:46.199 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:28:46.199 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:28:54.741 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:28:54.741 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:28:57.671 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:28:57.671 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:02.230 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:02.237 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:08.406 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:08.406 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:10.267 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:10.268 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:12.705 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:12.705 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:22.078 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:22.078 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:28.906 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:28.906 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:32.760 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:32.760 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:36.146 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:29:36.146 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:30:04.229 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 11:30:04.236 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:45:23.589 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-08 15:45:45.037 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:45:45.037 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:45:49.919 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:45:49.919 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:45:51.949 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:45:51.949 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:47:11.591 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-08 15:47:22.508 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:47:22.508 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:47:26.271 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:47:26.271 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:47:28.138 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:47:28.138 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:48:26.450 +03:30 [Error] (Error.) (Exceptions)User=9 with Ip="127.0.0.1" Request="/Admin/Comment/ReplyComment" with TraceId="0HNHMAEREGHBH:00000005" get Exception
+Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.CompilationFailedException: One or more compilation failures occurred:
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Comment\ReplyComment.cshtml(39,77): error CS1061: 'ShowCommentVm' does not contain a definition for 'EntityName' and no accessible extension method 'EntityName' accepting a first argument of type 'ShowCommentVm' could be found (are you missing a using directive or an assembly reference?)
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Comment\ReplyComment.cshtml(40,147): error CS1061: 'ShowCommentVm' does not contain a definition for 'EntityName' and no accessible extension method 'EntityName' accepting a first argument of type 'ShowCommentVm' could be found (are you missing a using directive or an assembly reference?)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.OnCacheMiss(String normalizedPath)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext)
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-12-08 15:48:36.334 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-08 15:48:54.651 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:48:54.650 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:48:58.613 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:48:58.613 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:49:00.679 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:49:00.679 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:49:05.083 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:49:05.089 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:49:11.885 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:49:11.885 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:49:17.065 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:49:17.065 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:49:18.970 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:49:18.970 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:54:08.917 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-08 15:54:33.997 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:54:33.997 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:54:37.682 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:54:37.682 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:54:40.722 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:54:40.722 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:54:54.253 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:54:54.253 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:58:12.936 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:58:12.950 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:58:16.591 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:58:16.591 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:58:19.492 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:58:19.492 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:58:21.349 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:58:21.349 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:58:50.363 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:58:50.363 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:58:55.395 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 15:58:55.395 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 16:06:40.329 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 16:06:45.837 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-08 16:13:05.850 +03:30 [Error] (Error.) (Exceptions)User=9 with Ip="127.0.0.1" Request="/" with TraceId="0HNHMAINQOE21:00000001" get Exception
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (127.0.0.1:3067)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Core.Service.Services.Dr.PostServices.GetTopWordPressPost(Int32 count) in H:\GitProject\DrMoradi\Core\Service\Services\Dr\PostServices.cs:line 49
+   at DrMoradi.Views.Shared.component.Slider.PostComponent.InvokeAsync() in H:\GitProject\DrMoradi\DrMoradi\component\Post\PostComponent.cs:line 19
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, Object component, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at WebStore.Pages.Home.Views_Home_Index.ExecuteAsync() in H:\GitProject\DrMoradi\DrMoradi\Views\Home\Index.cshtml:line 119
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|28_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 42
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-12-08 16:13:20.260 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-08 16:43:35.376 +03:30 [Error] (Microsoft.EntityFrameworkCore.Database.Command.) Failed executing DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[Id], [s].[Address], [s].[DeleteTime], [s].[Email], [s].[Ins], [s].[IsDeleted], [s].[Logo], [s].[MapAddress], [s].[Mobile], [s].[Number1], [s].[Number2]
+FROM [dbo].[Settings] AS [s]"
+2025-12-08 16:43:35.410 +03:30 [Error] (Microsoft.EntityFrameworkCore.Query.) An exception occurred while iterating over the results of a query for context type '"Data.MyContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Address'.
+Invalid column name 'Ins'.
+Invalid column name 'Logo'.
+Invalid column name 'MapAddress'.
+Invalid column name 'Mobile'.
+Invalid column name 'Number1'.
+Invalid column name 'Number2'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:f61d8565-65c2-43d8-a061-68c2d1476f62
+Error Number:207,State:1,Class:16"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Address'.
+Invalid column name 'Ins'.
+Invalid column name 'Logo'.
+Invalid column name 'MapAddress'.
+Invalid column name 'Mobile'.
+Invalid column name 'Number1'.
+Invalid column name 'Number2'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:f61d8565-65c2-43d8-a061-68c2d1476f62
+Error Number:207,State:1,Class:16
+2025-12-08 16:43:35.450 +03:30 [Error] (DrMoradi.) (Data Error) User Run GetAllEfAsync ObjectName= "Setting" With expression type of "SqlException" and message ="Invalid column name 'Address'.
+Invalid column name 'Ins'.
+Invalid column name 'Logo'.
+Invalid column name 'MapAddress'.
+Invalid column name 'Mobile'.
+Invalid column name 'Number1'.
+Invalid column name 'Number2'." and UserId = 0
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Address'.
+Invalid column name 'Ins'.
+Invalid column name 'Logo'.
+Invalid column name 'MapAddress'.
+Invalid column name 'Mobile'.
+Invalid column name 'Number1'.
+Invalid column name 'Number2'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Data.MasterServices.MasterServices`1.GetAllEfAsync(Expression`1 Filter) in H:\GitProject\DrMoradi\Data\MasterServices\MasterServices.cs:line 261
+ClientConnectionId:f61d8565-65c2-43d8-a061-68c2d1476f62
+Error Number:207,State:1,Class:16
+2025-12-08 16:44:42.783 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.

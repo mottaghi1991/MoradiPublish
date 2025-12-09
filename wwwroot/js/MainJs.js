@@ -46,6 +46,11 @@ var swiper1 = new Swiper('.mySwiper1', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
+    loop: true,
+    autoplay: {
+        delay: 3000, // هر 3 ثانیه اسلاید بعدی
+        disableOnInteraction: false // حتی اگر کاربر با ماوس کلیک کرد، باز ادامه بده
+    },
     pagination: {
         el: '.swiper-pagination', // المنتی که pagination را در آن قرار داده‌اید
         clickable: true, // قابل کلیک بودن دکمه‌های pagination
