@@ -388,7 +388,27 @@ hr.border-light {
     border-radius: 8px;
     text-align: center;
 }
+.comment-card {
+    transition: box-shadow 0.2s ease-in-out;
+}
 
+    .comment-card:hover {
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+.comment-avatar {
+    font-size: .9rem;
+}
+
+.comment-text {
+    line-height: 1.6;
+    word-break: break-word;
+}
+
+.comment-replies {
+    border-left: 3px solid #f4d28a;
+    padding-left: 0.75rem;
+}
 /* موبایل */
 @media (max-width: 576px) {
     /* کم کردن تورفتگی در موبایل */
@@ -414,21 +434,23 @@ hr.border-light {
     }
 
 
-    @media (min-width: 992px) {
-        .navbar .dropdown:hover .dropdown-menu {
-            display: block;
-            margin-top: 0;
-        }
+ 
+}
+@media (min-width: 992px) {
+    .navbar .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #sliderSection .carousel-item {
+        height: 200px;
+        overflow: hidden;
     }
 
-    @media (max-width: 768px) {
-        #sliderSection .carousel-item {
+        #sliderSection .carousel-item img {
             height: 200px;
-            overflow: hidden;
+            object-fit: cover;
         }
-
-            #sliderSection .carousel-item img {
-                height: 200px;
-                object-fit: cover;
-            }
-    }
+}
