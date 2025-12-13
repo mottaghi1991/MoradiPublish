@@ -1,0 +1,1237 @@
+2025-12-13 09:47:13.581 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 09:47:52.773 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 09:47:53.111 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:47:53.111 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:47:58.505 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:47:58.505 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:48:00.709 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:48:00.709 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:13.107 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:13.107 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:22.186 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:22.186 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:26.747 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:26.747 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:33.810 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:33.810 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:37.097 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:37.097 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:41.599 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:41.605 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:48.035 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:48.035 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:57.288 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:49:57.288 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:00.641 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:00.648 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:19.898 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:19.898 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:23.102 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:23.102 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:26.926 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:26.926 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:40.557 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:40.557 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:44.774 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:44.781 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:53.167 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:50:53.167 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:51:01.595 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:51:01.600 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:51:44.788 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:51:44.794 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:51:49.624 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:51:49.624 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:51:52.179 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:51:52.179 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:51:58.413 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:51:58.413 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:04.924 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:04.924 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:11.058 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:11.058 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:17.616 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:17.616 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:34.929 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:34.929 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:38.744 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:38.744 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:42.969 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:42.969 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:45.994 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:52:45.994 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:53:05.545 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:53:05.545 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:53:07.700 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:53:07.707 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:53:11.690 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:53:11.690 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:53:51.007 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:53:51.007 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:53:57.752 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:53:57.752 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:53:59.716 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:53:59.716 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:07.628 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:07.628 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:14.811 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:14.811 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:16.865 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:16.865 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:26.212 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:26.212 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:35.072 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:35.072 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:36.322 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:36.322 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:44.980 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:44.980 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:48.358 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:48.358 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:50.441 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:54:50.441 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:55:09.401 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 09:55:09.401 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:05:03.866 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 10:05:11.154 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/Admin/", Method="GET", IP="127.0.0.1"
+2025-12-13 10:05:29.368 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 10:05:29.731 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:05:29.731 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:05:59.653 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:05:59.653 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:06:15.450 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:06:15.450 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:06:21.406 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:06:21.406 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:06:56.673 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:06:56.681 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:00.715 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:00.715 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:19.858 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:19.858 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:23.621 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:23.621 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:25.916 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:25.916 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:30.438 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:30.438 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:35.164 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:35.164 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:37.708 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:37.708 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:42.872 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:42.872 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:52.242 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:07:52.242 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:08:04.593 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-12-13 10:08:10.313 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:08:10.313 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:08:12.984 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:08:12.984 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:09:06.904 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:09:06.904 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:23:32.583 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 10:24:33.140 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/Admin/", Method="GET", IP="127.0.0.1"
+2025-12-13 10:24:43.103 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 10:24:43.464 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:24:43.464 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:24:47.204 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:24:47.204 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:24:50.659 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:25:36.441 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:25:36.449 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:25:38.504 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:25:38.510 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:26:00.617 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:26:00.617 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:26:11.717 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:26:11.717 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:26:31.918 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:26:31.918 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:26:57.496 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:26:57.496 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:27:09.239 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:27:34.334 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:27:38.090 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:27:38.090 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:27:46.523 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:27:46.523 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:28:17.777 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:28:17.777 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:28:19.799 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:28:19.799 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:28:55.368 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:28:55.379 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:29:30.203 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:29:30.208 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:29:32.863 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:29:32.863 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:29:34.758 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:29:34.758 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:29:45.028 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:29:45.028 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:30:28.850 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-12-13 10:30:29.988 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 10:44:28.248 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:44:28.248 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:44:30.796 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:44:30.796 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:44:34.759 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:44:34.759 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:44:45.711 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:44:45.711 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:45:08.521 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:45:08.521 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:45:12.179 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:45:12.179 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:46:08.303 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:46:08.303 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:46:11.529 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:46:11.529 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:46:30.906 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:46:30.906 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:46:56.346 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-12-13 10:46:56.556 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 10:47:13.507 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:47:13.507 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:47:18.264 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:47:18.264 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:47:21.380 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:47:21.380 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:47:25.528 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:47:25.528 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:48:17.425 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-12-13 10:48:17.692 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 10:54:09.278 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 10:54:09.278 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 10:54:20.107 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 10:54:20.113 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 10:54:28.026 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="Admin", Controller="Role", Action="Index", Path="/admin/role"
+2025-12-13 10:54:32.488 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 10:54:40.601 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 10:54:40.607 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 10:57:37.483 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 10:57:57.608 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 10:57:57.978 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:57:57.978 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:58:54.306 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:58:54.306 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:58:56.415 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:58:56.429 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:59:43.821 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:59:43.821 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:59:46.672 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:59:46.700 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:59:55.486 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 10:59:55.509 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:00:03.660 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:00:03.670 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:00:11.938 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:00:11.938 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:00:21.565 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:00:21.565 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:00:36.296 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:00:36.296 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:00:50.996 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:00:50.996 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:01:11.415 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:01:11.420 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:01:14.513 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:01:14.559 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:01:19.110 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:01:19.110 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:01:21.394 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:01:21.394 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:01:47.550 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:01:47.555 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:05.195 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:05.195 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:12.992 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:12.992 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:20.362 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:20.362 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:37.363 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:37.367 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:42.776 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:42.776 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:45.897 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:45.897 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:56.625 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:02:56.625 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:00.029 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:00.029 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:07.670 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:07.670 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:11.896 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:11.896 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:16.495 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:16.495 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:30.528 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:30.528 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:35.732 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:35.732 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:42.678 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:42.678 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:44.912 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:44.912 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:49.348 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:03:49.348 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:04:26.709 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:04:26.709 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:04:46.610 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:04:46.610 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:04:49.312 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:04:49.312 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:04:51.386 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:04:51.386 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:05:00.895 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:05:00.901 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:05:19.621 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:05:19.621 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:05:21.775 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:05:21.779 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:05:24.075 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:05:24.075 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:05:30.199 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="Admin", Controller="Role", Action="Index", Path="/Admin/role"
+2025-12-13 11:05:30.474 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:06:59.307 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:07:12.078 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:07:49.788 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:08:08.655 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:08:11.579 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:08:24.165 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:08:39.764 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:08:51.271 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:09:16.393 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:10:49.245 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:11:03.744 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:11:25.404 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:11:25.404 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:11:29.374 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserPanel", Action="Index", Path="/UserPanel"
+2025-12-13 11:11:29.627 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:17:47.322 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:18:03.417 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 11:18:14.130 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:18:22.574 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 11:18:23.349 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:18:23.349 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:18:41.419 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:18:41.419 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:18:44.543 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:18:44.543 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:18:52.576 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="Admin", Controller="Role", Action="Index", Path="/Admin/role"
+2025-12-13 11:18:52.790 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:18:56.209 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserPanel", Action="Index", Path="/UserPanel"
+2025-12-13 11:18:56.405 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:18:57.444 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserPanel", Action="Index", Path="/UserPanel"
+2025-12-13 11:18:58.172 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:19:41.472 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:19:46.527 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:19:51.012 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:19:51.019 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:19:56.342 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:19:56.342 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:19:59.528 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:19:59.533 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:20:02.914 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:20:02.914 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:21:48.954 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:21:48.954 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:21:53.661 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:21:53.661 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:21:55.604 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:21:55.604 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:21:57.562 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:21:57.562 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:21:59.465 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:21:59.465 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:22:02.640 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="Admin", Controller="DietOrder", Action="UserInfo", Path="/Admin/DietOrder/UserInfo"
+2025-12-13 11:22:02.823 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:22:35.216 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:22:35.216 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:22:42.371 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:22:42.376 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:22:47.258 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:22:47.258 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:22:53.276 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:22:53.276 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:23:10.459 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:23:10.459 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:23:14.086 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:23:14.091 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:23:16.357 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:23:16.357 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:23:21.229 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:23:21.229 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:23:39.152 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:23:39.152 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:23:56.904 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:23:56.904 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:24:29.999 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:24:29.999 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:25:32.824 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:25:32.824 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:25:35.037 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:25:35.037 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:25:39.409 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:25:39.414 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:25:54.464 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:25:54.464 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:27:07.579 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/admin", Method="GET", IP="127.0.0.1"
+2025-12-13 11:27:15.850 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:27:15.857 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:27:17.845 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:27:17.845 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:27:21.009 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:27:21.009 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:27:25.901 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:27:25.907 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:27:58.868 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:27:58.868 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:28:33.023 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:28:33.023 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:28:37.041 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:28:37.041 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:29:00.924 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/admin", Method="GET", IP="127.0.0.1"
+2025-12-13 11:29:06.963 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:29:06.963 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:29:16.495 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:16.495 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:18.524 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:18.524 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:22.080 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:22.080 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:24.865 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:24.871 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:28.891 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:28.891 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:33.746 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:33.746 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:43.878 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:43.878 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:45.849 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:45.849 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:49.808 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:29:49.808 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:30:07.253 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/admin", Method="GET", IP="127.0.0.1"
+2025-12-13 11:30:14.576 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:30:14.576 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:30:18.192 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:30:18.192 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:30:22.176 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:30:22.176 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:30:29.596 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:30:29.596 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:32:34.895 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:32:34.895 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:32:52.592 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:32:52.592 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:32:56.252 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:32:56.252 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:33:02.614 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:33:02.614 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:33:12.012 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:33:12.012 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:33:15.908 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:33:15.908 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:33:49.510 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:33:49.510 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:33:55.466 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:33:55.466 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:34:04.796 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:34:04.796 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:34:08.718 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:34:08.718 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:34:55.216 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:34:55.221 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:34:58.693 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:34:58.700 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:01.724 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:01.724 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:08.746 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:08.746 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:11.882 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:11.888 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:20.653 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:20.658 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:23.156 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:23.156 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:27.193 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:27.193 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:30.014 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:30.014 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:34.044 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:34.044 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:36.097 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:36.097 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:40.367 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:35:40.367 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:36:02.304 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:36:02.304 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:36:18.820 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:36:18.820 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:36:21.692 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:36:21.692 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:36:23.962 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:36:23.962 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:36:36.840 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:36:36.840 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:36:45.110 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:36:45.110 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:37:02.168 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:02.175 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:04.531 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:04.538 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:07.053 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 409 ("Shop1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="Admin", Controller="Category", Action="Edit", Path="/Admin/Category/Edit"
+2025-12-13 11:37:07.296 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 409 ("Shop1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:37:13.984 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:13.989 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.156 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.156 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.175 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.176 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.182 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.189 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.263 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.288 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.306 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.435 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.444 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.457 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.471 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.539 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.595 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:14.612 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:39.307 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 409 ("Shop1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="Admin", Controller="Product", Action="ListBatch", Path="/Admin/Product/ListBatch"
+2025-12-13 11:37:39.496 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 409 ("Shop1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:37:51.086 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:37:51.086 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:38:07.055 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:38:07.055 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:38:11.328 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 409 ("Shop1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="Admin", Controller="PostPrice", Action="Add", Path="/Admin/PostPrice/Add"
+2025-12-13 11:38:11.591 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 409 ("Shop1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:38:24.753 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:38:24.753 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:38:30.525 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:38:30.530 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:38:35.787 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:38:35.787 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:38:49.330 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:38:49.336 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:38:58.011 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 409 ("Shop1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="Admin", Controller="Discount", Action="Edit", Path="/Admin/Discount/Edit"
+2025-12-13 11:38:58.328 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 409 ("Shop1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:39:22.528 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/admin", Method="GET", IP="127.0.0.1"
+2025-12-13 11:39:28.751 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:39:28.757 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:39:31.103 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:39:31.103 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:39:37.667 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:39:37.667 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:39:46.423 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:39:46.423 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:39:48.388 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:39:48.388 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:07.089 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:07.089 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:14.814 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:14.814 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:16.797 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:16.797 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:30.415 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:30.415 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:38.494 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:38.494 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:40.631 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:40.631 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:55.195 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:55.195 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:57.232 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:40:57.238 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:41:16.590 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:41:16.590 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:41:22.379 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:41:22.379 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:41:24.440 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:41:24.440 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:41:32.941 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:41:32.941 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:41:38.953 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:41:38.959 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:41:42.772 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:41:42.772 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:42:00.655 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:42:00.655 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:42:28.543 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:42:28.547 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:42:47.075 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:42:47.075 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:42:49.559 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:42:49.564 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:42:51.501 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:42:51.501 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:43:50.755 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:43:50.755 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:44:00.592 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:44:00.592 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:44:05.422 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:44:05.422 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:44:19.789 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:44:19.789 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:44:34.475 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-12-13 11:44:40.828 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:44:40.828 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:44:42.807 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:44:42.807 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:44:44.761 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:44:44.761 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:44:47.528 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:44:47.534 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:15.178 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:15.178 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:17.174 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:17.180 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:21.997 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:21.997 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.115 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.115 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.124 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.131 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.138 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.155 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.235 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.247 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.339 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.367 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.386 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.463 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.530 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.593 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.626 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:22.632 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:24.178 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:24.178 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:27.449 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:27.449 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:32.756 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:32.756 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:34.763 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:45:34.763 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:13.456 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:13.456 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:21.979 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:21.987 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:23.976 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:23.981 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:27.254 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:27.254 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:29.395 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:29.395 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:31.327 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:31.327 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:46:54.084 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 11:47:03.671 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 409 ("Shop1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:47:07.743 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 11:47:08.343 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:47:08.343 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=409 with Path=null 
+2025-12-13 11:47:26.061 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:47:26.061 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:47:30.827 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:47:30.827 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:47:32.715 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:47:32.715 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:47:42.720 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:47:42.720 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:47:46.674 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:47:46.674 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:07.416 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:07.416 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:09.762 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:09.762 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:17.028 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:17.028 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:19.267 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:19.267 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:26.911 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:26.911 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:31.073 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:31.073 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:33.763 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:33.763 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:43.023 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:43.023 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:45.373 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:45.373 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:54.120 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:54.120 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:57.874 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:48:57.874 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:49:23.016 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="Admin", Controller="AdminHome", Action="Index", Path="/Admin"
+2025-12-13 11:49:23.264 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 11:49:36.902 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/admin", Method="GET", IP="127.0.0.1"
+2025-12-13 11:49:56.047 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:49:56.047 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:49:58.217 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:49:58.217 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:50:00.211 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:50:00.211 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:50:03.590 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:50:03.590 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:50:24.164 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:24.164 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:28.489 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:28.489 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:30.614 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:30.614 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:32.557 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:32.557 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:34.628 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:34.628 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:41.392 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:41.392 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:43.345 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:43.345 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:45.349 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:45.349 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:47.271 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:47.271 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:55.100 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:50:55.100 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:51:52.971 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:51:52.976 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:52:00.884 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:52:00.884 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:52:02.841 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:52:02.841 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:52:05.830 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:52:05.836 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:52:11.396 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:52:11.396 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:52:13.338 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:52:13.338 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 11:52:53.023 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 11:52:53.023 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 11:52:56.058 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 11:52:56.058 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 11:52:58.675 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 11:52:58.675 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 11:53:01.787 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 11:53:01.787 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 11:53:05.239 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 11:53:05.239 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 11:53:09.071 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 11:53:09.071 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 11:53:53.766 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:53:53.773 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:54:59.489 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:54:59.489 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:55:01.494 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:55:01.500 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:55:17.810 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:55:17.810 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:56:01.605 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:56:01.605 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:56:45.649 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:56:45.655 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:56:48.030 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:56:48.036 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:58:04.327 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:58:04.327 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:58:18.894 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:58:18.904 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:58:45.491 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:58:45.491 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:58:53.803 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:58:53.803 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 11:59:16.993 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:59:16.993 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:59:19.149 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 11:59:19.360 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 12:00:23.974 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:00:23.974 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:00:31.238 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 405 ("Diet1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 12:00:35.482 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:00:35.482 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:00:40.719 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:00:40.719 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:00:44.238 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:00:44.238 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:00:54.861 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/Admin/DietOrder", Method="GET", IP="127.0.0.1"
+2025-12-13 12:01:34.607 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:01:34.607 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:01:46.572 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:01:46.572 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:01:50.683 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:01:50.683 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:01:54.557 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:01:54.557 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=405 with Path=null 
+2025-12-13 12:09:07.274 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/admin", Method="GET", IP="127.0.0.1"
+2025-12-13 12:09:13.924 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:09:13.924 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:09:18.229 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:09:18.236 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:09:52.557 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:09:52.557 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:09:59.318 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:09:59.318 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:10:02.856 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:10:02.856 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:10:31.719 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 12:10:31.719 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 12:10:35.435 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 12:10:35.435 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 12:13:35.021 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 12:13:35.028 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 12:14:26.375 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 12:14:26.381 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 12:14:42.068 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=9 with Path=null 
+2025-12-13 12:15:13.187 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:15:13.187 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:15:15.180 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:15:15.180 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:15:17.136 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:15:17.136 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:15:26.792 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:15:26.793 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:15:35.209 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:15:35.209 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:15:57.917 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:15:57.917 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:16:01.685 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:16:01.685 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:16:05.142 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:16:05.150 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:16:26.504 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:16:26.504 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:17:25.140 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:17:25.140 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:17:28.062 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 12:17:28.069 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 13:34:42.608 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 13:34:59.067 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 13:34:59.388 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 13:35:58.849 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 13:39:09.309 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 13:39:09.309 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 13:39:15.930 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 13:39:15.930 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 13:40:19.238 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 13:40:19.238 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 13:40:19.245 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 13:40:58.697 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 13:41:07.385 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:10:14.766 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 14:10:29.316 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 14:11:16.223 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:11:16.223 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:11:20.010 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:11:20.010 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:11:56.081 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:11:56.081 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:11:59.202 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:11:59.202 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:15.261 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:15.272 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:18.370 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:18.370 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:20.762 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:20.762 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:24.496 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:24.496 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:27.680 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:27.680 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:32.338 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:32.345 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:34.826 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:34.826 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:38.077 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:38.077 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:44.860 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:44.860 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:46.876 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:46.876 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:59.335 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:12:59.335 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:13:02.369 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:13:02.369 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:13:04.488 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:13:04.488 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:13:08.265 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:13:08.265 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:13:30.783 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:13:30.783 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:14:05.344 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 14:14:16.215 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:14:19.725 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 14:14:20.224 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:14:20.224 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:14:23.353 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:14:23.353 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:15:40.352 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:15:40.352 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:15:44.923 +03:30 [Error] (Error.) (Exceptions)User=411 with Ip="127.0.0.1" Request="/Admin/Slider/Edit" with TraceId="0HNHQ6I4LRBPT:00000009" get Exception
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'Domain.Dr.Slider', but this ViewDataDictionary instance requires a model item of type 'Core.Dto.ViewModel.main.SliderEditVm'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method807(Closure, ViewDataDictionary)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 68
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-12-13 14:15:45.415 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:17:49.304 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 14:18:00.060 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:18:04.236 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 14:18:04.703 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:18:04.703 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:18:08.420 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:18:08.420 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:18:11.970 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:18:11.970 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:18:37.523 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:18:37.523 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:18:49.645 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:18:49.652 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:19:35.234 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:19:35.234 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:20:11.059 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:20:11.059 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:20:34.063 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:20:34.063 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:26:20.991 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:26:20.991 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:26:27.318 +03:30 [Error] (Error.) (Exceptions)User=0 with Ip="127.0.0.1" Request="/Admin/Slider/Edit" with TraceId="0HNHQ6K7DKMLD:00000003" get Exception
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+DrMoradi.Areas.Admin.Controllers.SliderController.Edit (DrMoradi)
+DrMoradi.Areas.Admin.Controllers.SliderController.Edit (DrMoradi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-12-13 14:26:27.719 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:26:42.404 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:26:42.404 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:26:45.409 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:26:45.416 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:26:46.587 +03:30 [Error] (Error.) (Exceptions)User=0 with Ip="127.0.0.1" Request="/Admin/Slider/Edit" with TraceId="0HNHQ6K7DKMLE:00000006" get Exception
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+DrMoradi.Areas.Admin.Controllers.SliderController.Edit (DrMoradi)
+DrMoradi.Areas.Admin.Controllers.SliderController.Edit (DrMoradi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext)
+2025-12-13 14:26:47.501 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:27:30.492 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 14:27:43.395 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:28:43.180 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:28:52.604 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 14:28:53.223 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:28:53.223 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:28:56.799 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:28:56.799 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:28:58.928 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:28:58.928 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:29:07.383 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:29:07.383 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:29:14.034 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:29:14.066 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:29:21.539 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:29:21.539 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:29:24.174 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:29:24.174 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:29:57.634 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:29:57.666 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:30:07.485 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:31:14.732 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:31:18.373 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:31:18.548 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:34:26.415 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 14:34:37.465 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:35:16.315 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:35:20.637 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:35:23.549 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:36:38.576 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 14:37:08.450 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 14:37:08.921 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:37:08.921 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:37:12.793 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:37:12.793 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:46:35.465 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 14:46:51.259 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 14:46:52.900 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:46:52.900 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:47:11.635 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.GET) ⚠️ کاربر ناشناس تلاش دسترسی داشت -> Path="/admin", Method="GET", IP="127.0.0.1"
+2025-12-13 14:47:20.760 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:47:20.760 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:47:25.329 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:47:25.329 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:00.266 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:00.267 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:05.536 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:05.536 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:19.797 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:19.804 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:22.827 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:22.827 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:26.555 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:26.555 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:30.073 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:30.073 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:32.059 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:32.059 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:36.288 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:36.288 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:40.462 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:40.471 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:43.769 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:48:43.769 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=14 with Path=null 
+2025-12-13 14:49:12.210 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
+2025-12-13 14:49:18.095 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:49:18.122 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:49:20.678 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:49:20.678 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:49:45.567 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:49:45.567 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:49:47.546 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:49:47.546 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:51:25.082 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 14:51:39.795 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 14:51:40.691 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:51:40.691 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:51:53.339 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:51:53.339 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:51:55.358 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:51:55.358 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:52:18.275 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:52:18.275 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:52:53.733 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:52:53.733 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:53:01.548 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:53:01.548 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:53:30.974 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 14:53:40.163 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 14:53:40.817 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:53:40.817 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:53:44.643 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:53:44.643 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:53:46.769 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:53:46.769 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:53:50.219 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:53:50.219 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:53:53.218 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:53:53.218 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 14:55:46.050 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:00:24.142 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 15:00:34.954 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:00:42.515 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:01:15.666 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:09:34.163 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 15:09:43.250 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:09:43.250 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:09:43.431 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:13:06.713 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 15:13:17.262 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:13:17.262 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:13:17.517 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:14:30.330 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 15:14:30.956 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:14:30.956 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:14:33.912 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:14:33.912 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:17:16.592 +03:30 [Error] (Error.) (Exceptions)User=411 with Ip="127.0.0.1" Request="/Admin/Setting" with TraceId="0HNHQ7J41RUFK:00000001" get Exception
+Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.CompilationFailedException: One or more compilation failures occurred:
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Setting\Index.cshtml(113,135): error CS1061: 'SettingVm' does not contain a definition for 'IconFirst' and no accessible extension method 'IconFirst' accepting a first argument of type 'SettingVm' could be found (are you missing a using directive or an assembly reference?)
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Setting\Index.cshtml(114,135): error CS1061: 'SettingVm' does not contain a definition for 'IconFirstFile' and no accessible extension method 'IconFirstFile' accepting a first argument of type 'SettingVm' could be found (are you missing a using directive or an assembly reference?)
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Setting\Index.cshtml(115,147): error CS1061: 'SettingVm' does not contain a definition for 'IconFirst' and no accessible extension method 'IconFirst' accepting a first argument of type 'SettingVm' could be found (are you missing a using directive or an assembly reference?)
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Setting\Index.cshtml(120,135): error CS1061: 'SettingVm' does not contain a definition for 'IconFirstLink' and no accessible extension method 'IconFirstLink' accepting a first argument of type 'SettingVm' could be found (are you missing a using directive or an assembly reference?)
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Setting\Index.cshtml(121,135): error CS1061: 'SettingVm' does not contain a definition for 'IconFirstLink' and no accessible extension method 'IconFirstLink' accepting a first argument of type 'SettingVm' could be found (are you missing a using directive or an assembly reference?)
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Setting\Index.cshtml(122,147): error CS1061: 'SettingVm' does not contain a definition for 'IconFirstLink' and no accessible extension method 'IconFirstLink' accepting a first argument of type 'SettingVm' could be found (are you missing a using directive or an assembly reference?)
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Setting\Index.cshtml(127,135): error CS1061: 'SettingVm' does not contain a definition for 'IconSecond' and no accessible extension method 'IconSecond' accepting a first argument of type 'SettingVm' could be found (are you missing a using directive or an assembly reference?)
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Setting\Index.cshtml(128,135): error CS1061: 'SettingVm' does not contain a definition for 'IconSecondFile' and no accessible extension method 'IconSecondFile' accepting a first argument of type 'SettingVm' could be found (are you missing a using directive or an assembly reference?)
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Setting\Index.cshtml(129,147): error CS1061: 'SettingVm' does not contain a definition for 'IconSecond' and no accessible extension method 'IconSecond' accepting a first argument of type 'SettingVm' could be found (are you missing a using directive or an assembly reference?)
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Setting\Index.cshtml(135,135): error CS1061: 'SettingVm' does not contain a definition for 'IconSecondLink' and no accessible extension method 'IconSecondLink' accepting a first argument of type 'SettingVm' could be found (are you missing a using directive or an assembly reference?)
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Setting\Index.cshtml(136,135): error CS1061: 'SettingVm' does not contain a definition for 'IconSecondLink' and no accessible extension method 'IconSecondLink' accepting a first argument of type 'SettingVm' could be found (are you missing a using directive or an assembly reference?)
+H:\GitProject\DrMoradi\DrMoradi\Areas\Admin\Views\Setting\Index.cshtml(137,147): error CS1061: 'SettingVm' does not contain a definition for 'IconSecondLink' and no accessible extension method 'IconSecondLink' accepting a first argument of type 'SettingVm' could be found (are you missing a using directive or an assembly reference?)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.OnCacheMiss(String normalizedPath)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at DrMoradi.MiddleWare.CheckFullNameMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\CheckFullNameMiddleware.cs:line 50
+   at PersonalSite.MiddleWare.PermissionCheckMiddleware.Invoke(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\PermissionCheckMiddleware.cs:line 68
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at PersonalSite.MiddleWare.ExeptionMiddleware.InvokeAsync(HttpContext httpContext) in H:\GitProject\DrMoradi\DrMoradi\MiddleWare\ExeptionMiddleware.cs:line 36
+2025-12-13 15:17:17.025 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:17:17.029 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:17:17.162 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:17:28.266 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 15:17:38.254 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:17:38.476 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:17:38.518 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:17:44.579 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 15:17:45.393 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:17:45.980 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:17:48.610 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:17:48.700 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:18:17.824 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:18:17.942 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:18:48.909 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:18:49.010 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:20:05.516 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:20:05.666 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:20:13.565 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:20:13.669 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:20:23.063 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:20:23.183 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:23:46.384 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:23:46.859 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:26:25.246 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:26:25.381 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:28:03.356 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:28:03.509 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:28:37.758 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:29:35.243 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:29:39.640 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:29:39.810 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:30:24.573 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:30:24.687 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:30:36.974 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:30:37.058 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:30:59.766 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:30:59.870 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:31:10.301 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:32:38.190 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:32:38.425 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:32:43.868 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:32:51.633 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:32:55.042 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:32:55.214 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:33:23.147 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:33:23.298 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:33:31.357 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:34:34.269 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:34:37.197 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 15:34:38.008 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.011 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:34:38.022 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.041 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.041 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.055 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.075 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.499 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.525 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.537 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.649 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.659 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.670 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.679 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.691 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.780 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:34:38.795 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 15:36:51.669 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:39:06.956 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:39:17.526 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 15:58:46.140 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:00:16.520 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:03:09.117 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2025-12-13 16:03:31.763 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:03:42.471 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:03:46.955 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:03:47.719 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:05:10.105 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:06:33.373 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:06:46.868 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:07:22.465 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:08:01.549 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:08:04.902 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:08:59.834 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:09:23.122 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:09:38.305 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 16:09:38.657 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:09:38.665 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:09:50.194 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:09:54.034 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:10:23.239 +03:30 [Warning] (Microsoft.EntityFrameworkCore.Query.) Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-13 16:10:23.814 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:23.827 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:23.827 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:23.832 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:23.841 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:23.850 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:23.927 +03:30 [Warning] (PersonalSite.MiddleWare.PermissionCheckMiddleware.) ⚠️ کاربر 411 ("Setting1@drmoradi-diet.com") دسترسی غیرمجاز -> Area="UserPanel", Controller="UserShop", Action="GetCart", Path="/UserPanel/UserShop/GetCart"
+2025-12-13 16:10:23.936 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:24.038 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:24.050 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:24.079 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:24.155 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:24.203 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:24.211 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:24.227 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:24.264 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:24.304 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:42.833 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 
+2025-12-13 16:10:42.833 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=411 with Path=null 

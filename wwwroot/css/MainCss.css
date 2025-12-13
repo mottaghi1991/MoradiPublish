@@ -67,6 +67,7 @@ body {
         /* height: 500px; */ /* می‌توانید این مقدار را کم/زیاد کنید */
 
         object-fit: cover;
+        width:100%;
     }
 
 /* شخصی‌سازی رنگ دکمه‌های کنترل */
@@ -445,12 +446,12 @@ hr.border-light {
 
 @media (max-width: 768px) {
     #sliderSection .carousel-item {
-        height: 200px;
-        overflow: hidden;
+        aspect-ratio: 16 / 5;
     }
 
         #sliderSection .carousel-item img {
-            height: 200px;
+            width: 100%;
+            height: 100%;
             object-fit: cover;
         }
 }
