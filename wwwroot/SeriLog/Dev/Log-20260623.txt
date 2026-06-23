@@ -1,0 +1,4 @@
+2026-06-23 12:37:15.956 +03:30 [Warning] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.) No XML encryptor configured. Key {672a3d57-bdf5-4e86-a69c-850dfb8c6901} may be persisted to storage in unencrypted form.
+2026-06-23 12:37:18.701 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2026-06-23 12:38:05.471 +03:30 [Warning] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.) Failed to determine the https port for redirect.
+2026-06-23 12:41:37.171 +03:30 [Warning] (DrMoradi.Controllers.HomeController.) (Not Found)UserId=0 with Path=null 
